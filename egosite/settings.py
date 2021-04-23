@@ -87,17 +87,17 @@ STATIC_ROOT = '/home/networker/webapps/static'
 STATIC_URL = '/static/'
 
 # Additional locations of static files
-STATICFILES_DIRS = (
+#STATICFILES_DIRS = (
     # Put strings here, like "/home/html/static" or "C:/www/django/static".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
  #   os.path.join(ROOT, "static"),
  #   os.path.join(ROOT, os.pardir, "egonet", "static"),
-    '/egonet/static/egonet/',
+    #'/egonet/static/egonet/',
  #   '/home/networker/webapps/static',
-    '/home/networker/webapps/netwrkr/networker/static',
+  #  '/home/networker/webapps/netwrkr/networker/static',
 #    '/home/networker/webapps/netwrkr/networker/static',
-)
+#)
 
 # List of finder classes that know how to find static files in
 # various locations.
