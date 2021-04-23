@@ -1,5 +1,6 @@
 # Django settings for egosite project.
 import os
+import django_heroku
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
