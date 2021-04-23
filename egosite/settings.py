@@ -6,7 +6,7 @@ DEBUG = True
 
 # root path for the site
 ROOT = os.path.dirname(os.path.abspath(__file__))
-SETTINGS_PATH = '/home/networker/webapps/netwrkr/networker/egonet'
+SETTINGS_PATH = '/webapps/netwrkr/networker/egonet'
 
 ADMINS = (
     ('Andrea Cavicchini', 'acavicchini@iese.edu'),
@@ -66,21 +66,21 @@ USE_TZ = True
 
 # Absolute filesystem path to the directory that will hold user-uploaded files.
 # Example: "/var/www/example.com/media/"
-MEDIA_ROOT = '/home/networker/webapps/netwrkr/networker/media'
+MEDIA_ROOT = '/webapps/netwrkr/networker/media'
 
 # URL that handles the media served from MEDIA_ROOT. Make sure to use a
 # trailing slash.
 # Examples: "http://example.com/media/", "http://media.example.com/"
 MEDIA_URL = '/media/'
-#MEDIA_URL = '/home/networker/webapps/netwrkr/networker/media'
+#MEDIA_URL = '/webapps/netwrkr/networker/media'
 
 # Absolute path to the directory static files should be collected to.
 # Don't put anything in this directory yourself; store your static files
 # in apps' "static/" subdirectories and in STATICFILES_DIRS.
 # Example: "/var/www/example.com/static/"
 #STATIC_ROOT = os.path.join(ROOT, os.pardir, "static")
-#STATIC_ROOT = '/home/networker/webapps/netwrkr/networker/static'
-STATIC_ROOT = '/home/networker/webapps/static'
+#STATIC_ROOT = '/webapps/netwrkr/networker/static'
+STATIC_ROOT = '/webapps/static'
 
 # URL prefix for static files.
 # Example: "http://example.com/static/", "http://static.example.com/"
@@ -94,9 +94,9 @@ STATIC_URL = '/static/'
  #   os.path.join(ROOT, "static"),
  #   os.path.join(ROOT, os.pardir, "egonet", "static"),
     #'/egonet/static/egonet/',
- #   '/home/networker/webapps/static',
-  #  '/home/networker/webapps/netwrkr/networker/static',
-#    '/home/networker/webapps/netwrkr/networker/static',
+ #   '/webapps/static',
+  #  '/webapps/netwrkr/networker/static',
+#    '/webapps/netwrkr/networker/static',
 #)
 
 # List of finder classes that know how to find static files in
@@ -119,7 +119,7 @@ SECRET_KEY = '&h0g$#^7%!rj0$==3xjx9hx24!(@o5tbjq%9la!fdvrfhm@t28'
 #)
 
 #TEMPLATE_DIRS = (
-#    '/home/networker/webapps/netwrkr/networker/egonet/templates',
+#    '/webapps/netwrkr/networker/egonet/templates',
 # )
 
 MIDDLEWARE = (
@@ -140,7 +140,7 @@ WSGI_APPLICATION = 'egosite.wsgi.application'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['/home/networker/webapps/netwrkr/networker/static'],
+        'DIRS': ['/webapps/netwrkr/networker/static'],
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
