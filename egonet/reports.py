@@ -1,0 +1,285 @@
+#-*- coding: utf-8 -*-
+import os
+import subprocess
+
+from django.conf import settings
+from django.utils.translation import ugettext as _
+
+from egonet.analysis import nattrs, eattrs
+from egonet.text import report_text, captions
+
+# Path for the illustrative image 
+DIR = os.path.dirname(os.path.abspath(__file__))
+org_network = os.path.join(DIR, 'static', 'egonet', 'report', 'organizational_network')
+sample_network = os.path.join(DIR, 'static', 'egonet', 'report', 'sample_net')
+logo_dir = os.path.join(DIR, '..' , 'media', 'logos')
+
+##
+## Language names for LaTeX babel
+##
+langs = dict((
+    ('en-us', 'english'),
+    ('en', 'english'),
+    ('es-es', 'spanish'),
+    ('es', 'spanish'),
+    ('ca-es', 'catalan'),
+    ('ca', 'catalan'),    
+))
+
+lang = langs[settings.LANGUAGE_CODE]
+
+##
+## Context manager to deal with changes of direcory
+##
+class my_cd(object):
+    """Context manager for changing the current working directory"""
+    def __init__(self, newPath):
+        self.newPath = newPath
+
+    def __enter__(self):
+        self.savedPath = os.getcwd()
+        os.chdir(self.newPath)
+
+    def __exit__(self, etype, value, traceback):
+        os.chdir(self.savedPath)
+
+##
+## Function to build the reports
+##
+def build_pdf_report(ego, metrics=None, colors=None, lang=lang):
+    # make sure that the directories are created
+    egodir = ego.get_egodir()
+    groupdir = ego.group.get_plotdir() 
+    # Generate plots that depend on group data (eg bivariate)
+    ego.make_group_plots(metrics=metrics, colors=colors)
+    # Build LaTeX file and compile it
+    latex_file = os.path.join(egodir, 'report.tex')
+    with open(latex_file, 'wb') as fh:
+        # Header of the LaTeX document
+        write_latex_header(fh, lang=lang)
+        # title page
+        write_latex_titlepage(fh,
+            title=_("%s's Social Network") % ego.name,
+            #image = os.path.join(egodir, "egonet_kk"),
+            # Do not put the respondent's network in the title page
+            image = sample_network,
+            scale=0.9,
+            institution="Getting Things Done - New York 2017",
+            logo = os.path.join(logo_dir, "iese_logo"),
+        )
+        # Table of contents
+        #write_toc(fh)
+        # New page
+        #write_new_page(fh)
+        # Introduction
+        write_section(fh, _("Why your social network matters"))
+        write_paragraphs(fh, report_text['introduction_1part'])
+        write_figure(fh, captions['org_network'], org_network, scale=0.7)
+        write_paragraphs(fh, report_text['introduction_2part'])
+        write_new_page(fh)
+        # Node attributes section
+        write_section(fh, _("Your Contacts"))
+        write_paragraphs(fh, report_text['node_attrs'])
+        for figure, caption in captions["nattrs"].items():
+            #write_figure(fh, caption, os.path.join(egodir, figure) , scale=0.6)
+            write_subfigures(fh, caption, 
+                os.path.join(groupdir, figure),
+                os.path.join(egodir, "".join(['gr_', figure])),
+                caption_group=_("Average of your group results"),
+                caption_ego=_("Your personal results"),
+                scale=0.35,
+            )
+        # Edge attributes section
+        write_section(fh, _("Your Relations"))
+        write_paragraphs(fh, report_text['edge_attrs'])
+        for figure, caption in captions["eattrs"].items():
+            write_subfigures(fh, caption, 
+                os.path.join(groupdir, figure),
+                os.path.join(egodir, "".join(['gr_', figure])),
+                caption_group=_("Average of your group results"),
+                caption_ego=_("Your personal results"),
+                scale=0.35,
+            )
+        # Structure section
+        write_section(fh, _("Structure of your social network"))
+        write_paragraphs(fh, report_text['structure_intro'])
+        write_new_page(fh)
+        write_subsection(fh, _("Mapping your social network"))
+        write_paragraphs(fh, (report_text['network'],))
+        # Network plot
+        write_figure(fh, captions['egonet']['kk'], os.path.join(egodir, "egonet_kk"), scale=0.7)
+        # Bivariate plots 
+        write_subsection(fh, _("Density and centralization of your social network"))
+        write_paragraphs(fh, report_text['density'])
+        for figure, caption in captions["structure"].items():
+            write_figure(fh, caption, os.path.join(egodir, figure), scale=0.6)
+        # References to some books
+        write_new_page(fh)
+        write_section(fh, _("Interesting books on Social Networks"))
+        write_references(fh, report_text['references'])
+        #caption = """Circular layout"""
+        #write_figure(fh, caption, "egonet_circular", scale=0.7)
+        # And finally the footer
+        write_latex_footer(fh)
+    with my_cd(egodir):
+        #compile_latex(os.path.basename(latex_file))
+        compile_pdflatex(os.path.basename(latex_file))
+        clean_dir('.')
+
+##
+## helper functions to write the LaTeX report
+##
+def write_latex_header(fh, lang='english'):
+    fh.write("\documentclass[a4paper,12pt]{article}\n")
+    fh.write(r"\usepackage[utf8x]{inputenc}\n")
+    fh.write(r"\usepackage[%s]{babel}\n" % lang)
+    fh.write(r"\usepackage[T1]{fontenc}\n")
+    fh.write(r"\usepackage{times}\n")
+    fh.write(r"\usepackage{graphicx}\n")
+    fh.write(r"\usepackage{float}\n")
+    fh.write(r"\usepackage{subfig}\n")
+    fh.write(r"\usepackage[top=2cm, bottom=2cm, left=2.5cm, right=2.5cm]{geometry}\n")
+    fh.write("\n")
+    fh.write("\\batchmode")
+    fh.write("\n")
+
+def write_latex_titlepage(fh,
+        title="Report for your social network",
+        image=None,
+        scale=0.6,
+        logo=None,
+        institution="Nwebtools.com 2014",
+        ):
+    fh.write("\n")
+    fh.write("\\title{\Huge{%s}}\n" % title.encode('utf8'))
+    #fh.write("\\author{}\n")
+    fh.write("\date{\\today}\n")
+    fh.write("\n")
+    fh.write("\\begin{document}\n")
+    fh.write("\pagenumbering{gobble}\n") # Remove page numbers
+    fh.write("\clearpage\n")
+    fh.write("\\thispagestyle{empty}\n")
+    fh.write("\n")
+    fh.write("\maketitle\n")
+    fh.write("\n")
+    # Add image to the front page
+    add_image(fh, image, scale=scale)
+    fh.write("\n")
+    fh.write("\\begin{center}\n")
+    fh.write("\Large{\\textbf{%s}}\n" % institution.encode('utf8'))
+    fh.write("\n")
+    if logo is not None:
+        # Add image logo
+        add_image(fh, logo, scale=0.2)
+    #fh.write("\\vspace*{1.5cm}\n")
+    fh.write("\small{}\n")
+    fh.write("\end{center}\n")
+    fh.write("\n")
+    fh.write("\\newpage\n")
+    fh.write("\clearpage\n")
+    fh.write("\pagenumbering{arabic}\n") # Arabic page numbers (and reset to 1)
+    fh.write("\n")
+
+def write_toc(fh):
+    fh.write("\n")
+    fh.write("\\tableofcontents\n")
+    fh.write("\n")
+
+def write_new_page(fh):
+    fh.write("\n")
+    fh.write("\\newpage\n")
+    fh.write("\n")
+
+def write_latex_footer(fh):
+    fh.write("\n")
+    fh.write("\end{document}\n")
+    fh.write("\n")
+
+def write_section(fh, section):
+    fh.write("\n")
+    fh.write("\section*{%s}\n" % section.encode('utf8'))
+    fh.write("\n")
+
+def write_subsection(fh, subsection):
+    fh.write("\n")
+    fh.write("\subsection*{%s}\n" % subsection.encode('utf8'))
+    fh.write("\n")
+
+def write_input_file(fh, fname):
+    fh.write("\n")
+    fh.write("\input %s\n" % fname)
+    fh.write("\n")
+
+def write_paragraphs(fh, paragraphs):
+    fh.write("\n")
+    for paragraph in paragraphs:
+        fh.write("%s\n" % paragraph.encode('utf8'))
+        fh.write("\n")
+
+def write_figure(fh, caption, fname, scale=0.8):
+    fh.write("\n")    
+    fh.write("\\begin{figure}[H]\n")
+    fh.write("\centering\n")
+    fh.write("\includegraphics[scale=%.1f]{%s}\n" % (scale, fname))
+    fh.write("\caption{%s}\n" % caption.encode('utf8'))
+    fh.write("\end{figure}\n")
+    fh.write("\n")
+
+def add_image(fh, fname, scale=0.6):
+    if fname is None:
+        return
+    fh.write("\n") 
+    fh.write("\\begin{figure}[H]\n")
+    fh.write("\centering\n")
+    fh.write("\includegraphics[scale=%.1f]{%s}\n" % (scale, fname))
+    fh.write("\end{figure}\n")
+    fh.write("\n")
+
+def write_subfigures(fh, caption, fname_group, fname_ego, 
+        caption_ego="Your personal results",
+        caption_group="Average of your group results",
+        scale=0.8):
+    fh.write("\n") 
+    fh.write("\\begin{figure}[H]\n")
+    fh.write("\centering\n")
+    fh.write("\subfloat[%s]{\includegraphics[scale=%.1f]{%s}}\n" % 
+        (caption_group.encode('utf8'), scale, fname_group))
+    fh.write("\hspace{.01in}\n")
+    fh.write("\subfloat[%s]{\includegraphics[scale=%.1f]{%s}}\n" % 
+        (caption_ego.encode('utf8'), scale, fname_ego))
+    fh.write("\caption{%s}\n" % caption.encode('utf8'))
+    fh.write("\end{figure}\n")
+    fh.write("\n")
+
+def write_references(fh, references):
+    fh.write("\n")
+    fh.write("\\begin{itemize}\n")
+    for reference in references:
+        fh.write("\item[] %s\n" % reference.encode('utf8'))
+    fh.write("\\end{itemize}\n")
+    fh.write("\n")
+
+##
+## Functions to compile latex files
+##
+def compile_pdflatex(fname):
+    #subprocess.call(['pdflatex', fname], shell=False)
+    subprocess.call(['pdflatex', fname], shell=False)
+
+def compile_latex(fname):
+    subprocess.call(['latex', fname], shell=False)
+    subprocess.call(['latex', fname], shell=False)
+    subprocess.call(['dvips', fname[:-3]+'dvi'], shell=False)
+    subprocess.call(['ps2pdf', fname[:-3]+'ps'], shell=False)
+
+def clean_dir(mydir):
+    for fname in os.listdir(mydir):
+        if fname[-4:] in ['.aux','.toc','.bbl','.out',
+                '.blg','.4ct','.4tc','.idv','.tmp','xref','.4og','.dvi']:
+            os.remove(fname)
+
+def get_report(ego_dir):
+    for f in os.listdir(ego_dir):
+        if ".pdf" == f[-4:]:
+            return ego_dir + os.sep + f
+

@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?><graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="important" attr.type="boolean" for="edge" id="d46" />
+  <key attr.name="spouse" attr.type="boolean" for="edge" id="d45" />
+  <key attr.name="time" attr.type="double" for="edge" id="d44" />
+  <key attr.name="context" attr.type="int" for="edge" id="d43" />
+  <key attr.name="helps" attr.type="int" for="edge" id="d42" />
+  <key attr.name="frequency" attr.type="int" for="edge" id="d41" />
+  <key attr.name="boss" attr.type="boolean" for="edge" id="d40" />
+  <key attr.name="hinders" attr.type="boolean" for="edge" id="d39" />
+  <key attr.name="reluuid" attr.type="string" for="edge" id="d38" />
+  <key attr.name="weight" attr.type="int" for="edge" id="d37" />
+  <key attr.name="strength" attr.type="int" for="edge" id="d36" />
+  <key attr.name="email" attr.type="string" for="node" id="d35" />
+  <key attr.name="company" attr.type="string" for="node" id="d34" />
+  <key attr.name="education" attr.type="int" for="node" id="d33" />
+  <key attr.name="tenure" attr.type="double" for="node" id="d32" />
+  <key attr.name="end_time" attr.type="string" for="node" id="d31" />
+  <key attr.name="egouuid" attr.type="string" for="node" id="d30" />
+  <key attr.name="people_in_company" attr.type="int" for="node" id="d29" />
+  <key attr.name="annual_sales" attr.type="int" for="node" id="d28" />
+  <key attr.name="start_time" attr.type="string" for="node" id="d27" />
+  <key attr.name="last_name" attr.type="string" for="node" id="d26" />
+  <key attr.name="first_name" attr.type="string" for="node" id="d25" />
+  <key attr.name="current_job" attr.type="int" for="node" id="d24" />
+  <key attr.name="salary" attr.type="int" for="node" id="d23" />
+  <key attr.name="context" attr.type="int" for="node" id="d22" />
+  <key attr.name="work" attr.type="int" for="node" id="d21" />
+  <key attr.name="age" attr.type="int" for="node" id="d20" />
+  <key attr.name="gender" attr.type="string" for="node" id="d19" />
+  <key attr.name="important_career" attr.type="boolean" for="node" id="d18" />
+  <key attr.name="interaction" attr.type="int" for="node" id="d17" />
+  <key attr.name="buyin" attr.type="boolean" for="node" id="d16" />
+  <key attr.name="nationality" attr.type="string" for="node" id="d15" />
+  <key attr.name="hinder_professional" attr.type="boolean" for="node" id="d14" />
+  <key attr.name="spend_free_time" attr.type="boolean" for="node" id="d13" />
+  <key attr.name="reports_to_ego" attr.type="boolean" for="node" id="d12" />
+  <key attr.name="functional_area" attr.type="int" for="node" id="d11" />
+  <key attr.name="helps" attr.type="int" for="node" id="d10" />
+  <key attr.name="important_professional" attr.type="boolean" for="node" id="d9" />
+  <key attr.name="life_partner" attr.type="boolean" for="node" id="d8" />
+  <key attr.name="strength" attr.type="int" for="node" id="d7" />
+  <key attr.name="trust" attr.type="boolean" for="node" id="d6" />
+  <key attr.name="time_knowing" attr.type="double" for="node" id="d5" />
+  <key attr.name="rank" attr.type="int" for="node" id="d4" />
+  <key attr.name="is_ego" attr.type="boolean" for="node" id="d3" />
+  <key attr.name="ego_reports_to" attr.type="boolean" for="node" id="d2" />
+  <key attr.name="alteruuid" attr.type="string" for="node" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="undirected">
+    <data key="d0">Markus Stirner-Schilling's Ego Network</data>
+    <node id="Julio">
+      <data key="d1">31a04d5d-9cb6-4031-812d-da8dc40499d1</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+      <data key="d5">5.0</data>
+      <data key="d6">True</data>
+      <data key="d7">2</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">3</data>
+      <data key="d11">5</data>
+      <data key="d12">True</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">united states of america</data>
+      <data key="d16">False</data>
+      <data key="d17">3</data>
+      <data key="d18">True</data>
+      <data key="d19">M</data>
+      <data key="d20">40</data>
+      <data key="d21">3</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="Heidi">
+      <data key="d1">c672833a-be31-4ccb-ace6-368c3f08e57e</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">5</data>
+      <data key="d5">25.0</data>
+      <data key="d6">True</data>
+      <data key="d7">1</data>
+      <data key="d8">True</data>
+      <data key="d9">True</data>
+      <data key="d10">5</data>
+      <data key="d11">9</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">germany</data>
+      <data key="d16">False</data>
+      <data key="d17">1</data>
+      <data key="d18">False</data>
+      <data key="d19">F</data>
+      <data key="d20">50</data>
+      <data key="d21">6</data>
+      <data key="d22">9</data>
+    </node>
+    <node id="Richard">
+      <data key="d1">994a0746-0aad-4a23-a592-ea7ea3258d74</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+      <data key="d5">11.0</data>
+      <data key="d6">True</data>
+      <data key="d7">1</data>
+      <data key="d8">False</data>
+      <data key="d9">True</data>
+      <data key="d10">4</data>
+      <data key="d11">5</data>
+      <data key="d12">True</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">germany</data>
+      <data key="d16">False</data>
+      <data key="d17">1</data>
+      <data key="d18">False</data>
+      <data key="d19">M</data>
+      <data key="d20">53</data>
+      <data key="d21">1</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="CB">
+      <data key="d1">0f82013c-0976-4e09-ac63-5e5340b225e9</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">1</data>
+      <data key="d5">25.0</data>
+      <data key="d6">True</data>
+      <data key="d7">4</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">2</data>
+      <data key="d11">8</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">True</data>
+      <data key="d15">sweden</data>
+      <data key="d16">False</data>
+      <data key="d17">4</data>
+      <data key="d18">False</data>
+      <data key="d19">M</data>
+      <data key="d20">60</data>
+      <data key="d21">3</data>
+      <data key="d22">6</data>
+    </node>
+    <node id="Markus Stirner-Schilling">
+      <data key="d23">7</data>
+      <data key="d24">3</data>
+      <data key="d25">Markus</data>
+      <data key="d26">Stirner-Schilling</data>
+      <data key="d27">2017-09-02 15:32:42</data>
+      <data key="d3">True</data>
+      <data key="d19">M</data>
+      <data key="d20">48</data>
+      <data key="d28">0</data>
+      <data key="d29">0</data>
+      <data key="d30">4ddee66a-52f8-4643-bdca-96ee8f5ac868</data>
+      <data key="d31">2017-09-02 15:50:35</data>
+      <data key="d11">5</data>
+      <data key="d32">18.0</data>
+      <data key="d15">germany</data>
+      <data key="d33">3</data>
+      <data key="d34">GETINGE</data>
+      <data key="d35">markus.stirner-schilling@getinge.com</data>
+    </node>
+    <node id="Raghed">
+      <data key="d1">2f66382e-5f6c-4c75-967a-d30e6891f585</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+      <data key="d5">5.0</data>
+      <data key="d6">True</data>
+      <data key="d7">1</data>
+      <data key="d8">False</data>
+      <data key="d9">True</data>
+      <data key="d10">5</data>
+      <data key="d11">5</data>
+      <data key="d12">True</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">germany</data>
+      <data key="d16">True</data>
+      <data key="d17">1</data>
+      <data key="d18">True</data>
+      <data key="d19">M</data>
+      <data key="d20">42</data>
+      <data key="d21">1</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="Bernard">
+      <data key="d1">d884d254-e5ec-464a-9ec9-3201ede45522</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+      <data key="d5">12.0</data>
+      <data key="d6">False</data>
+      <data key="d7">3</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">3</data>
+      <data key="d11">1</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">True</data>
+      <data key="d15">france</data>
+      <data key="d16">False</data>
+      <data key="d17">2</data>
+      <data key="d18">True</data>
+      <data key="d19">M</data>
+      <data key="d20">42</data>
+      <data key="d21">1</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="Tracey">
+      <data key="d1">de7572c8-38ba-4a81-99bd-7ae5b54a07c1</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+      <data key="d5">1.5</data>
+      <data key="d6">True</data>
+      <data key="d7">1</data>
+      <data key="d8">False</data>
+      <data key="d9">True</data>
+      <data key="d10">5</data>
+      <data key="d11">5</data>
+      <data key="d12">True</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">united kingdom</data>
+      <data key="d16">True</data>
+      <data key="d17">1</data>
+      <data key="d18">False</data>
+      <data key="d19">F</data>
+      <data key="d20">50</data>
+      <data key="d21">1</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="Carsten">
+      <data key="d1">191709e0-aa14-44a5-9aec-7584c0625599</data>
+      <data key="d2">True</data>
+      <data key="d3">False</data>
+      <data key="d4">1</data>
+      <data key="d5">4.0</data>
+      <data key="d6">True</data>
+      <data key="d7">2</data>
+      <data key="d8">False</data>
+      <data key="d9">True</data>
+      <data key="d10">3</data>
+      <data key="d11">8</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">germany</data>
+      <data key="d16">False</data>
+      <data key="d17">2</data>
+      <data key="d18">True</data>
+      <data key="d19">M</data>
+      <data key="d20">51</data>
+      <data key="d21">1</data>
+      <data key="d22">7</data>
+    </node>
+    <edge source="Julio" target="Bernard">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">fd87aee5-7487-44a9-a7a2-400a33f2d7bb</data>
+    </edge>
+    <edge source="Julio" target="Richard">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">20160f7b-3bf7-48c4-9b96-0f63a39fbc3f</data>
+    </edge>
+    <edge source="Julio" target="Markus Stirner-Schilling">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">3</data>
+      <data key="d42">3</data>
+      <data key="d43">7</data>
+      <data key="d44">5.0</data>
+      <data key="d45">False</data>
+      <data key="d46">True</data>
+    </edge>
+    <edge source="Heidi" target="Markus Stirner-Schilling">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">1</data>
+      <data key="d42">5</data>
+      <data key="d43">9</data>
+      <data key="d44">25.0</data>
+      <data key="d45">True</data>
+      <data key="d46">False</data>
+    </edge>
+    <edge source="Richard" target="Markus Stirner-Schilling">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">1</data>
+      <data key="d42">4</data>
+      <data key="d43">7</data>
+      <data key="d44">11.0</data>
+      <data key="d45">False</data>
+      <data key="d46">False</data>
+    </edge>
+    <edge source="Richard" target="Raghed">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">f8679260-327a-41b3-b22d-5f8562bb07bd</data>
+    </edge>
+    <edge source="Richard" target="Bernard">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">8d038cf1-d02f-41d9-a3ed-219120572872</data>
+    </edge>
+    <edge source="Richard" target="Tracey">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">a2d67832-5a13-4451-abd0-c49f72337486</data>
+    </edge>
+    <edge source="Richard" target="Carsten">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">f7b17143-4477-487c-a49a-6644ce2e00d3</data>
+    </edge>
+    <edge source="CB" target="Carsten">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">43035723-8de0-413a-b5aa-f86c9c3feb78</data>
+    </edge>
+    <edge source="CB" target="Markus Stirner-Schilling">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d39">True</data>
+      <data key="d40">False</data>
+      <data key="d41">4</data>
+      <data key="d42">2</data>
+      <data key="d43">6</data>
+      <data key="d44">25.0</data>
+      <data key="d45">False</data>
+      <data key="d46">False</data>
+    </edge>
+    <edge source="Markus Stirner-Schilling" target="Raghed">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">1</data>
+      <data key="d42">5</data>
+      <data key="d43">7</data>
+      <data key="d44">5.0</data>
+      <data key="d45">False</data>
+      <data key="d46">True</data>
+    </edge>
+    <edge source="Markus Stirner-Schilling" target="Bernard">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d39">True</data>
+      <data key="d40">False</data>
+      <data key="d41">2</data>
+      <data key="d42">3</data>
+      <data key="d43">7</data>
+      <data key="d44">12.0</data>
+      <data key="d45">False</data>
+      <data key="d46">True</data>
+    </edge>
+    <edge source="Markus Stirner-Schilling" target="Tracey">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">1</data>
+      <data key="d42">5</data>
+      <data key="d43">7</data>
+      <data key="d44">1.5</data>
+      <data key="d45">False</data>
+      <data key="d46">False</data>
+    </edge>
+    <edge source="Markus Stirner-Schilling" target="Carsten">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d39">False</data>
+      <data key="d40">True</data>
+      <data key="d41">2</data>
+      <data key="d42">3</data>
+      <data key="d43">7</data>
+      <data key="d44">4.0</data>
+      <data key="d45">False</data>
+      <data key="d46">True</data>
+    </edge>
+    <edge source="Raghed" target="Tracey">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d38">5a32a1cb-c620-4fca-a8bc-ea3ca3559736</data>
+    </edge>
+    <edge source="Raghed" target="Carsten">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">c725faab-cd03-45fd-8d0d-f16010ba98ba</data>
+    </edge>
+    <edge source="Raghed" target="Bernard">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">9bc56664-c9d6-41d8-b8ff-538a17cfbaff</data>
+    </edge>
+    <edge source="Bernard" target="Tracey">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">b7702923-2708-41b7-beee-d75fe11fd5a0</data>
+    </edge>
+    <edge source="Bernard" target="Carsten">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d38">3a4b0d31-58f8-46b4-b04d-bf4fb0438c6c</data>
+    </edge>
+    <edge source="Tracey" target="Carsten">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">34e810e0-90cb-4aab-a972-b8347467b379</data>
+    </edge>
+  </graph>
+</graphml>

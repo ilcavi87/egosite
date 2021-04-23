@@ -1,0 +1,761 @@
+<?xml version="1.0" encoding="utf-8"?><graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="important" attr.type="boolean" for="edge" id="d46" />
+  <key attr.name="spouse" attr.type="boolean" for="edge" id="d45" />
+  <key attr.name="time" attr.type="double" for="edge" id="d44" />
+  <key attr.name="context" attr.type="int" for="edge" id="d43" />
+  <key attr.name="helps" attr.type="int" for="edge" id="d42" />
+  <key attr.name="frequency" attr.type="int" for="edge" id="d41" />
+  <key attr.name="boss" attr.type="boolean" for="edge" id="d40" />
+  <key attr.name="hinders" attr.type="boolean" for="edge" id="d39" />
+  <key attr.name="reluuid" attr.type="string" for="edge" id="d38" />
+  <key attr.name="weight" attr.type="int" for="edge" id="d37" />
+  <key attr.name="strength" attr.type="int" for="edge" id="d36" />
+  <key attr.name="email" attr.type="string" for="node" id="d35" />
+  <key attr.name="company" attr.type="string" for="node" id="d34" />
+  <key attr.name="education" attr.type="int" for="node" id="d33" />
+  <key attr.name="tenure" attr.type="double" for="node" id="d32" />
+  <key attr.name="end_time" attr.type="string" for="node" id="d31" />
+  <key attr.name="egouuid" attr.type="string" for="node" id="d30" />
+  <key attr.name="people_in_company" attr.type="int" for="node" id="d29" />
+  <key attr.name="annual_sales" attr.type="int" for="node" id="d28" />
+  <key attr.name="start_time" attr.type="string" for="node" id="d27" />
+  <key attr.name="last_name" attr.type="string" for="node" id="d26" />
+  <key attr.name="first_name" attr.type="string" for="node" id="d25" />
+  <key attr.name="current_job" attr.type="int" for="node" id="d24" />
+  <key attr.name="salary" attr.type="int" for="node" id="d23" />
+  <key attr.name="context" attr.type="int" for="node" id="d22" />
+  <key attr.name="work" attr.type="int" for="node" id="d21" />
+  <key attr.name="age" attr.type="int" for="node" id="d20" />
+  <key attr.name="gender" attr.type="string" for="node" id="d19" />
+  <key attr.name="important_career" attr.type="boolean" for="node" id="d18" />
+  <key attr.name="interaction" attr.type="int" for="node" id="d17" />
+  <key attr.name="buyin" attr.type="boolean" for="node" id="d16" />
+  <key attr.name="nationality" attr.type="string" for="node" id="d15" />
+  <key attr.name="hinder_professional" attr.type="boolean" for="node" id="d14" />
+  <key attr.name="spend_free_time" attr.type="boolean" for="node" id="d13" />
+  <key attr.name="reports_to_ego" attr.type="boolean" for="node" id="d12" />
+  <key attr.name="functional_area" attr.type="int" for="node" id="d11" />
+  <key attr.name="helps" attr.type="int" for="node" id="d10" />
+  <key attr.name="important_professional" attr.type="boolean" for="node" id="d9" />
+  <key attr.name="life_partner" attr.type="boolean" for="node" id="d8" />
+  <key attr.name="strength" attr.type="int" for="node" id="d7" />
+  <key attr.name="trust" attr.type="boolean" for="node" id="d6" />
+  <key attr.name="time_knowing" attr.type="double" for="node" id="d5" />
+  <key attr.name="rank" attr.type="int" for="node" id="d4" />
+  <key attr.name="is_ego" attr.type="boolean" for="node" id="d3" />
+  <key attr.name="ego_reports_to" attr.type="boolean" for="node" id="d2" />
+  <key attr.name="alteruuid" attr.type="string" for="node" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="undirected">
+    <data key="d0">Narcis Giralt Vives's Ego Network</data>
+    <node id="IGNACIO">
+      <data key="d1">3eea0812-553a-4e18-8968-a482753ee861</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">1</data>
+      <data key="d5">13.0</data>
+      <data key="d6">False</data>
+      <data key="d7">3</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">3</data>
+      <data key="d11">8</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">spain</data>
+      <data key="d16">False</data>
+      <data key="d17">4</data>
+      <data key="d18">True</data>
+      <data key="d19">M</data>
+      <data key="d20">50</data>
+      <data key="d21">4</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="FRANCISCO">
+      <data key="d1">0d4a6717-a38e-431f-b762-7fdc557ab183</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">5</data>
+      <data key="d5">17.0</data>
+      <data key="d6">True</data>
+      <data key="d7">2</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">3</data>
+      <data key="d11">10</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">spain</data>
+      <data key="d16">False</data>
+      <data key="d17">4</data>
+      <data key="d18">True</data>
+      <data key="d19">M</data>
+      <data key="d20">70</data>
+      <data key="d21">6</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="ANGEL">
+      <data key="d1">b8a98edb-7ebb-4c67-bb74-89ccff36d33e</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">1</data>
+      <data key="d5">11.0</data>
+      <data key="d6">True</data>
+      <data key="d7">2</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">4</data>
+      <data key="d11">8</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">spain</data>
+      <data key="d16">False</data>
+      <data key="d17">4</data>
+      <data key="d18">True</data>
+      <data key="d19">M</data>
+      <data key="d20">50</data>
+      <data key="d21">4</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="PERE">
+      <data key="d1">9e2f9078-521b-4d7b-88d9-a389229cf75f</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">1</data>
+      <data key="d5">11.0</data>
+      <data key="d6">True</data>
+      <data key="d7">2</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">4</data>
+      <data key="d11">8</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">spain</data>
+      <data key="d16">False</data>
+      <data key="d17">4</data>
+      <data key="d18">True</data>
+      <data key="d19">M</data>
+      <data key="d20">50</data>
+      <data key="d21">4</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="BLAS">
+      <data key="d1">1ecd3bb7-f8d6-403d-be30-0848a49a052f</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+      <data key="d5">1.0</data>
+      <data key="d6">True</data>
+      <data key="d7">2</data>
+      <data key="d8">False</data>
+      <data key="d9">True</data>
+      <data key="d10">5</data>
+      <data key="d11">3</data>
+      <data key="d12">True</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">spain</data>
+      <data key="d16">True</data>
+      <data key="d17">1</data>
+      <data key="d18">False</data>
+      <data key="d19">M</data>
+      <data key="d20">57</data>
+      <data key="d21">1</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="OSCAR">
+      <data key="d1">19a7184a-a87d-4f1a-9c93-8e3faa4ddbe8</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+      <data key="d5">11.0</data>
+      <data key="d6">True</data>
+      <data key="d7">2</data>
+      <data key="d8">False</data>
+      <data key="d9">True</data>
+      <data key="d10">3</data>
+      <data key="d11">3</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">spain</data>
+      <data key="d16">True</data>
+      <data key="d17">3</data>
+      <data key="d18">False</data>
+      <data key="d19">M</data>
+      <data key="d20">42</data>
+      <data key="d21">4</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="JUAN">
+      <data key="d1">cbcfa408-c849-4ef5-a382-e99c76a165df</data>
+      <data key="d2">True</data>
+      <data key="d3">False</data>
+      <data key="d4">1</data>
+      <data key="d5">1.5</data>
+      <data key="d6">False</data>
+      <data key="d7">4</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">2</data>
+      <data key="d11">8</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">True</data>
+      <data key="d15">spain</data>
+      <data key="d16">False</data>
+      <data key="d17">1</data>
+      <data key="d18">False</data>
+      <data key="d19">M</data>
+      <data key="d20">52</data>
+      <data key="d21">1</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="ROBERT">
+      <data key="d1">1fe0c341-605a-46dd-9630-3018ea4b1df2</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+      <data key="d5">5.0</data>
+      <data key="d6">True</data>
+      <data key="d7">2</data>
+      <data key="d8">False</data>
+      <data key="d9">True</data>
+      <data key="d10">2</data>
+      <data key="d11">4</data>
+      <data key="d12">True</data>
+      <data key="d13">False</data>
+      <data key="d14">True</data>
+      <data key="d15">poland</data>
+      <data key="d16">False</data>
+      <data key="d17">1</data>
+      <data key="d18">False</data>
+      <data key="d19">M</data>
+      <data key="d20">51</data>
+      <data key="d21">1</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="ANETA">
+      <data key="d1">3dcae866-04c2-4c19-8e75-755578a848fd</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+      <data key="d5">6.0</data>
+      <data key="d6">True</data>
+      <data key="d7">1</data>
+      <data key="d8">True</data>
+      <data key="d9">False</data>
+      <data key="d10">5</data>
+      <data key="d11">5</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">poland</data>
+      <data key="d16">False</data>
+      <data key="d17">1</data>
+      <data key="d18">False</data>
+      <data key="d19">F</data>
+      <data key="d20">37</data>
+      <data key="d21">5</data>
+      <data key="d22">9</data>
+    </node>
+    <node id="Narcis Giralt Vives">
+      <data key="d23">9</data>
+      <data key="d24">5</data>
+      <data key="d25">Narcis</data>
+      <data key="d26">Giralt Vives</data>
+      <data key="d27">2017-06-15 11:01:23</data>
+      <data key="d3">True</data>
+      <data key="d19">M</data>
+      <data key="d20">38</data>
+      <data key="d28">0</data>
+      <data key="d29">0</data>
+      <data key="d30">0d27ea12-3373-476a-9e8a-fe469a943ff3</data>
+      <data key="d31">2017-06-15 11:27:51</data>
+      <data key="d11">8</data>
+      <data key="d32">-15.0</data>
+      <data key="d15">spain</data>
+      <data key="d33">3</data>
+      <data key="d34">CELSA HUTA OSTROWIEC</data>
+      <data key="d35">narcisgiralt@gmail.com</data>
+    </node>
+    <node id="DANI">
+      <data key="d1">639eb84e-9620-44bd-90da-839bc9aa0584</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+      <data key="d5">17.0</data>
+      <data key="d6">True</data>
+      <data key="d7">1</data>
+      <data key="d8">False</data>
+      <data key="d9">True</data>
+      <data key="d10">3</data>
+      <data key="d11">9</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">spain</data>
+      <data key="d16">True</data>
+      <data key="d17">2</data>
+      <data key="d18">False</data>
+      <data key="d19">M</data>
+      <data key="d20">38</data>
+      <data key="d21">4</data>
+      <data key="d22">8</data>
+    </node>
+    <node id="FRANC">
+      <data key="d1">624bc486-3d50-4ef3-9033-5837b508a685</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+      <data key="d5">30.0</data>
+      <data key="d6">True</data>
+      <data key="d7">1</data>
+      <data key="d8">False</data>
+      <data key="d9">True</data>
+      <data key="d10">4</data>
+      <data key="d11">4</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">spain</data>
+      <data key="d16">True</data>
+      <data key="d17">2</data>
+      <data key="d18">False</data>
+      <data key="d19">M</data>
+      <data key="d20">38</data>
+      <data key="d21">4</data>
+      <data key="d22">1</data>
+    </node>
+    <node id="WOJCIECH">
+      <data key="d1">719f2ec1-5166-4ca2-8da6-cd69649236c4</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+      <data key="d5">5.0</data>
+      <data key="d6">True</data>
+      <data key="d7">2</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">2</data>
+      <data key="d11">3</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">poland</data>
+      <data key="d16">True</data>
+      <data key="d17">1</data>
+      <data key="d18">False</data>
+      <data key="d19">M</data>
+      <data key="d20">38</data>
+      <data key="d21">1</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="PERE LLUIS">
+      <data key="d1">28651a89-9485-43c0-9ab8-fb0fd1dde3c0</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+      <data key="d5">17.0</data>
+      <data key="d6">True</data>
+      <data key="d7">2</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">5</data>
+      <data key="d11">9</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">spain</data>
+      <data key="d16">False</data>
+      <data key="d17">4</data>
+      <data key="d18">True</data>
+      <data key="d19">M</data>
+      <data key="d20">45</data>
+      <data key="d21">5</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="GRZEGORZ">
+      <data key="d1">82360186-ec5a-4689-b725-5bb1111f35b8</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+      <data key="d5">3.0</data>
+      <data key="d6">False</data>
+      <data key="d7">3</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">2</data>
+      <data key="d11">3</data>
+      <data key="d12">True</data>
+      <data key="d13">False</data>
+      <data key="d14">True</data>
+      <data key="d15">poland</data>
+      <data key="d16">False</data>
+      <data key="d17">1</data>
+      <data key="d18">False</data>
+      <data key="d19">M</data>
+      <data key="d20">42</data>
+      <data key="d21">4</data>
+      <data key="d22">7</data>
+    </node>
+    <edge source="IGNACIO" target="FRANCISCO">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">dcc697ab-cc9e-427f-935d-533a753d721a</data>
+    </edge>
+    <edge source="IGNACIO" target="ANGEL">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">967d3689-e9f0-4be3-8b20-3a4491a929f3</data>
+    </edge>
+    <edge source="IGNACIO" target="PERE">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">1979e63e-1690-4579-934e-cacc3b118d74</data>
+    </edge>
+    <edge source="IGNACIO" target="OSCAR">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">af7e03e2-49a2-416b-b4d5-c0dfe290d6ae</data>
+    </edge>
+    <edge source="IGNACIO" target="JUAN">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">4c24f263-e8c3-409b-98d2-b80992316520</data>
+    </edge>
+    <edge source="IGNACIO" target="Narcis Giralt Vives">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">4</data>
+      <data key="d42">3</data>
+      <data key="d43">7</data>
+      <data key="d44">13.0</data>
+      <data key="d45">False</data>
+      <data key="d46">True</data>
+    </edge>
+    <edge source="IGNACIO" target="PERE LLUIS">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">46abed1a-2ff6-4958-b2cd-dc38381fdb2d</data>
+    </edge>
+    <edge source="FRANCISCO" target="ANGEL">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">646444ab-8471-485b-a896-ea3ed0e306db</data>
+    </edge>
+    <edge source="FRANCISCO" target="PERE">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">65c25cca-569b-460f-a203-df408a7ceb61</data>
+    </edge>
+    <edge source="FRANCISCO" target="JUAN">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">cd29755e-3c65-45ca-8900-59e50afea0fc</data>
+    </edge>
+    <edge source="FRANCISCO" target="Narcis Giralt Vives">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">4</data>
+      <data key="d42">3</data>
+      <data key="d43">7</data>
+      <data key="d44">17.0</data>
+      <data key="d45">False</data>
+      <data key="d46">True</data>
+    </edge>
+    <edge source="FRANCISCO" target="PERE LLUIS">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">495b1206-03b3-488d-8bde-2e683ec2476f</data>
+    </edge>
+    <edge source="ANGEL" target="PERE">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">c16ec059-ac58-47d4-b1f3-69aa1a903ec0</data>
+    </edge>
+    <edge source="ANGEL" target="OSCAR">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">6c2a8475-8b27-46dd-83dd-b981255f4903</data>
+    </edge>
+    <edge source="ANGEL" target="ROBERT">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">7e6058d2-7b77-46a4-8179-80aea1118fd2</data>
+    </edge>
+    <edge source="ANGEL" target="Narcis Giralt Vives">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">4</data>
+      <data key="d42">4</data>
+      <data key="d43">7</data>
+      <data key="d44">11.0</data>
+      <data key="d45">False</data>
+      <data key="d46">True</data>
+    </edge>
+    <edge source="ANGEL" target="PERE LLUIS">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">e062b20d-9b26-45d2-882b-1abd63d4a479</data>
+    </edge>
+    <edge source="ANGEL" target="JUAN">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">b62d230d-62e9-4c01-878b-f4d5a781f1f8</data>
+    </edge>
+    <edge source="PERE" target="OSCAR">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">4a5a414b-e172-4ac5-afc9-72c22b9a4833</data>
+    </edge>
+    <edge source="PERE" target="ROBERT">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">bfd6f90a-febf-4dee-a2d0-fc55c82e6699</data>
+    </edge>
+    <edge source="PERE" target="Narcis Giralt Vives">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">4</data>
+      <data key="d42">4</data>
+      <data key="d43">7</data>
+      <data key="d44">11.0</data>
+      <data key="d45">False</data>
+      <data key="d46">True</data>
+    </edge>
+    <edge source="PERE" target="PERE LLUIS">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">a97dac6e-678a-493a-8ab4-cd77d10a804b</data>
+    </edge>
+    <edge source="PERE" target="JUAN">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">4ed8f0ef-3fa2-4882-ac45-d85447037e1f</data>
+    </edge>
+    <edge source="BLAS" target="WOJCIECH">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">1b273c8e-47cb-4d43-b58a-0fe7bf78947a</data>
+    </edge>
+    <edge source="BLAS" target="ROBERT">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">41aae83a-3746-4bce-b20b-68f9109b3618</data>
+    </edge>
+    <edge source="BLAS" target="Narcis Giralt Vives">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">1</data>
+      <data key="d42">5</data>
+      <data key="d43">7</data>
+      <data key="d44">1.0</data>
+      <data key="d45">False</data>
+      <data key="d46">False</data>
+    </edge>
+    <edge source="BLAS" target="GRZEGORZ">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">6a5b7857-8b5e-42af-8bb7-1a44a81019eb</data>
+    </edge>
+    <edge source="BLAS" target="JUAN">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">3294b826-889a-4662-ae7f-95cddbc4985c</data>
+    </edge>
+    <edge source="OSCAR" target="ROBERT">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">03bac414-6692-4041-b788-d8f2f1523e0f</data>
+    </edge>
+    <edge source="OSCAR" target="ANETA">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">7627e3d5-203e-4dc9-aa5c-fc7a4a63719f</data>
+    </edge>
+    <edge source="OSCAR" target="Narcis Giralt Vives">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">3</data>
+      <data key="d42">3</data>
+      <data key="d43">7</data>
+      <data key="d44">11.0</data>
+      <data key="d45">False</data>
+      <data key="d46">False</data>
+    </edge>
+    <edge source="OSCAR" target="JUAN">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">b5447799-adbf-4488-9319-59eb4272254b</data>
+    </edge>
+    <edge source="JUAN" target="ROBERT">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">fb9053ca-37f8-4c17-8194-999b64186fcd</data>
+    </edge>
+    <edge source="JUAN" target="PERE LLUIS">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">61286037-5f40-46ca-a0a3-84487eff801e</data>
+    </edge>
+    <edge source="JUAN" target="Narcis Giralt Vives">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d39">True</data>
+      <data key="d40">True</data>
+      <data key="d41">1</data>
+      <data key="d42">2</data>
+      <data key="d43">7</data>
+      <data key="d44">1.5</data>
+      <data key="d45">False</data>
+      <data key="d46">False</data>
+    </edge>
+    <edge source="JUAN" target="WOJCIECH">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">eef675ab-7d50-476f-ae74-210dd95483ce</data>
+    </edge>
+    <edge source="JUAN" target="GRZEGORZ">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">181c9589-2f74-499f-ab91-abc5d5c0d2cb</data>
+    </edge>
+    <edge source="ROBERT" target="ANETA">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">916c4021-d88f-43e0-9fb9-4c8efd6dc686</data>
+    </edge>
+    <edge source="ROBERT" target="Narcis Giralt Vives">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d39">True</data>
+      <data key="d40">False</data>
+      <data key="d41">1</data>
+      <data key="d42">2</data>
+      <data key="d43">7</data>
+      <data key="d44">5.0</data>
+      <data key="d45">False</data>
+      <data key="d46">False</data>
+    </edge>
+    <edge source="ROBERT" target="WOJCIECH">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">f1820f75-08dc-4563-89a0-b13c1f67ca7a</data>
+    </edge>
+    <edge source="ROBERT" target="GRZEGORZ">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">470ede87-1071-4ec1-aec7-1512a3d2c9a0</data>
+    </edge>
+    <edge source="ANETA" target="FRANC">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">60a1e5fd-01de-47f8-bfef-6c0d05c23b6d</data>
+    </edge>
+    <edge source="ANETA" target="Narcis Giralt Vives">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">1</data>
+      <data key="d42">5</data>
+      <data key="d43">9</data>
+      <data key="d44">6.0</data>
+      <data key="d45">True</data>
+      <data key="d46">False</data>
+    </edge>
+    <edge source="ANETA" target="DANI">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">f6c18c87-3df3-44aa-be90-51983eaecba2</data>
+    </edge>
+    <edge source="Narcis Giralt Vives" target="DANI">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">2</data>
+      <data key="d42">3</data>
+      <data key="d43">8</data>
+      <data key="d44">17.0</data>
+      <data key="d45">False</data>
+      <data key="d46">False</data>
+    </edge>
+    <edge source="Narcis Giralt Vives" target="FRANC">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">2</data>
+      <data key="d42">4</data>
+      <data key="d43">1</data>
+      <data key="d44">30.0</data>
+      <data key="d45">False</data>
+      <data key="d46">False</data>
+    </edge>
+    <edge source="Narcis Giralt Vives" target="WOJCIECH">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">1</data>
+      <data key="d42">2</data>
+      <data key="d43">7</data>
+      <data key="d44">5.0</data>
+      <data key="d45">False</data>
+      <data key="d46">False</data>
+    </edge>
+    <edge source="Narcis Giralt Vives" target="PERE LLUIS">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">4</data>
+      <data key="d42">5</data>
+      <data key="d43">7</data>
+      <data key="d44">17.0</data>
+      <data key="d45">False</data>
+      <data key="d46">True</data>
+    </edge>
+    <edge source="Narcis Giralt Vives" target="GRZEGORZ">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d39">True</data>
+      <data key="d40">False</data>
+      <data key="d41">1</data>
+      <data key="d42">2</data>
+      <data key="d43">7</data>
+      <data key="d44">3.0</data>
+      <data key="d45">False</data>
+      <data key="d46">False</data>
+    </edge>
+    <edge source="DANI" target="FRANC">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d38">de3cb31b-968d-44e2-a4aa-5555e06938c1</data>
+    </edge>
+    <edge source="WOJCIECH" target="GRZEGORZ">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">5a6831fc-31a8-4bb5-b6fc-5bd18e13e077</data>
+    </edge>
+  </graph>
+</graphml>

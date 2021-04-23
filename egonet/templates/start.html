@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+
+{% load bootstrap3 %}
+
+{% load static %}
+
+{% block heading %} {{ title }} {% endblock %}
+
+{% block content %}
+
+    <div class="jumbotron">
+        <div class='text-center'>
+            <h1>{{ title }}</h1>
+            <hr >
+            <div class="row">
+                <div class='col-lg-6'>
+                    <h2>Getting Things Done - New York 2017</h2>
+                </div>
+                <div class='col-lg-6'>
+                    <img src="/static/media/logos/IESE-LOGO.jpg">
+                </div>
+            </div>
+            <hr >
+            <div class="row">
+                <div class='col-lg-6 text-center'>
+                    <img src="/static/network.png">
+                </div>
+                <div class='col-lg-6 text-left'>
+                    <p class='lead'>Thinking about your social network might help you go beyond a simplistic view of what your contacts are &mdash;who do you know?&mdash; and help you think about how the people in your company are connected to each other &mdash;your indirect contacts.</p>
+                    <p class='lead'>The patterns of relations among people in your company, and your concrete position in those patterns, might allow you to access and procure valuable intangible assets, such as good advice, technical knowledge, emotional support, etc.</p>
+                    <!--
+		<p class='lead'>After completing the survey, you will gain access to a web report (see a <a href='sample_report'>sample report</a>). A full personalized PDF report, with comparison with your reference group, will be emailed to you.</p>
+                     -->
+		    <p class='lead'>A full personalized PDF report, with comparison with your reference group, will be emailed to you.</p>
+		</div>
+            </div>
+
+            <hr >
+            <!--
+            {% if description %} 
+                <div class="lead"> {{ description|safe }} </div>
+            {% endif %}
+            -->
+        </div>
+            <div class ='row'> 
+                <div class="text-center my-help col-md-4">
+                    <form role="form" class="form-inline" method="post" action="">
+                        {% csrf_token %}
+                        {% bootstrap_form form layout='inline' %}
+                        {% buttons submit='Start' layout='inline' %}{% endbuttons %}
+                    </form>
+
+                    <p class='my-help'>{{ help_text|safe }}</p>
+
+                </div>
+
+                <p class='my-help col-md-8'>{{ description|safe }}</p>
+            </div>
+                
+
+    </div> <!-- jumbotron -->
+
+{% endblock %}
+

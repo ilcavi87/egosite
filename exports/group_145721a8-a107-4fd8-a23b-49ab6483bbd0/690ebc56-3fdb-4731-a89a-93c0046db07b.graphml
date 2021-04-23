@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?><graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="reluuid" attr.type="string" for="edge" id="d46" />
+  <key attr.name="important" attr.type="boolean" for="edge" id="d45" />
+  <key attr.name="spouse" attr.type="boolean" for="edge" id="d44" />
+  <key attr.name="time" attr.type="double" for="edge" id="d43" />
+  <key attr.name="context" attr.type="int" for="edge" id="d42" />
+  <key attr.name="helps" attr.type="int" for="edge" id="d41" />
+  <key attr.name="frequency" attr.type="int" for="edge" id="d40" />
+  <key attr.name="boss" attr.type="boolean" for="edge" id="d39" />
+  <key attr.name="hinders" attr.type="boolean" for="edge" id="d38" />
+  <key attr.name="weight" attr.type="int" for="edge" id="d37" />
+  <key attr.name="strength" attr.type="int" for="edge" id="d36" />
+  <key attr.name="email" attr.type="string" for="node" id="d35" />
+  <key attr.name="company" attr.type="string" for="node" id="d34" />
+  <key attr.name="education" attr.type="int" for="node" id="d33" />
+  <key attr.name="tenure" attr.type="double" for="node" id="d32" />
+  <key attr.name="end_time" attr.type="string" for="node" id="d31" />
+  <key attr.name="egouuid" attr.type="string" for="node" id="d30" />
+  <key attr.name="people_in_company" attr.type="int" for="node" id="d29" />
+  <key attr.name="annual_sales" attr.type="int" for="node" id="d28" />
+  <key attr.name="start_time" attr.type="string" for="node" id="d27" />
+  <key attr.name="last_name" attr.type="string" for="node" id="d26" />
+  <key attr.name="first_name" attr.type="string" for="node" id="d25" />
+  <key attr.name="current_job" attr.type="int" for="node" id="d24" />
+  <key attr.name="salary" attr.type="int" for="node" id="d23" />
+  <key attr.name="context" attr.type="int" for="node" id="d22" />
+  <key attr.name="work" attr.type="int" for="node" id="d21" />
+  <key attr.name="age" attr.type="int" for="node" id="d20" />
+  <key attr.name="gender" attr.type="string" for="node" id="d19" />
+  <key attr.name="important_career" attr.type="boolean" for="node" id="d18" />
+  <key attr.name="interaction" attr.type="int" for="node" id="d17" />
+  <key attr.name="buyin" attr.type="boolean" for="node" id="d16" />
+  <key attr.name="nationality" attr.type="string" for="node" id="d15" />
+  <key attr.name="hinder_professional" attr.type="boolean" for="node" id="d14" />
+  <key attr.name="spend_free_time" attr.type="boolean" for="node" id="d13" />
+  <key attr.name="reports_to_ego" attr.type="boolean" for="node" id="d12" />
+  <key attr.name="functional_area" attr.type="int" for="node" id="d11" />
+  <key attr.name="helps" attr.type="int" for="node" id="d10" />
+  <key attr.name="important_professional" attr.type="boolean" for="node" id="d9" />
+  <key attr.name="life_partner" attr.type="boolean" for="node" id="d8" />
+  <key attr.name="strength" attr.type="int" for="node" id="d7" />
+  <key attr.name="trust" attr.type="boolean" for="node" id="d6" />
+  <key attr.name="time_knowing" attr.type="double" for="node" id="d5" />
+  <key attr.name="rank" attr.type="int" for="node" id="d4" />
+  <key attr.name="is_ego" attr.type="boolean" for="node" id="d3" />
+  <key attr.name="ego_reports_to" attr.type="boolean" for="node" id="d2" />
+  <key attr.name="alteruuid" attr.type="string" for="node" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="undirected">
+    <data key="d0">RUEDA ANDRES's Ego Network</data>
+    <node id="PHILIPPE">
+      <data key="d1">86930680-b230-4399-9801-8f9bb97d50dd</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">1</data>
+      <data key="d5">12.0</data>
+      <data key="d6">False</data>
+      <data key="d7">4</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">1</data>
+      <data key="d11">8</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">True</data>
+      <data key="d15">france</data>
+      <data key="d16">False</data>
+      <data key="d17">4</data>
+      <data key="d18">False</data>
+      <data key="d19">M</data>
+      <data key="d20">50</data>
+      <data key="d21">1</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="MATT">
+      <data key="d1">2e4861bc-6a03-42e7-b16c-5eb74a78d558</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">1</data>
+      <data key="d5">14.0</data>
+      <data key="d6">False</data>
+      <data key="d7">4</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">1</data>
+      <data key="d11">8</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">True</data>
+      <data key="d15">united states of america</data>
+      <data key="d16">False</data>
+      <data key="d17">4</data>
+      <data key="d18">False</data>
+      <data key="d19">M</data>
+      <data key="d20">51</data>
+      <data key="d21">1</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="SAMUEL">
+      <data key="d1">24177357-a86f-4d8d-9baf-d242e5f4564d</data>
+      <data key="d2">True</data>
+      <data key="d3">False</data>
+      <data key="d4">1</data>
+      <data key="d5">47.0</data>
+      <data key="d6">True</data>
+      <data key="d7">1</data>
+      <data key="d8">True</data>
+      <data key="d9">True</data>
+      <data key="d10">4</data>
+      <data key="d11">8</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">colombia</data>
+      <data key="d16">True</data>
+      <data key="d17">2</data>
+      <data key="d18">True</data>
+      <data key="d19">M</data>
+      <data key="d20">76</data>
+      <data key="d21">4</data>
+      <data key="d22">9</data>
+    </node>
+    <node id="MARK">
+      <data key="d1">c83ecd8d-b815-40bc-bd95-94cfd778bfee</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+      <data key="d5">15.0</data>
+      <data key="d6">True</data>
+      <data key="d7">1</data>
+      <data key="d8">False</data>
+      <data key="d9">True</data>
+      <data key="d10">4</data>
+      <data key="d11">8</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">united kingdom</data>
+      <data key="d16">True</data>
+      <data key="d17">3</data>
+      <data key="d18">True</data>
+      <data key="d19">M</data>
+      <data key="d20">55</data>
+      <data key="d21">5</data>
+      <data key="d22">8</data>
+    </node>
+    <node id="RUEDA ANDRES">
+      <data key="d23">8</data>
+      <data key="d24">8</data>
+      <data key="d25">RUEDA</data>
+      <data key="d26">ANDRES</data>
+      <data key="d27">2017-09-15 07:15:31</data>
+      <data key="d3">True</data>
+      <data key="d19">M</data>
+      <data key="d20">47</data>
+      <data key="d28">0</data>
+      <data key="d29">0</data>
+      <data key="d30">690ebc56-3fdb-4731-a89a-93c0046db07b</data>
+      <data key="d31">2017-09-15 07:33:03</data>
+      <data key="d11">9</data>
+      <data key="d32">13.0</data>
+      <data key="d15">colombia</data>
+      <data key="d33">4</data>
+      <data key="d34">Seguros Confianza - Swiss Re Corporate Solutions</data>
+      <data key="d35">andresm_rueda@yahoo.co.uk</data>
+    </node>
+    <node id="LUIS">
+      <data key="d1">fa68cbbb-2492-4012-9bec-5699ac03c357</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">1</data>
+      <data key="d5">47.0</data>
+      <data key="d6">True</data>
+      <data key="d7">1</data>
+      <data key="d8">False</data>
+      <data key="d9">True</data>
+      <data key="d10">4</data>
+      <data key="d11">8</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">colombia</data>
+      <data key="d16">False</data>
+      <data key="d17">2</data>
+      <data key="d18">True</data>
+      <data key="d19">M</data>
+      <data key="d20">50</data>
+      <data key="d21">4</data>
+      <data key="d22">9</data>
+    </node>
+    <node id="GAURAV">
+      <data key="d1">62718cc3-90ed-488c-b68c-eaf8d5dd3d7c</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+      <data key="d5">12.0</data>
+      <data key="d6">True</data>
+      <data key="d7">2</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">3</data>
+      <data key="d11">5</data>
+      <data key="d12">True</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">india</data>
+      <data key="d16">False</data>
+      <data key="d17">3</data>
+      <data key="d18">False</data>
+      <data key="d19">M</data>
+      <data key="d20">38</data>
+      <data key="d21">1</data>
+      <data key="d22">7</data>
+    </node>
+    <edge source="PHILIPPE" target="RUEDA ANDRES">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">True</data>
+      <data key="d39">False</data>
+      <data key="d40">4</data>
+      <data key="d41">1</data>
+      <data key="d42">7</data>
+      <data key="d43">12.0</data>
+      <data key="d44">False</data>
+      <data key="d45">False</data>
+    </edge>
+    <edge source="PHILIPPE" target="MATT">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d46">00b9bca7-b064-4acf-b71d-51e9af4a0696</data>
+    </edge>
+    <edge source="PHILIPPE" target="GAURAV">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d46">9c4751d3-a672-498b-890d-4b476608fe02</data>
+    </edge>
+    <edge source="PHILIPPE" target="MARK">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d46">9107326c-1b00-43aa-a0c4-700a8afbbb03</data>
+    </edge>
+    <edge source="MATT" target="RUEDA ANDRES">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">True</data>
+      <data key="d39">False</data>
+      <data key="d40">4</data>
+      <data key="d41">1</data>
+      <data key="d42">7</data>
+      <data key="d43">14.0</data>
+      <data key="d44">False</data>
+      <data key="d45">False</data>
+    </edge>
+    <edge source="MATT" target="GAURAV">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d46">4a139a3f-2f4b-4231-9bed-3ce6146522a7</data>
+    </edge>
+    <edge source="MATT" target="MARK">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d46">b0a2f3d8-a46d-4874-95f2-f8c601166852</data>
+    </edge>
+    <edge source="SAMUEL" target="RUEDA ANDRES">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d38">False</data>
+      <data key="d39">True</data>
+      <data key="d40">2</data>
+      <data key="d41">4</data>
+      <data key="d42">9</data>
+      <data key="d43">47.0</data>
+      <data key="d44">True</data>
+      <data key="d45">True</data>
+    </edge>
+    <edge source="SAMUEL" target="LUIS">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d46">ce6c6994-2b24-42cc-b34f-fa7027b3dfad</data>
+    </edge>
+    <edge source="MARK" target="RUEDA ANDRES">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d38">False</data>
+      <data key="d39">False</data>
+      <data key="d40">3</data>
+      <data key="d41">4</data>
+      <data key="d42">8</data>
+      <data key="d43">15.0</data>
+      <data key="d44">False</data>
+      <data key="d45">True</data>
+    </edge>
+    <edge source="RUEDA ANDRES" target="LUIS">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d38">False</data>
+      <data key="d39">False</data>
+      <data key="d40">2</data>
+      <data key="d41">4</data>
+      <data key="d42">9</data>
+      <data key="d43">47.0</data>
+      <data key="d44">False</data>
+      <data key="d45">True</data>
+    </edge>
+    <edge source="RUEDA ANDRES" target="GAURAV">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">False</data>
+      <data key="d39">False</data>
+      <data key="d40">3</data>
+      <data key="d41">3</data>
+      <data key="d42">7</data>
+      <data key="d43">12.0</data>
+      <data key="d44">False</data>
+      <data key="d45">False</data>
+    </edge>
+    <edge source="LUIS" target="GAURAV">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d46">2f1be62f-9682-4837-8b41-563324269397</data>
+    </edge>
+  </graph>
+</graphml>

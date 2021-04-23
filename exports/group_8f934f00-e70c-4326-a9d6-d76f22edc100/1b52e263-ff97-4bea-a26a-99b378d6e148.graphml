@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?><graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="reluuid" attr.type="string" for="edge" id="d46" />
+  <key attr.name="important" attr.type="boolean" for="edge" id="d45" />
+  <key attr.name="spouse" attr.type="boolean" for="edge" id="d44" />
+  <key attr.name="time" attr.type="double" for="edge" id="d43" />
+  <key attr.name="context" attr.type="int" for="edge" id="d42" />
+  <key attr.name="helps" attr.type="int" for="edge" id="d41" />
+  <key attr.name="frequency" attr.type="int" for="edge" id="d40" />
+  <key attr.name="boss" attr.type="boolean" for="edge" id="d39" />
+  <key attr.name="hinders" attr.type="boolean" for="edge" id="d38" />
+  <key attr.name="weight" attr.type="int" for="edge" id="d37" />
+  <key attr.name="strength" attr.type="int" for="edge" id="d36" />
+  <key attr.name="email" attr.type="string" for="node" id="d35" />
+  <key attr.name="company" attr.type="string" for="node" id="d34" />
+  <key attr.name="education" attr.type="int" for="node" id="d33" />
+  <key attr.name="tenure" attr.type="double" for="node" id="d32" />
+  <key attr.name="end_time" attr.type="string" for="node" id="d31" />
+  <key attr.name="egouuid" attr.type="string" for="node" id="d30" />
+  <key attr.name="people_in_company" attr.type="int" for="node" id="d29" />
+  <key attr.name="annual_sales" attr.type="int" for="node" id="d28" />
+  <key attr.name="start_time" attr.type="string" for="node" id="d27" />
+  <key attr.name="last_name" attr.type="string" for="node" id="d26" />
+  <key attr.name="first_name" attr.type="string" for="node" id="d25" />
+  <key attr.name="current_job" attr.type="int" for="node" id="d24" />
+  <key attr.name="salary" attr.type="int" for="node" id="d23" />
+  <key attr.name="context" attr.type="int" for="node" id="d22" />
+  <key attr.name="work" attr.type="int" for="node" id="d21" />
+  <key attr.name="age" attr.type="int" for="node" id="d20" />
+  <key attr.name="gender" attr.type="string" for="node" id="d19" />
+  <key attr.name="important_career" attr.type="boolean" for="node" id="d18" />
+  <key attr.name="interaction" attr.type="int" for="node" id="d17" />
+  <key attr.name="buyin" attr.type="boolean" for="node" id="d16" />
+  <key attr.name="nationality" attr.type="string" for="node" id="d15" />
+  <key attr.name="hinder_professional" attr.type="boolean" for="node" id="d14" />
+  <key attr.name="spend_free_time" attr.type="boolean" for="node" id="d13" />
+  <key attr.name="reports_to_ego" attr.type="boolean" for="node" id="d12" />
+  <key attr.name="functional_area" attr.type="int" for="node" id="d11" />
+  <key attr.name="helps" attr.type="int" for="node" id="d10" />
+  <key attr.name="important_professional" attr.type="boolean" for="node" id="d9" />
+  <key attr.name="life_partner" attr.type="boolean" for="node" id="d8" />
+  <key attr.name="strength" attr.type="int" for="node" id="d7" />
+  <key attr.name="trust" attr.type="boolean" for="node" id="d6" />
+  <key attr.name="time_knowing" attr.type="double" for="node" id="d5" />
+  <key attr.name="rank" attr.type="int" for="node" id="d4" />
+  <key attr.name="is_ego" attr.type="boolean" for="node" id="d3" />
+  <key attr.name="ego_reports_to" attr.type="boolean" for="node" id="d2" />
+  <key attr.name="alteruuid" attr.type="string" for="node" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="undirected">
+    <data key="d0">Pawel Szewczyk's Ego Network</data>
+    <node id="Jacek Bryński">
+      <data key="d1">a5097f23-3245-4966-b4ae-f32b8526b3a0</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+      <data key="d5">5.0</data>
+      <data key="d6">True</data>
+      <data key="d7">1</data>
+      <data key="d8">False</data>
+      <data key="d9">True</data>
+      <data key="d10">2</data>
+      <data key="d11">5</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">poland</data>
+      <data key="d16">False</data>
+      <data key="d17">3</data>
+      <data key="d18">False</data>
+      <data key="d19">M</data>
+      <data key="d20">48</data>
+      <data key="d21">5</data>
+      <data key="d22">2</data>
+    </node>
+    <node id="Krzysztof Synowiec">
+      <data key="d1">3693ad66-fa13-4324-8580-d4a26a7fecbd</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+      <data key="d5">3.0</data>
+      <data key="d6">False</data>
+      <data key="d7">2</data>
+      <data key="d8">True</data>
+      <data key="d9">False</data>
+      <data key="d10">2</data>
+      <data key="d11">4</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">poland</data>
+      <data key="d16">False</data>
+      <data key="d17">4</data>
+      <data key="d18">False</data>
+      <data key="d19">M</data>
+      <data key="d20">38</data>
+      <data key="d21">5</data>
+      <data key="d22">8</data>
+    </node>
+    <node id="Adam Dakowicz">
+      <data key="d1">908b4766-1176-4d62-b5dc-66e48414786d</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">1</data>
+      <data key="d5">3.0</data>
+      <data key="d6">False</data>
+      <data key="d7">1</data>
+      <data key="d8">False</data>
+      <data key="d9">True</data>
+      <data key="d10">4</data>
+      <data key="d11">6</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">poland</data>
+      <data key="d16">True</data>
+      <data key="d17">2</data>
+      <data key="d18">True</data>
+      <data key="d19">M</data>
+      <data key="d20">43</data>
+      <data key="d21">4</data>
+      <data key="d22">6</data>
+    </node>
+    <node id="Rafał Olejnik">
+      <data key="d1">9b544490-59b9-4640-8973-a2f5b5cbdaa8</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+      <data key="d5">2.0</data>
+      <data key="d6">True</data>
+      <data key="d7">3</data>
+      <data key="d8">False</data>
+      <data key="d9">True</data>
+      <data key="d10">3</data>
+      <data key="d11">2</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">poland</data>
+      <data key="d16">True</data>
+      <data key="d17">2</data>
+      <data key="d18">False</data>
+      <data key="d19">M</data>
+      <data key="d20">32</data>
+      <data key="d21">3</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="Tomasz Karpiński">
+      <data key="d1">940158e8-050b-4465-b582-d7a483727274</data>
+      <data key="d2">True</data>
+      <data key="d3">False</data>
+      <data key="d4">1</data>
+      <data key="d5">1.0</data>
+      <data key="d6">False</data>
+      <data key="d7">4</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">4</data>
+      <data key="d11">8</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">poland</data>
+      <data key="d16">False</data>
+      <data key="d17">1</data>
+      <data key="d18">False</data>
+      <data key="d19">M</data>
+      <data key="d20">38</data>
+      <data key="d21">3</data>
+      <data key="d22">6</data>
+    </node>
+    <node id="Pawel Szewczyk">
+      <data key="d23">7</data>
+      <data key="d24">6</data>
+      <data key="d25">Pawel</data>
+      <data key="d26">Szewczyk</data>
+      <data key="d27">2017-06-12 09:59:39</data>
+      <data key="d3">True</data>
+      <data key="d19">M</data>
+      <data key="d20">44</data>
+      <data key="d28">0</data>
+      <data key="d29">0</data>
+      <data key="d30">1b52e263-ff97-4bea-a26a-99b378d6e148</data>
+      <data key="d31">2017-06-12 12:32:45</data>
+      <data key="d11">8</data>
+      <data key="d32">5.0</data>
+      <data key="d15">poland</data>
+      <data key="d33">4</data>
+      <data key="d34">Kredyt Inkaso SA</data>
+      <data key="d35">pawel.szewczyk@kredytinkaso.pl</data>
+    </node>
+    <node id="Wojciech Ostasz">
+      <data key="d1">fd66a01a-2839-4c94-be05-4b965a125252</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+      <data key="d5">1.0</data>
+      <data key="d6">True</data>
+      <data key="d7">3</data>
+      <data key="d8">False</data>
+      <data key="d9">True</data>
+      <data key="d10">3</data>
+      <data key="d11">3</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">poland</data>
+      <data key="d16">False</data>
+      <data key="d17">1</data>
+      <data key="d18">False</data>
+      <data key="d19">M</data>
+      <data key="d20">50</data>
+      <data key="d21">4</data>
+      <data key="d22">6</data>
+    </node>
+    <node id="Cezary Bem">
+      <data key="d1">fea0bd27-1c70-4881-af43-d489f79e87c8</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">1</data>
+      <data key="d5">1.0</data>
+      <data key="d6">False</data>
+      <data key="d7">4</data>
+      <data key="d8">False</data>
+      <data key="d9">True</data>
+      <data key="d10">4</data>
+      <data key="d11">7</data>
+      <data key="d12">True</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">poland</data>
+      <data key="d16">True</data>
+      <data key="d17">1</data>
+      <data key="d18">False</data>
+      <data key="d19">M</data>
+      <data key="d20">46</data>
+      <data key="d21">1</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="Krzysztof Szaliłow">
+      <data key="d1">88fca82f-0bea-4869-8e74-245be80e9b18</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+      <data key="d5">5.0</data>
+      <data key="d6">True</data>
+      <data key="d7">2</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">2</data>
+      <data key="d11">6</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">True</data>
+      <data key="d15">poland</data>
+      <data key="d16">True</data>
+      <data key="d17">2</data>
+      <data key="d18">True</data>
+      <data key="d19">M</data>
+      <data key="d20">45</data>
+      <data key="d21">4</data>
+      <data key="d22">8</data>
+    </node>
+    <edge source="Jacek Bryński" target="Pawel Szewczyk">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d38">False</data>
+      <data key="d39">False</data>
+      <data key="d40">3</data>
+      <data key="d41">2</data>
+      <data key="d42">2</data>
+      <data key="d43">5.0</data>
+      <data key="d44">False</data>
+      <data key="d45">False</data>
+    </edge>
+    <edge source="Krzysztof Synowiec" target="Rafał Olejnik">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d46">122ff647-1a2d-4e89-a0cd-1e6a20b27988</data>
+    </edge>
+    <edge source="Krzysztof Synowiec" target="Pawel Szewczyk">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">False</data>
+      <data key="d39">False</data>
+      <data key="d40">4</data>
+      <data key="d41">2</data>
+      <data key="d42">8</data>
+      <data key="d43">3.0</data>
+      <data key="d44">True</data>
+      <data key="d45">False</data>
+    </edge>
+    <edge source="Adam Dakowicz" target="Wojciech Ostasz">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d46">1577a4e9-f987-476c-8de5-362ddf605455</data>
+    </edge>
+    <edge source="Adam Dakowicz" target="Krzysztof Szaliłow">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d46">87e5b8f3-949a-479a-83a6-a49829d56357</data>
+    </edge>
+    <edge source="Adam Dakowicz" target="Tomasz Karpiński">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d46">8d948458-a822-4967-ac83-6d0b0b89b950</data>
+    </edge>
+    <edge source="Adam Dakowicz" target="Pawel Szewczyk">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d38">False</data>
+      <data key="d39">False</data>
+      <data key="d40">2</data>
+      <data key="d41">4</data>
+      <data key="d42">6</data>
+      <data key="d43">3.0</data>
+      <data key="d44">False</data>
+      <data key="d45">True</data>
+    </edge>
+    <edge source="Rafał Olejnik" target="Pawel Szewczyk">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">False</data>
+      <data key="d39">False</data>
+      <data key="d40">2</data>
+      <data key="d41">3</data>
+      <data key="d42">7</data>
+      <data key="d43">2.0</data>
+      <data key="d44">False</data>
+      <data key="d45">False</data>
+    </edge>
+    <edge source="Tomasz Karpiński" target="Pawel Szewczyk">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">False</data>
+      <data key="d39">True</data>
+      <data key="d40">1</data>
+      <data key="d41">4</data>
+      <data key="d42">6</data>
+      <data key="d43">1.0</data>
+      <data key="d44">False</data>
+      <data key="d45">False</data>
+    </edge>
+    <edge source="Pawel Szewczyk" target="Wojciech Ostasz">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">False</data>
+      <data key="d39">False</data>
+      <data key="d40">1</data>
+      <data key="d41">3</data>
+      <data key="d42">6</data>
+      <data key="d43">1.0</data>
+      <data key="d44">False</data>
+      <data key="d45">False</data>
+    </edge>
+    <edge source="Pawel Szewczyk" target="Cezary Bem">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">False</data>
+      <data key="d39">False</data>
+      <data key="d40">1</data>
+      <data key="d41">4</data>
+      <data key="d42">7</data>
+      <data key="d43">1.0</data>
+      <data key="d44">False</data>
+      <data key="d45">False</data>
+    </edge>
+    <edge source="Pawel Szewczyk" target="Krzysztof Szaliłow">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">True</data>
+      <data key="d39">False</data>
+      <data key="d40">2</data>
+      <data key="d41">2</data>
+      <data key="d42">8</data>
+      <data key="d43">5.0</data>
+      <data key="d44">False</data>
+      <data key="d45">True</data>
+    </edge>
+  </graph>
+</graphml>

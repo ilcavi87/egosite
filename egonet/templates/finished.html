@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% load bootstrap3 %}
+
+{% block heading %} {{ title }} {% endblock %}
+
+{% block content %}
+
+    <div class="jumbotron">
+        <center>
+            <h1>Thank You !</h1>
+
+            <div class="alert alert-success">
+                <strong>Well done!</strong> You have sucessfully completed the survey! Your customized report is coming soon 
+            </div>
+
+            {% if description %}
+                <p> {{ description|safe }} </p>
+            {% endif %}
+		
+		<p>The NetWorker Team</p>
+		
+		</center>
+        
+    </div> <!-- jumbotron -->
+
+
+{% endblock %}

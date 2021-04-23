@@ -1,0 +1,1123 @@
+# Ego Network Spanish translation
+# Copyright (C) 2013
+# This file is distributed under the same license as the egonet package.
+# Jordi Torrents, 2013.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-11-24 14:21+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: Spanish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: choices.py:4
+msgid "Male"
+msgstr "Hombre"
+
+#: choices.py:5
+msgid "Female"
+msgstr "Mujer"
+
+#: choices.py:9
+msgid "Sales"
+msgstr "Ventas"
+
+#: choices.py:10
+msgid "Service"
+msgstr "Servicio al cliente"
+
+#: choices.py:11
+msgid "Manufacturing"
+msgstr "Producción"
+
+#: choices.py:12
+msgid "Engineering/Research"
+msgstr "Ingeniería/Investigación"
+
+#: choices.py:13
+msgid "Marketing/Distribution"
+msgstr "Marketing/Distribución"
+
+#: choices.py:14
+msgid "Finance"
+msgstr "Finanzas"
+
+#: choices.py:15
+msgid "Human resources"
+msgstr "Recursos Humanos"
+
+#: choices.py:16
+msgid "General Management"
+msgstr "Dirección General"
+
+#: choices.py:17 choices.py:37 choices.py:57
+msgid "Other"
+msgstr "Otro"
+
+#: choices.py:18 choices.py:66 choices.py:74
+msgid "Not working at the moment"
+msgstr "Sin trabajo en este momento"
+
+#: choices.py:22
+msgid "Primary School"
+msgstr "Primaria"
+
+#: choices.py:23
+msgid "High School"
+msgstr "Secundaria"
+
+#: choices.py:24
+msgid "College or Equivalent"
+msgstr "Universitaria"
+
+#: choices.py:25
+msgid "Master"
+msgstr "Máster"
+
+#: choices.py:26
+msgid "Doctorate"
+msgstr "Doctorado"
+
+#: choices.py:30
+msgid "Individual Contributor"
+msgstr "Trabajador"
+
+#: choices.py:31
+msgid "Team Leader"
+msgstr "Líder de equipo"
+
+#: choices.py:32
+msgid "Manager"
+msgstr "Directivo"
+
+#: choices.py:33
+msgid "Middle Manager"
+msgstr "Cuadro intermedio"
+
+#: choices.py:34
+msgid "Senior Manager"
+msgstr "Alto directivo"
+
+#: choices.py:35
+msgid "CEO/Chairman"
+msgstr "Consejero Delegado/Presidente"
+
+#: choices.py:36
+msgid "Self-employed"
+msgstr "Autónomo"
+
+#: choices.py:41
+msgid "Not at all"
+msgstr "Nada"
+
+#: choices.py:42
+msgid "Rarely"
+msgstr "Raramente"
+
+#: choices.py:43
+msgid "Sometimes"
+msgstr "A veces"
+
+#: choices.py:44
+msgid "Frequently"
+msgstr "Frecuentemente"
+
+#: choices.py:45
+msgid "A great deal"
+msgstr "Mucho"
+
+#: choices.py:49
+msgid "School mate"
+msgstr "Compañero de escuela"
+
+#: choices.py:50
+msgid "Social or sports club"
+msgstr "Club social o deportivo"
+
+#: choices.py:51
+msgid "Religious service"
+msgstr "Acto religioso"
+
+#: choices.py:52
+msgid "Voluntary association"
+msgstr "Asociación voluntária"
+
+#: choices.py:53
+msgid "Political party/association"
+msgstr "Asociación o partido político"
+
+#: choices.py:54
+msgid "Business contact"
+msgstr "Contacto de negocio"
+
+#: choices.py:55
+msgid "Coworker"
+msgstr "Compañero de trabajo"
+
+#: choices.py:56
+msgid "Through a common friend"
+msgstr "A través de un amigo común"
+
+#: choices.py:61
+msgid "Same office or team in your company"
+msgstr "Misma oficina o equipo en tu empresa"
+
+#: choices.py:62
+msgid "Same functional division but different team"
+msgstr "Misma área funcional pero en un equipo diferente"
+
+#: choices.py:63
+msgid "Different functional division"
+msgstr "Área funcional distinta"
+
+#: choices.py:64
+msgid "Different Company"
+msgstr "Otra empresa"
+
+#: choices.py:65 choices.py:73
+msgid "Self employed"
+msgstr "Autónomo"
+
+#: choices.py:70
+msgid "Higher"
+msgstr "Mayor"
+
+#: choices.py:71
+msgid "Simmilar"
+msgstr "Similar"
+
+#: choices.py:72
+msgid "Lower"
+msgstr "Menor"
+
+#: choices.py:78
+msgid "Daily"
+msgstr "Diariamente"
+
+#: choices.py:79
+msgid "Weekly"
+msgstr "Semanalmente"
+
+#: choices.py:80
+msgid "Monthly"
+msgstr "Mensualmente"
+
+#: choices.py:81
+msgid "Less often"
+msgstr "Con menos frecuencia"
+
+#: choices.py:85
+msgid "Very Close"
+msgstr "Muy cercano"
+
+#: choices.py:86
+msgid "Close"
+msgstr "Cercano"
+
+#: choices.py:87
+msgid "Neutral"
+msgstr "Neutral"
+
+#: choices.py:88
+msgid "Distant"
+msgstr "Distante"
+
+#: figures.py:10
+msgid "Your Social Network"
+msgstr "Tu Red Social"
+
+#: figures.py:11 reports.py:76
+msgid "Your Relations"
+msgstr "Tus Relaciones"
+
+#: figures.py:12 reports.py:64
+msgid "Your Contacts"
+msgstr "Tus Contactos"
+
+#: figures.py:13
+#, python-format
+msgid "Functional Area of your contacts (n=%d)"
+msgstr "Área functional de tus contactos (n=%d)"
+
+#: figures.py:14
+#, python-format
+msgid "Work place of your contacts (n=%d)"
+msgstr "Lugar de trabajo de tus contactos (n=%d)"
+
+#: figures.py:15
+#, python-format
+msgid "Rank of your contacts (n=%d)"
+msgstr "Posición jerárquica de tus contacos (n=%d)"
+
+#: figures.py:16
+#, python-format
+msgid "Gender of your contacts (n=%d)"
+msgstr "Género de tus contactos (n=%d)"
+
+#: figures.py:17
+#, python-format
+msgid "Age ranges of your contacts (n=%d)"
+msgstr "Rango de edad de tus contactos (n=%d)"
+
+#: figures.py:18
+#, python-format
+msgid "How close are you with your contacts? (n=%d)"
+msgstr "¿Cómo de cercanos son tus contactos? (n=%d)"
+
+#: figures.py:19
+#, python-format
+msgid "How often do you comunicate? (n=%d)"
+msgstr "¿Cada cuánto te comunicas con tus contactos? (n=%d)"
+
+#: figures.py:20
+#, python-format
+msgid "How helpful are your contacts (n=%d)"
+msgstr "¿Cómo de útiles son tus contactos? (n=%d)"
+
+#: figures.py:21
+#, python-format
+msgid "Context where you met your contacts (n=%d)"
+msgstr "Contexto en el cual conociste tus contactos (n=%d)"
+
+#: figures.py:36
+msgid ""
+"One picture is worth a thousand words, and you might get a better sense for "
+"where you are in the company if you try to position yourself in its social "
+"graph. Looking at the connections among people that you are directly "
+"connected with can provide useful insight. For instance, you might realize "
+"you happen to work as the link between otherwise disconnected others, thus "
+"being able to bridge the gap among different groups, receiving knowledge and "
+"information from all of them and controlling to some extent the information "
+"flow among them."
+msgstr ""
+"Una imagen vale más que mil palabras, y puedes conseguir una perspectiva más "
+"amplia de dónde estás en tu empresa si intentas posicionarte en un gráfico. "
+"Observando las conexiones entre personas con las que estás directamente "
+"conectadas puedes aprender algo sobre tus relaciones informales. Por "
+"ejemplo, te puedes dar cuenta de que has trabajado como el enlace entre dos "
+"personas no conectadas, y por tanto, actuando como puente entre diferentes "
+"grupos, recibiendo información y conocimiento de todos ellos y controlando "
+"hasta cierto punto la información que fluye entre ellos."
+
+#: figures.py:37
+msgid ""
+"The quality of the relationships between you and your contacts is a good "
+"proxy of their willingness to help, and their diversity affects the extent "
+"of the resources and information they can provide. The disposition to help "
+"and the breadth of that help may be also shaped by the structure of your "
+"network."
+msgstr ""
+"La calidad de las relaciones entre tú y tus contactos es una buena "
+"aproximación de su voluntad para ayudar, y su diversidad afecta la variedad "
+"de recursos e información que te pueden proporcionar. La disposición a "
+"ayudar y la envergadura de esa ayuda también depende de las estructura de tu "
+"red."
+
+#: figures.py:38
+msgid ""
+"The diversity of the attributes of the people that forms your personal "
+"social network is a source of different perspectives that can allow you to "
+"find innovative solutions to the problems that you face at work. However, it "
+"might also increase coordination costs and thus hinder action and decision "
+"making."
+msgstr ""
+"La diversidad de las cualidades de las personas que conforman tu red social "
+"es una fuente de diferentes perspectivas que te pueden permitir encontrar "
+"soluciones innovadoras a los problemas a los que te enfrentas en tu trabajo. "
+"Sin embargo, ésto también puede aumentar los costes de coordinación y "
+"dificultar la toma de acciones y decisiones."
+
+#: figures.py:39 figures.py:46
+msgid ""
+"Thinking about your social network might help you go beyond a simplistic "
+"view of what your contacts are (who do you know?) and help you think about "
+"how the people in your company are connected to each other (your indirect "
+"contacts). The patterns of relations among people in your company, and your "
+"concrete position in those patterns, might allow you to access and procure "
+"valuable intangible assets, such as good advice, technical knowledge, "
+"emotional support, etc."
+msgstr ""
+"Reflexionar sobre tu red social puede ayudarte a ir más allá de una visión "
+"simplista de quién son tus contactos (¿A quién conoces?) y ayudarte a "
+"pensar  sobre cómo están contactadas entre sí las personas de tu empresa "
+"(tus contactos indirectos). Los patrones de las relaciones entre personas de "
+"tu empresa, y tu posición concreta en esta red, pueden permitirte acceder a "
+"activos intangibles valiosos, tales como buen asesoramiento, conocimiento "
+"técnico, apoyo emocional, etc."
+
+#: figures.py:40
+msgid ""
+"Thinking about your social network might help you go beyond a simplistic "
+"view of what your contacts are (who do you know?) and help you think about "
+"how the people in your company are connected to each other (your indirect "
+"contacts)."
+msgstr ""
+"Reflexionar sobre tu red social puede ayudarte a ir más allá de una visión "
+"simplista de quién son tus contactos (¿A quién conoces?) y ayudarte a "
+"pensar  sobre cómo están contactadas entre sí las personas de tu empresa "
+"(tus contactos indirectos)."
+
+#: figures.py:41
+msgid ""
+"If you complte the survey, you will have acces to a web report, just like "
+"this example one, along with a detailed pdf report with comparations with "
+"your reference group. The report is organized in three parts. First, we "
+"analyze your network in terms of the number and the diversity of your "
+"contacts. Second, we analyze your network in terms of the kind and the "
+"strength of the relationships between you and your contacts. Third, we "
+"analyze the structure of your network, focusing on the patterns of relations "
+"among your contacts."
+msgstr ""
+"Si completas la encuesta, tendrás acceso a un informe web, como este "
+"ejemplo, junto a un detallado pdf con comparaciones con tu grupo de "
+"referencia. Este informe está organizado en tres partes. Primero, analizamos "
+"tu red social en términos del número y diversidad de tus contactos. Segundo, "
+"analizamos tu red social en términos de la clase e intensidad de las "
+"relaciones entre tú y tus contactos. Tercero, analizamos la estructura de tu "
+"red, centrándonos en los patrones de relaciones entre tus contactos."
+
+#: figures.py:42
+msgid ""
+"If you complete the survey, you will gain access to a web report similar to "
+"the following one. Your full personalized report, with comparison with other "
+"program participants, will be emailed to you in PDF the day after the "
+"completion date of the survey for your group."
+msgstr ""
+"Si completas esta encuesta, tendrás acceso a un informe similar al informe "
+"de ejemplo que encrontrarás más abajo. Te enviaremos tu informe "
+"personalizado completo en formato PDF, con comparaciones con los otros "
+"participantes en el programa, el día después de que todos los miembors de tu "
+"grupo hayan acabado la encuesta."
+
+#: figures.py:43
+msgid ""
+"The goal of this survey is to help you reflect on your social network, in "
+"order to better understand its composition and structure. The structure of "
+"your network can help you do your job better and make you more effective at "
+"work. To learn about this structure, we will ask you questions on your "
+"professional contacts, their characteristics, and their relationships."
+msgstr ""
+"El objetivo de esta encuesta es ayudarte a reflexionar sobre tu red social, "
+"con el objetivo de que comprendas mejor su composición y estructura. La "
+"estructura de tu red social te puede ayudar a desarrollar mejor tu trabajo, "
+"y a hacerlo de forma más eficiente. Para analizar tu red social, te haremos "
+"preguntas sobre tus contactos profesionales, sus características, y sus "
+"relaciones."
+
+#: figures.py:44
+msgid ""
+"This survey should take no more than 20 minutes. We will then aggregate this "
+"information to analyze it, and summarize them in a personalized report which "
+"will be emailed to you after all participants have completed the survey. A "
+"shorter sample report will be available on the website as soon as you "
+"complete the survey. "
+msgstr ""
+"Esta encuesta no te tomará más de 20 minutos. Agregaremos la información que "
+"nos proporciones para analizarla detalladamente. Te lo resumiremos en un "
+"informe personalizado que te enviaremos cuando todos los participantes de tu "
+"grupo hayan completado la encuesta. Tendrás acceso a un informe resumido en "
+"este mismo web al finalizar la encuesta."
+
+#: figures.py:47
+msgid ""
+"This report is based on the confidential information on your contact network "
+"collected with the web-based survey that you just completed. We analyzed "
+"your network to evaluate how your network may help you access important "
+"assets and organize them to achieve your professional goals. To improve the "
+"interpretation of your results, we compare them with the results of the "
+"other people in your group."
+msgstr ""
+"Este informe está basado en la información confidencial sobre tu red de "
+"contactos recogida en la encuesta web que acabas de completar. Hemos "
+"analizado tu red de contactos para ayudarte a evaluar cómo tu red social te "
+"puede ayudar a acceder a recursos clave, y a organizarlos de manera que "
+"puedas conseguir tus objetivos profesionales. Para mejorar la interpretación "
+"de tus resultados, los hemos comparado con los resultados de las otras "
+"personas de tu grupo."
+
+#: figures.py:48
+msgid ""
+"The report is organized in three parts. First, we analyze your network in "
+"terms of the number and the diversity of your contacts. Second, we analyze "
+"your network in terms of the kind and the strength of the relationships "
+"between you and your contacts. Third, we analyze the structure of your "
+"network, focusing on the patterns of relations among your contacts."
+msgstr ""
+"Este informe está organizado en tres partes. Primero, analizamos tu red "
+"social en términos del número y diversidad de tus contactos. Segundo, "
+"analizamos tu red social en términos de la clase e intensidad de las "
+"relaciones entre tú y tus contactos. Tercero, analizamos la estructura de tu "
+"red, centrándonos en los patrones de relaciones entre tus contactos."
+
+#: figures.py:54
+msgid ""
+"This graph illustrates the distribution of your contacts by age. The age of "
+"your contacts is important because different generations have gone through "
+"different experiences that configure their opinions and their attitudes. The "
+"age of our contacts typically increases with age. This is natural, but also "
+"has draw-backs. A network can be a bridge across generations or it may "
+"amplify the natural separation between them."
+msgstr ""
+"Este gráfico ilustra la distribución de tus contactos por edad. La edad de "
+"tus contactos es importante porque diferentes generaciones han pasado por "
+"diferentes experiencias que configuran sus opiniones y sus actitudes. La "
+"edad de tus contactos normalmente aumenta con la edad, éso es natural, pero "
+"también tiene sus inconvenientes. Una red puede ser puente entre "
+"generaciones o puede amplificar la separación natural entre ellas."
+
+#: figures.py:55
+msgid ""
+"This graph illustrates the distribution of your contacts by their primary "
+"functional or professional area. It measures the extent to which your "
+"network reaches across functional boundaries. A network with contacts from "
+"different functional backgrounds exposes you to a richer picture of the "
+"business and allows you to learn about more opportunities to achieve your "
+"professional goals."
+msgstr ""
+"Este gráfico ilustra la distribución de tus contactos por área funcional "
+"primaria o profesional. Mide hasta qué punto tu red sobrepasa barreras "
+"funcionales. Una red con contactos de diferentes historiales funcionales te "
+"expone a una imagen más rica del negocio y te permite aprender sobre más "
+"oportunidades para alcanzar tus logros profesionales."
+
+#: figures.py:56
+msgid ""
+"This chart shows the gender distribution of your contacts. Gender diversity "
+"reveals your exposure to the view-points and experiences of the different "
+"sexes. This is partly defined by demographics since there are still "
+"significantly more men than women in most business settings. But it can be "
+"also driven by stereotypes: some men may find it difficult to build good "
+"professional relationships with women (and vice-versa)."
+msgstr ""
+"Este gráfico muestra la distribución por género de tus contactos. La "
+"diversidad de género revela tu exposición a puntos de vista y experiencias "
+"de diferentes sexos. Ésta parcialmente depende de razones demográficas ya "
+"que hay significativamente más hombres que mujeres en la mayoría de entornos "
+"de negocio. Pero puede ser que dependa de estereotipos: algunos hombres "
+"pueden encontrar difícil construir buenas relaciones profesionales con "
+"mujeres (y viceversa)."
+
+#: figures.py:57
+msgid ""
+"The chart looks at the hierarchical diversity of your network. The diversity "
+"is your network in terms of rank is partly dependent on your own rank."
+msgstr ""
+"Este gráfico examina la diversidad jerárquica de tu red. La diversidad en tu "
+"red en términos de posición jerárquica es parcialmente dependiente de tu "
+"posición jerárquica."
+
+#: figures.py:58
+msgid ""
+"The graph above shows the proportion of contacts working in your same unit, "
+"in your same function (but in a different unit), in your same firm (but in a "
+"different function), and in other firms. It indicates the extent to which "
+"your network is limited to your own firm or office."
+msgstr ""
+"El gráfico muestra la proporción de tus contactos trabajando en la misma "
+"unidad, misma función (pero diferente unidad), en tu misma empresa (pero en "
+"diferente función), y en otras empresas. Indica hasta qué punto tu red está "
+"limitada a tu propia empresa u oficina."
+
+#: figures.py:61
+msgid ""
+"The chart displays the frequency with which you communicate with your "
+"contacts capturing your tendency to concentrate this communication on a "
+"specific time frame (e.g., on a weekly basis)."
+msgstr ""
+"Este gráfico presenta la frecuencia con la que te comunicas con tus "
+"contactos capturando tu tendencia a concentrar esta comunicación en un "
+"intervalo temporal específico (por ejemplo, en una semana)."
+
+#: figures.py:62
+msgid ""
+"This graph represents how helpful your contacts are and the degree of "
+"supportiveness. Contacts with whom you have a long-lasting, frequent, and "
+"emotionally close relationship know you and your needs well. They are around "
+"to help when you need it, and they are more inclined to do so than weakly "
+"tied contacts."
+msgstr ""
+"Este gráfico representa cómo de útiles son tus contactos y su grado de "
+"apoyo. Los contactos con quienes has mantenido una relación duradera, "
+"frecuente, y emocionalmente cercana te conocen a ti y a tus necesidades "
+"bien. Están alrededor para ayudarte cuando lo precisas, y están más "
+"dispuestos para hacerlo que los contactos vinculados contigo más débilmente."
+
+#: figures.py:63
+msgid ""
+"This graph represents the strength of the relationship with each contact in "
+"term of the closeness between you and the contact. Closer relationships "
+"might help you receive more support from your contacts."
+msgstr ""
+"Este gráfico representa la fortaleza de la relación con cada contacto en "
+"términos de cercanía entre tú y el contacto. Relaciones más cercanas pueden "
+"ayudarte a recibir más apoyo de tus contactos."
+
+#: figures.py:64
+msgid ""
+"This chart looks at the origin of your relationships. If most of our "
+"contacts come from one single source it is more likely that they will be "
+"similar in other aspects too."
+msgstr ""
+"Este gráfico expone el origen de tus relaciones. Si la mayoría de tus "
+"contactos proceden de una única fuente es más probable que también sean "
+"similares en otros aspectos."
+
+#: figures.py:67
+msgid ""
+"Network centralization vs. network density. The chart above plots both your "
+"results and the ones of the other survey respondents using their density and "
+"centralization scores. Density measures the proportion of direct ties in a "
+"network relative to the total number possible. The higher the centralization "
+"of your network, the more your network connectivity depends on one or few "
+"nodes that are connected with most people around you. The denser the "
+"network, the more all your contacts are connected with one another, and "
+"therefore your network is less likely to be centralized."
+msgstr ""
+"Centralización y densidad de la red. La gráfica superior representa tanto "
+"tus resultados como los de los participantes de la encuesta usando su "
+"puntuación en densidad y centralización. La densidad mide la proporción de "
+"vínculos directos en una red relativo al número total posible. Cuanta más "
+"alta sea la centralización de tu red, mayor será la proporción de tus "
+"contactos conectados a través de uno o pocos nodos. Cuanto más densa sea la "
+"red, tus contactos estarán más conectados entre sí, y por tanto, es menos "
+"probable que tu red sea centralizada."
+
+#: figures.py:71
+msgid ""
+"In this plot, you and your contacts are depicted as nodes linked through "
+"relations of different strength and nature. You are the bigger violet node. "
+"The light blue node is your boss. In red you have all the contacts with whom "
+"you maintained an adversarial relation (if any). The contacts with the green "
+"borders are the ones that you trust. The dashed green edges are the "
+"relations that help you the most. Your partner is depicted as an orange "
+"node. All other contacts are plotted as smaller light green nodes. The tie "
+"width represents the strength of the connection. All adversarial relations "
+"are plotted using a dashed red link."
+msgstr ""
+"En esta visualización, tú y tus contactos estáis descritos como nodos "
+"vinculados a través de relaciones de diferente fortaleza y naturaleza. Tú "
+"eres el nodo violeta más grande. El nodo de color azul claro es tu jefe. En "
+"rojo están todos los contactos con quienes mantienes una relación adversaria "
+"(si existen). Los contactos con bordes verdes son las personas en las que confias. "
+"Los enlaces con línia discontínua verde son las relaciones que te ayudan más. "
+"Tu pareja está representada con un nodo de color naranja. "
+"Todos los otros contactos están trazados con nodos más pequeños de color "
+"verde claro. La anchura del enlace representa la fortaleza de la conexión. "
+"Todas las relaciones adversarias están trazadas usando un enlace discontinuo "
+"y rojo."
+
+#: forms.py:18
+#, python-format
+msgid "Sorry, this survey group is closed since %s"
+msgstr "Lo sentimos, esta encuesta está cerrada desde %s"
+
+#: forms.py:21
+msgid "Sorry, that password was invalid. Please try again."
+msgstr ""
+"Lo sentimos, este password no es válido. Por favor, intentelo de nuevo."
+
+#: forms.py:32 forms.py:33 forms.py:34 forms.py:35 forms.py:36 forms.py:37
+#: forms.py:46 forms.py:47 forms.py:48 forms.py:49 forms.py:50 forms.py:51
+msgid "Add new contact"
+msgstr "Añade un nuevo contacto"
+
+#: forms.py:45 forms.py:73 forms.py:95
+msgid "Select a contact"
+msgstr "Selecciona un contacto"
+
+#: forms.py:63 forms.py:86 forms.py:108
+msgid ""
+"Please, do not use the same name for two contacts. You can select contacts "
+"already mentioned in the form below."
+msgstr ""
+"Por favor, no uses el mismo nombre para dos contactos. Puedes seleccionar "
+"contactos que ya has mencionado marcando el cuadro correspondiente."
+
+#: forms.py:96
+msgid "Add a new contact"
+msgstr "Añade un nuevo contacto"
+
+#: forms.py:118
+msgid "Select relations"
+msgstr "Selecciona relaciones"
+
+#: models.py:121 models.py:291
+msgid "Name"
+msgstr "Nombre"
+
+#: models.py:122 models.py:292
+msgid "Age"
+msgstr "Edad"
+
+#: models.py:123 models.py:294
+msgid "Gender"
+msgstr "Género"
+
+#: models.py:127 models.py:296
+msgid "Nationality"
+msgstr "Nacionalidad"
+
+#: models.py:128
+msgid "If you have more than one, chose the one you identify with the most"
+msgstr ""
+"Si tienes más de una, selecciona la nacionalidad con la que te sientes más "
+"identificado"
+
+#: models.py:130
+msgid "Email"
+msgstr "Email"
+
+#: models.py:131
+msgid "Eduaction"
+msgstr "Eduación"
+
+#: models.py:133
+msgid "The highest level of formal education you have attained"
+msgstr "Nivel de estudios"
+
+#: models.py:136
+msgid "Company"
+msgstr "Empresa"
+
+#: models.py:140
+msgid "Company for which you currently work for"
+msgstr "Empresa para la que trabajas actualmente"
+
+#: models.py:142 models.py:298
+msgid "Functional Area"
+msgstr "Área Funcional"
+
+#: models.py:144
+msgid "Your primary functional area in the company"
+msgstr "Tu área funcional primaria en tu empresa"
+
+#: models.py:146
+msgid "Current Job"
+msgstr "Trabajo actual"
+
+#: models.py:149
+msgid "Tenure"
+msgstr "Tiempo"
+
+#: models.py:152
+msgid "Time you been working for this company."
+msgstr "Tiempo que llevas trabajando en esta empresa"
+
+#: models.py:154
+msgid "People in you company"
+msgstr "Personas en tu empresa"
+
+#: models.py:157
+msgid ""
+"People currently employed by your company. Provide your best estimate. Enter "
+"1 if you are self-employed"
+msgstr ""
+"Número de personas que trabajan en tu empresa. Tu mejor estimación. Pon 1 si "
+"eres autónomo."
+
+#: models.py:159
+msgid "Annual Sales"
+msgstr "Volumen de ventas anual"
+
+#: models.py:162
+msgid "Company annual sales in US$ Millions, your best estimate."
+msgstr "Vendas anuales en millones de dólares, aproximadamente"
+
+#: models.py:293 models.py:297
+msgid "If you are unsure, please provide your best guess"
+msgstr "Si no estas seguro, pon una estimación"
+
+#: models.py:314
+msgid "Work"
+msgstr "Lugar de trabajo"
+
+#: models.py:315
+msgid "Contact's workplace"
+msgstr "Lugar de trabajo de este contacto"
+
+#: models.py:316
+msgid "Rank"
+msgstr "Posición jerárquica"
+
+#: models.py:317
+msgid "Contact's formal rank in the organization he/she works for"
+msgstr "Posición jerárquica de este contacto en la empresa en que trabaja"
+
+#: models.py:318
+msgid "Helps"
+msgstr "Ayuda"
+
+#: models.py:319
+msgid ""
+"Provides valuable help or technical advice to get my work done efficiently."
+msgstr "Este contacto proporciona ayuda para hacer tu trabajo eficientemente"
+
+#: models.py:320
+msgid "Time knowing"
+msgstr "Tiempo conociéndoos"
+
+#: models.py:321
+msgid ""
+"Time knowing this contact in years. You can enter fractions, such as 2.5 or "
+"0.5"
+msgstr ""
+"Tiempo que hace que conoces este contacto en años. Puedes introducir valores "
+"decimales como 2.5"
+
+#: models.py:322
+msgid "Interaction"
+msgstr "Interacción"
+
+#: models.py:324
+msgid "How often do you talk or exchange emails with this contact."
+msgstr "Frecuencia con la que hablas o intercambias emails con este contacto"
+
+#: models.py:325
+msgid "How close"
+msgstr "Proximidad"
+
+#: models.py:327
+msgid ""
+"<strong>Very Close</strong>: Strong personal bond. <strong>Close</strong>: "
+"Feel close but without a strong personal bond. <strong>Neutral</strong>: "
+"This person is OK to work with, but no personal bond. <strong>Distant</"
+"strong>: Person you'd rather avoid and will seek out only if necessary."
+msgstr ""
+"<strong>Muy cercano</strong>: Fuerte lazo personal. <strong>Cercano</"
+"strong>: Cercano pero sin un fuerte lazo personal. <strong>Neutral</strong>: "
+"TRabajas bién con esta persona pero no tienes un lazo personal "
+"<strong>Distante</strong>: Persona con la que trabajarías sólo si es "
+"estrictamente necesário"
+
+#: models.py:328
+msgid "Context"
+msgstr "Contexto"
+
+#: models.py:329
+msgid "Context in which you first met this contact."
+msgstr "Contexto en el qual conociste este contacto"
+
+#: models.py:331
+msgid "Trust"
+msgstr "Confianza"
+
+#: models.py:332
+msgid "Select if you would trust this contact for important personal matters."
+msgstr ""
+"Selecciona si confiarías en esta persona referente a temas personales "
+"importantes para ti"
+
+#: reports.py:54
+#, python-format
+msgid "%s's Social Network"
+msgstr "La Red Social de %s"
+
+#: reports.py:71 reports.py:82
+msgid "Average of your group results"
+msgstr "Media de resultados de tu grupo"
+
+#: reports.py:72 reports.py:83
+msgid "Your personal results"
+msgstr "Tus resultados personales"
+
+#: reports.py:87
+msgid "Structure of your social network"
+msgstr "Estructura de tu Red Social"
+
+#: reports.py:88
+msgid "Mapping your social network"
+msgstr "Cartografiando tu Red Social"
+
+#: reports.py:93
+msgid "Density of your social network"
+msgstr "Densidad de tu Red Social"
+
+#: views.py:22
+msgid ""
+"<p>The following questions identify the people in your contact network. To "
+"ensure confidentiality, you are asked to provide only first names and "
+"optionally last name initials for each person. If two of your contacts have "
+"the same first name and initial, make sure you distinguish between the two "
+"by using a different first name or initial for one of them. Each of the "
+"following question refers to a particular type of relationship between you "
+"and your contacts.</p>\n"
+"<p>To reduce the length of the questionnaire, we limit the number of people "
+"you can name in each question, but don't feel compelled to fill in all the "
+"names if you have fewer contacts for a given type of relationship. Because "
+"people often have various kinds of relationships with the same person, you "
+"can name the same person in more than one question.</p>"
+msgstr ""
+"<p>Las siguientes preguntas identifican personas en tu red de contactos. "
+"Para asegurar la confidencialidad, puedes utilizar solo el nombre, y "
+"opcionalmente, la primera letra del apellido de las personas que nombres. "
+"Asegúrate que no utilizas el mismo nombre para dos contactos. Cada una de "
+"las preguntas en las que tienes que introducir nombres de personas se "
+"refieren a un tipo de relación entre tu y tus contactos</p>\n"
+"<p>Para reducir la longitud de la encuesta, limitamos deliberadamente el "
+"número de personas que puedes nombrar en cada pregunta. Pero no te sientas "
+"obligado a llenar todos los nombres posibles para cada tipo de relación. Así "
+"mismo, dado que se puede tener diferentes tipos de relaciones con la misma "
+"persona, puedes perfectamente nombrar la misma persona para diferentes "
+"relaciones.</p>"
+
+#: views.py:25
+msgid ""
+"<p>In the following questions you will be asked to provide information about "
+"each one of the contacts that you identified in the previous questions. If "
+"you don't know exactly some of the attributes of some of your contacts, "
+"please provide your best guess.</p>"
+msgstr ""
+"<p>En las siguientes preguntas deberás proporcionar información sobre cada "
+"uno de los contactos que has nombrado en las preguntas anteriores. Si no "
+"estás seguro de alguno de los atributos de alguno de tus contactos, no te "
+"preocupes, contesta aproximadamente.</p>"
+
+#: views.py:27
+msgid ""
+"<p>In the following questions you will be asked to provide information about "
+"the relations among the people in your contact network. For each one of the "
+"contacts that you identified in the previous questions, you have to select "
+"the other contacts that he or she is related to.</p>"
+msgstr ""
+"<p>En las siguientes preguntas deberás proporcionar información sobre las "
+"relaciones entre las personas de tu red de contactos. Para cada uno de los "
+"contactos que has identificado en preguntas anteriores, tienes que "
+"seleccionar los otros contactos con los que esa persona está relacionada.</p>"
+
+#: views.py:29
+msgid ""
+"<p>In the following questions you will be asked to provide information about "
+"the nature of the relations among the people in your contact network that "
+"you just described in the previous questions. For each one of the relations "
+"that you identified, you have to select the kind of relation that they have. "
+"If you are not sure, please provide your best guess.</p>"
+msgstr ""
+"<p>En las siguientes preguntas deberás proporcionar información sobre el "
+"tipo de relaciones entre las personas de tu red de contactos que has "
+"descrito en las preguntas anteriores. Para cada una de las relaciones que "
+"has identificado, selecciona el tipo de relación que mas se ajuste.</p>"
+
+#: views.py:40 views.py:74
+msgid "Your social network"
+msgstr "Tu Red Social"
+
+#: views.py:66
+msgid ""
+"If you are having any trouble with the survey please <a href='mailto:"
+"jtorrents@iese.edu'>contact us</a>."
+msgstr ""
+"Si tienes problemas con la encuesta, por favor contacta con <a href='mailto:"
+"jtorrents@iese.edu'>nosotros</a>"
+
+#: views.py:69
+msgid "Social Network Survey"
+msgstr "Social Network Survey"
+
+#: views.py:76
+msgid "Sample Report"
+msgstr "Informe de Ejemplo"
+
+#: views.py:101
+msgid ""
+"<p>This question is for gathering information about you. The information you "
+"provide is confidential and will be used to compare you with your reference "
+"group.</p>"
+msgstr ""
+"<p>Esta pregunta es para recojer información sobre ti. La información que "
+"proporciones es confidencial y será usada para compararte con tu grupo de "
+"referencia.</p>"
+
+#: views.py:103
+msgid "Some information about you"
+msgstr "Información sobre ti"
+
+#: views.py:113
+msgid "Add Contacts"
+msgstr "Añade contactos"
+
+#: views.py:133
+msgid ""
+"<p> From time to time, most people discuss important matters regarding their "
+"job with other people they trust. If you look back over the last six months, "
+"who are the three or four people with whom you discussed matters important "
+"to you? These can be people at work, family, friends, or advisors.</p>"
+msgstr ""
+"<p>La mayoria de gente discute temas importantes relacionados con su trabajo "
+"con personas en las que confian. En los últimos seis meses, ¿Con qué "
+"personas has discutido temas que consideras importantes para tu trabajo y tu "
+"carrera? Pueden ser personas en tu empresa, familiares, amigos, mentores, "
+"etc ...</p>"
+
+#: views.py:134
+msgid "Add contacts with whom you discuss important matters"
+msgstr "Añade contactos con los que discutes cuestiones importantes"
+
+#: views.py:156
+msgid ""
+"<p>Getting things done often requires the buy-in of various key individuals. "
+"Suppose you were moving to a new job and wanted to leave behind the best "
+"network advice you could for someone moving into your current job. Who are "
+"the three or four people you would name to your replacement as essential "
+"sources of buy-in to succeed in your current job? These could be people in "
+"your function (or division), in another function or even contacts in other "
+"firms</p>"
+msgstr ""
+"<p>Desarrollar tu trabajo efectivamente requiere normalmente el soporte y "
+"colaboración de personas clave. Imagina que te vas de tu puesto de trabajo "
+"actual y debes aconsejar a tu substituto sobre personas clave para "
+"desarrollar tu trabajo actual. ¿Cuales serian las tres o cuatro personas "
+"esenciales para desarrollar tu trabajo satisfactoriamente que nombrarias a "
+"tu hipotético substituto? Pueden ser personas en tu misma división o área "
+"funcional, en otra área, e incluso en otra empresa.</p>"
+
+#: views.py:157
+msgid "Add key contacts for getting things done"
+msgstr "Añade contactos que son claves para desarrollar tu trabajo"
+
+#: views.py:179
+msgid ""
+"<p>Considering all the contacts you have made in your career so far and with "
+"whom you are still in contact, who have been the most important to your "
+"professional achievements?</p>"
+msgstr ""
+"<p>Considerando todos los contactos que has establecido a lo largo de tu "
+"carrera hasta ahora, y con los que aún mantienes contacto, ¿Quiénes han sido "
+"más importantes para el desarrollo de tu carrera profesional?</p>"
+
+#: views.py:180
+msgid "Add contacts that helped you in your professional achievements"
+msgstr "Añade contactos que te hayan ayudado en tu desarrollo profesional"
+
+#: views.py:202
+msgid ""
+"<p>At the other extreme, who have been the people who had made it the most "
+"difficult to carry out your professional responsibilities in the last year "
+"or so? We remind you that your responses are confidential</p>"
+msgstr ""
+"<p>En el otro extremo, ¿Quiénes han sido las personas que han dificultado "
+"más el desarrollo de tu trabajo y de tu carrera profesional durante el "
+"último año? Te recordamos que tus respuestas son confidenciales.</p>"
+
+#: views.py:203
+msgid "Add contacts that hinder your work"
+msgstr "Añade contactos que dificultan tu trabajo"
+
+#: views.py:225
+msgid ""
+"<p>Shifting to a broader view of your network, consider the people with whom "
+"you like to spend your free time. Over the last six months, who are three or "
+"four people you have been with most often for informal social activities "
+"such as going out to lunch, dinner, drinks, films, visiting one another's "
+"homes, playing sports, and so on?</p>"
+msgstr ""
+"<p>Centrándonos en una visión más ámplia de tu red, considera las personas "
+"con quiénes pasas tu tiempo libre. Durante los últimos seis meses, ¿Quiénes "
+"son las tres o quatro personas con las que has compartido más frecuentemente "
+"actividades socials informales? Entendemos por actividades sociales "
+"informales ir a comer, a cenar, de copas, a ver una película, practicar "
+"deporte, etc ...</p>"
+
+#: views.py:226
+msgid "Add contacts with whom you spend free time"
+msgstr "Añade contactos con los que pasas tiempo libre fuera del trabajo"
+
+#: views.py:248
+msgid ""
+"<p> If you were considering leaving your current job to join another firm, "
+"who are the people with whom you would most likely discuss and evaluate your "
+"job options?</p>"
+msgstr ""
+"<p>Si estubiéras considerando dejar tu trabajo actual para ir a otra "
+"empresa, ¿Con qué personas evaluarías tus opciones y perdirías consejo?</p>"
+
+#: views.py:249
+msgid "Add contacts whith whom you'd discuss job options"
+msgstr ""
+"Añade contactos con los que discutirías tus opciones si tubiéses que buscar "
+"un nuevo trabajo"
+
+#: views.py:274
+msgid "Add your life partner"
+msgstr "Añade a tu pareja"
+
+#: views.py:296
+msgid "Select or add contacts to whom you directly report"
+msgstr "Selecciona o añade contactos que sean tu superior directo"
+
+#: views.py:320
+msgid "Select or add contacts that report directly to you"
+msgstr "Selecciona o añade contactos de los quales tu seas su superior directo"
+
+#: views.py:329
+msgid "Information about your contacts"
+msgstr "Información sobre tus contacos"
+
+#: views.py:352
+#, python-format
+msgid "Information about: %s"
+msgstr "Información sobre: %s"
+
+#: views.py:369
+msgid "Identify the relations among your contacts"
+msgstr "Identifica las relaciones entre tus contactos"
+
+#: views.py:394
+#, python-format
+msgid "Relations of: %s"
+msgstr "Relaciones de: %s"
+
+#: views.py:409
+msgid "Describe the relations among your contacts"
+msgstr "Describe el tipo de relaciones entre tus contactos"
+
+#: views.py:437
+msgid ""
+"<p>This question is to assess how close are your contacts among them, using "
+"the following convention:</p><ul><li><strong>Very Close</strong>: They have "
+"a strong personal bond.</li><li><strong>Close</strong>: They feel close but "
+"do not have a strong personal bond.</li><li><strong>Neutral</strong>: They "
+"work OK with each other, but they have no personal bond.</"
+"li><li><strong>Distant</strong>: They'd rather avoid and will seek out only "
+"if necessary to work with each other.</li></ul>"
+msgstr ""
+"<p>Esta pregunta es para definir el tipo de relación que tienen tus "
+"contactos entre ellos, usando la siguiente convención:</"
+"p><ul><li><strong>Muy Cercano</strong>: Fuerte lazo personal.</"
+"li><li><strong>Cercano</strong>: Cercano pero sin un fuerte lazo personal.</"
+"li><li><strong>Neutral</strong>: Trabajan bién conjuntamente pero no tienen "
+"un lazo personal</li><li><strong>Distante</strong>: Trabajarían juntos sólo "
+"si es estrictamente necesário</li></ul>"
+
+#: views.py:439
+#, python-format
+msgid ""
+"Can you qualify the relation between <span class='alert-info'>%s</span> and "
+"<span class='alert-info'>%s</span>"
+msgstr ""
+"Puedes cualificar la relación entre <span class='alert-info'>%s</span> y "
+"<span class='alert-info'>%s</span>"
+
+#~ msgid "Attributes of Your Contacts"
+#~ msgstr "Cualidades de tus Contactos"
+
+#~ msgid "Please enter password to start the survey"
+#~ msgstr "Por favor introduce el password"
+
+#~ msgid "Can you qualify the relation between %s and %s"
+#~ msgstr "Puedes cualificar la relación entre %s y %s"
+
+#~ msgid ""
+#~ "The period for your group to complete this survey  will finish at the end "
+#~ "of %s. We will email you the report for your personal social network the "
+#~ "next day."
+#~ msgstr ""
+#~ "El período para completar esta enquesta finaliza el %s. Te enviaremos el "
+#~ "informe en pdf el día después"

@@ -1,0 +1,1058 @@
+<?xml version="1.0" encoding="utf-8"?><graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="important" attr.type="boolean" for="edge" id="d46" />
+  <key attr.name="spouse" attr.type="boolean" for="edge" id="d45" />
+  <key attr.name="time" attr.type="double" for="edge" id="d44" />
+  <key attr.name="context" attr.type="int" for="edge" id="d43" />
+  <key attr.name="helps" attr.type="int" for="edge" id="d42" />
+  <key attr.name="frequency" attr.type="int" for="edge" id="d41" />
+  <key attr.name="boss" attr.type="boolean" for="edge" id="d40" />
+  <key attr.name="hinders" attr.type="boolean" for="edge" id="d39" />
+  <key attr.name="reluuid" attr.type="string" for="edge" id="d38" />
+  <key attr.name="weight" attr.type="int" for="edge" id="d37" />
+  <key attr.name="strength" attr.type="int" for="edge" id="d36" />
+  <key attr.name="email" attr.type="string" for="node" id="d35" />
+  <key attr.name="company" attr.type="string" for="node" id="d34" />
+  <key attr.name="education" attr.type="int" for="node" id="d33" />
+  <key attr.name="tenure" attr.type="double" for="node" id="d32" />
+  <key attr.name="end_time" attr.type="string" for="node" id="d31" />
+  <key attr.name="egouuid" attr.type="string" for="node" id="d30" />
+  <key attr.name="people_in_company" attr.type="int" for="node" id="d29" />
+  <key attr.name="annual_sales" attr.type="int" for="node" id="d28" />
+  <key attr.name="start_time" attr.type="string" for="node" id="d27" />
+  <key attr.name="last_name" attr.type="string" for="node" id="d26" />
+  <key attr.name="first_name" attr.type="string" for="node" id="d25" />
+  <key attr.name="current_job" attr.type="int" for="node" id="d24" />
+  <key attr.name="salary" attr.type="int" for="node" id="d23" />
+  <key attr.name="context" attr.type="int" for="node" id="d22" />
+  <key attr.name="work" attr.type="int" for="node" id="d21" />
+  <key attr.name="age" attr.type="int" for="node" id="d20" />
+  <key attr.name="gender" attr.type="string" for="node" id="d19" />
+  <key attr.name="important_career" attr.type="boolean" for="node" id="d18" />
+  <key attr.name="interaction" attr.type="int" for="node" id="d17" />
+  <key attr.name="buyin" attr.type="boolean" for="node" id="d16" />
+  <key attr.name="nationality" attr.type="string" for="node" id="d15" />
+  <key attr.name="hinder_professional" attr.type="boolean" for="node" id="d14" />
+  <key attr.name="spend_free_time" attr.type="boolean" for="node" id="d13" />
+  <key attr.name="reports_to_ego" attr.type="boolean" for="node" id="d12" />
+  <key attr.name="functional_area" attr.type="int" for="node" id="d11" />
+  <key attr.name="helps" attr.type="int" for="node" id="d10" />
+  <key attr.name="important_professional" attr.type="boolean" for="node" id="d9" />
+  <key attr.name="life_partner" attr.type="boolean" for="node" id="d8" />
+  <key attr.name="strength" attr.type="int" for="node" id="d7" />
+  <key attr.name="trust" attr.type="boolean" for="node" id="d6" />
+  <key attr.name="time_knowing" attr.type="double" for="node" id="d5" />
+  <key attr.name="rank" attr.type="int" for="node" id="d4" />
+  <key attr.name="is_ego" attr.type="boolean" for="node" id="d3" />
+  <key attr.name="ego_reports_to" attr.type="boolean" for="node" id="d2" />
+  <key attr.name="alteruuid" attr.type="string" for="node" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="undirected">
+    <data key="d0">Anna Turska's Ego Network</data>
+    <node id="Magdalena P.">
+      <data key="d1">6893fc2c-7dd4-4890-b720-bc05f71f41f5</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+      <data key="d5">3.0</data>
+      <data key="d6">True</data>
+      <data key="d7">1</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">4</data>
+      <data key="d11">4</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">poland</data>
+      <data key="d16">False</data>
+      <data key="d17">3</data>
+      <data key="d18">False</data>
+      <data key="d19">F</data>
+      <data key="d20">29</data>
+      <data key="d21">4</data>
+      <data key="d22">8</data>
+    </node>
+    <node id="Karol S.">
+      <data key="d1">032b08be-9874-427f-ad05-6d0fb7366454</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+      <data key="d5">1.0</data>
+      <data key="d6">False</data>
+      <data key="d7">2</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">3</data>
+      <data key="d11">2</data>
+      <data key="d12">True</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">poland</data>
+      <data key="d16">True</data>
+      <data key="d17">1</data>
+      <data key="d18">False</data>
+      <data key="d19">M</data>
+      <data key="d20">34</data>
+      <data key="d21">1</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="Teresa T.">
+      <data key="d1">e765c4ba-6481-41ca-b058-9d830d9b993f</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+      <data key="d5">32.0</data>
+      <data key="d6">True</data>
+      <data key="d7">1</data>
+      <data key="d8">False</data>
+      <data key="d9">True</data>
+      <data key="d10">3</data>
+      <data key="d11">2</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">poland</data>
+      <data key="d16">False</data>
+      <data key="d17">2</data>
+      <data key="d18">False</data>
+      <data key="d19">F</data>
+      <data key="d20">55</data>
+      <data key="d21">4</data>
+      <data key="d22">9</data>
+    </node>
+    <node id="Joanna S.">
+      <data key="d1">78718b08-ce91-4b1c-8de8-71e800936d6f</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+      <data key="d5">3.0</data>
+      <data key="d6">True</data>
+      <data key="d7">2</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">3</data>
+      <data key="d11">2</data>
+      <data key="d12">True</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">poland</data>
+      <data key="d16">True</data>
+      <data key="d17">1</data>
+      <data key="d18">False</data>
+      <data key="d19">F</data>
+      <data key="d20">37</data>
+      <data key="d21">1</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="Joanna W.">
+      <data key="d1">ceb360d9-2014-433c-ad86-cf9020b4aa12</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">1</data>
+      <data key="d5">10.0</data>
+      <data key="d6">False</data>
+      <data key="d7">4</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">1</data>
+      <data key="d11">2</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">poland</data>
+      <data key="d16">False</data>
+      <data key="d17">4</data>
+      <data key="d18">True</data>
+      <data key="d19">F</data>
+      <data key="d20">44</data>
+      <data key="d21">4</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="Piotr C.">
+      <data key="d1">702adbe1-1858-4efc-863d-c4fa8435a609</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+      <data key="d5">5.0</data>
+      <data key="d6">True</data>
+      <data key="d7">2</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">4</data>
+      <data key="d11">7</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">poland</data>
+      <data key="d16">False</data>
+      <data key="d17">4</data>
+      <data key="d18">True</data>
+      <data key="d19">M</data>
+      <data key="d20">55</data>
+      <data key="d21">4</data>
+      <data key="d22">6</data>
+    </node>
+    <node id="Bartosz W.">
+      <data key="d1">e32b627c-02f6-457a-9df4-cfa3e15703e9</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+      <data key="d5">5.0</data>
+      <data key="d6">False</data>
+      <data key="d7">2</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">2</data>
+      <data key="d11">2</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">poland</data>
+      <data key="d16">False</data>
+      <data key="d17">3</data>
+      <data key="d18">False</data>
+      <data key="d19">M</data>
+      <data key="d20">28</data>
+      <data key="d21">4</data>
+      <data key="d22">8</data>
+    </node>
+    <node id="Katarzyna S.">
+      <data key="d1">2af16ec9-20f7-48d8-a92a-e38c8b9843dd</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+      <data key="d5">5.0</data>
+      <data key="d6">True</data>
+      <data key="d7">2</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">3</data>
+      <data key="d11">2</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">poland</data>
+      <data key="d16">False</data>
+      <data key="d17">3</data>
+      <data key="d18">False</data>
+      <data key="d19">F</data>
+      <data key="d20">27</data>
+      <data key="d21">4</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="Katarzyna M.">
+      <data key="d1">15525dea-1ab6-4b12-9e9f-17a518503965</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+      <data key="d5">8.0</data>
+      <data key="d6">True</data>
+      <data key="d7">1</data>
+      <data key="d8">False</data>
+      <data key="d9">True</data>
+      <data key="d10">4</data>
+      <data key="d11">6</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">poland</data>
+      <data key="d16">False</data>
+      <data key="d17">2</data>
+      <data key="d18">False</data>
+      <data key="d19">F</data>
+      <data key="d20">35</data>
+      <data key="d21">4</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="Jan P.">
+      <data key="d1">8c417c48-b918-4328-acb6-0215363b6d54</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+      <data key="d5">10.0</data>
+      <data key="d6">True</data>
+      <data key="d7">1</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">3</data>
+      <data key="d11">4</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">poland</data>
+      <data key="d16">False</data>
+      <data key="d17">3</data>
+      <data key="d18">False</data>
+      <data key="d19">M</data>
+      <data key="d20">33</data>
+      <data key="d21">4</data>
+      <data key="d22">9</data>
+    </node>
+    <node id="Paulina G.">
+      <data key="d1">ab878ff4-2a2e-4732-aab4-518a14dabc8c</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+      <data key="d5">3.0</data>
+      <data key="d6">False</data>
+      <data key="d7">3</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">2</data>
+      <data key="d11">2</data>
+      <data key="d12">True</data>
+      <data key="d13">False</data>
+      <data key="d14">True</data>
+      <data key="d15">poland</data>
+      <data key="d16">False</data>
+      <data key="d17">2</data>
+      <data key="d18">False</data>
+      <data key="d19">F</data>
+      <data key="d20">38</data>
+      <data key="d21">1</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="Paweł T.">
+      <data key="d1">e0a21e6d-a229-463c-a048-fa4e710c9e50</data>
+      <data key="d2">True</data>
+      <data key="d3">False</data>
+      <data key="d4">1</data>
+      <data key="d5">3.0</data>
+      <data key="d6">True</data>
+      <data key="d7">1</data>
+      <data key="d8">False</data>
+      <data key="d9">True</data>
+      <data key="d10">4</data>
+      <data key="d11">2</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">poland</data>
+      <data key="d16">False</data>
+      <data key="d17">1</data>
+      <data key="d18">False</data>
+      <data key="d19">M</data>
+      <data key="d20">42</data>
+      <data key="d21">1</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="Karolina S.">
+      <data key="d1">214a2179-c7bd-4076-9acc-742157ec844a</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">1</data>
+      <data key="d5">5.0</data>
+      <data key="d6">True</data>
+      <data key="d7">3</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">3</data>
+      <data key="d11">2</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">poland</data>
+      <data key="d16">False</data>
+      <data key="d17">4</data>
+      <data key="d18">True</data>
+      <data key="d19">F</data>
+      <data key="d20">28</data>
+      <data key="d21">4</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="Grzegorz S.">
+      <data key="d1">e5cf25d1-ac5a-40ff-8757-095bcd2bed1c</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+      <data key="d5">10.0</data>
+      <data key="d6">False</data>
+      <data key="d7">4</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">1</data>
+      <data key="d11">2</data>
+      <data key="d12">True</data>
+      <data key="d13">False</data>
+      <data key="d14">True</data>
+      <data key="d15">poland</data>
+      <data key="d16">False</data>
+      <data key="d17">1</data>
+      <data key="d18">False</data>
+      <data key="d19">M</data>
+      <data key="d20">33</data>
+      <data key="d21">4</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="Marcin J.">
+      <data key="d1">b818bc80-2f87-4fa2-801f-91831a675b18</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">1</data>
+      <data key="d5">5.0</data>
+      <data key="d6">False</data>
+      <data key="d7">2</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">3</data>
+      <data key="d11">6</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">poland</data>
+      <data key="d16">False</data>
+      <data key="d17">3</data>
+      <data key="d18">False</data>
+      <data key="d19">M</data>
+      <data key="d20">47</data>
+      <data key="d21">4</data>
+      <data key="d22">6</data>
+    </node>
+    <node id="Żaneta T.">
+      <data key="d1">c031534c-c658-44ff-b2b8-60c45db34a35</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+      <data key="d5">25.0</data>
+      <data key="d6">True</data>
+      <data key="d7">1</data>
+      <data key="d8">False</data>
+      <data key="d9">True</data>
+      <data key="d10">4</data>
+      <data key="d11">2</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">poland</data>
+      <data key="d16">False</data>
+      <data key="d17">1</data>
+      <data key="d18">False</data>
+      <data key="d19">F</data>
+      <data key="d20">2</data>
+      <data key="d21">4</data>
+      <data key="d22">9</data>
+    </node>
+    <node id="Wojciech P.">
+      <data key="d1">d2f3ddca-7d76-4adb-a9a3-1d5287a9fc42</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+      <data key="d5">1.0</data>
+      <data key="d6">True</data>
+      <data key="d7">2</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">4</data>
+      <data key="d11">3</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">poland</data>
+      <data key="d16">False</data>
+      <data key="d17">3</data>
+      <data key="d18">True</data>
+      <data key="d19">M</data>
+      <data key="d20">57</data>
+      <data key="d21">4</data>
+      <data key="d22">6</data>
+    </node>
+    <node id="Agnieszka K.">
+      <data key="d1">aed166fa-3c43-4b95-bddb-b0e17e438381</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+      <data key="d5">3.0</data>
+      <data key="d6">False</data>
+      <data key="d7">4</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">1</data>
+      <data key="d11">2</data>
+      <data key="d12">True</data>
+      <data key="d13">False</data>
+      <data key="d14">True</data>
+      <data key="d15">poland</data>
+      <data key="d16">False</data>
+      <data key="d17">4</data>
+      <data key="d18">False</data>
+      <data key="d19">F</data>
+      <data key="d20">35</data>
+      <data key="d21">4</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="Anna Turska">
+      <data key="d23">3</data>
+      <data key="d24">6</data>
+      <data key="d25">Anna</data>
+      <data key="d26">Turska</data>
+      <data key="d27">2017-06-07 13:08:03</data>
+      <data key="d3">True</data>
+      <data key="d19">F</data>
+      <data key="d20">32</data>
+      <data key="d28">0</data>
+      <data key="d29">0</data>
+      <data key="d30">01eaaa7b-f9da-4431-ae02-c168caa4f673</data>
+      <data key="d31">2017-06-07 13:31:22</data>
+      <data key="d11">8</data>
+      <data key="d32">3.0</data>
+      <data key="d15">poland</data>
+      <data key="d33">4</data>
+      <data key="d34">Kancelaria Ożóg Tomczykowski sp. z o.o.</data>
+      <data key="d35">anna.turska@ozog.pl</data>
+    </node>
+    <node id="Bartosz K.">
+      <data key="d1">5368de6f-9c00-4bd0-831c-4168041eea0f</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+      <data key="d5">5.0</data>
+      <data key="d6">True</data>
+      <data key="d7">1</data>
+      <data key="d8">False</data>
+      <data key="d9">True</data>
+      <data key="d10">4</data>
+      <data key="d11">2</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">poland</data>
+      <data key="d16">False</data>
+      <data key="d17">2</data>
+      <data key="d18">False</data>
+      <data key="d19">M</data>
+      <data key="d20">35</data>
+      <data key="d21">4</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="Irena O.">
+      <data key="d1">5c502b64-ba56-4ac6-8d32-0db912a61160</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">1</data>
+      <data key="d5">3.0</data>
+      <data key="d6">False</data>
+      <data key="d7">4</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">2</data>
+      <data key="d11">2</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">True</data>
+      <data key="d15">poland</data>
+      <data key="d16">False</data>
+      <data key="d17">2</data>
+      <data key="d18">False</data>
+      <data key="d19">F</data>
+      <data key="d20">57</data>
+      <data key="d21">1</data>
+      <data key="d22">6</data>
+    </node>
+    <node id="Martyna G.">
+      <data key="d1">185d6c78-e80b-4d99-846d-cdcc1913ee94</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+      <data key="d5">2.0</data>
+      <data key="d6">True</data>
+      <data key="d7">2</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">3</data>
+      <data key="d11">6</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">poland</data>
+      <data key="d16">True</data>
+      <data key="d17">1</data>
+      <data key="d18">False</data>
+      <data key="d19">F</data>
+      <data key="d20">43</data>
+      <data key="d21">1</data>
+      <data key="d22">7</data>
+    </node>
+    <edge source="Magdalena P." target="Teresa T.">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">34cf8f30-5345-480e-a73d-9f2984feb13a</data>
+    </edge>
+    <edge source="Magdalena P." target="Anna Turska">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">3</data>
+      <data key="d42">4</data>
+      <data key="d43">8</data>
+      <data key="d44">3.0</data>
+      <data key="d45">False</data>
+      <data key="d46">False</data>
+    </edge>
+    <edge source="Magdalena P." target="Żaneta T.">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">e4ad51a1-d55b-4728-833d-ac1dfdbefcea</data>
+    </edge>
+    <edge source="Magdalena P." target="Jan P.">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">0ac09101-6bc1-4ba0-a8f5-c3905ff09bf6</data>
+    </edge>
+    <edge source="Karol S." target="Agnieszka K.">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">94254b2f-1ad5-4d17-86ef-b257f445b5b7</data>
+    </edge>
+    <edge source="Karol S." target="Anna Turska">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">1</data>
+      <data key="d42">3</data>
+      <data key="d43">7</data>
+      <data key="d44">1.0</data>
+      <data key="d45">False</data>
+      <data key="d46">False</data>
+    </edge>
+    <edge source="Karol S." target="Paulina G.">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">18afca0c-a2a9-4f50-b6e8-be98a09b8435</data>
+    </edge>
+    <edge source="Karol S." target="Joanna S.">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">5d96f934-3bbc-4abb-b146-e8daaf8c0d36</data>
+    </edge>
+    <edge source="Karol S." target="Irena O.">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">e6e06c3b-6bd7-458b-94aa-599f88d6634a</data>
+    </edge>
+    <edge source="Karol S." target="Paweł T.">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">1872bfc5-ee81-4449-99dd-4f81755ee5c0</data>
+    </edge>
+    <edge source="Karol S." target="Grzegorz S.">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">1d56f929-fd7f-4163-a390-c3d4b87a16c1</data>
+    </edge>
+    <edge source="Karol S." target="Martyna G.">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">272a6d4a-8dbf-4605-9b34-2753c796a921</data>
+    </edge>
+    <edge source="Teresa T." target="Anna Turska">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">2</data>
+      <data key="d42">3</data>
+      <data key="d43">9</data>
+      <data key="d44">32.0</data>
+      <data key="d45">False</data>
+      <data key="d46">False</data>
+    </edge>
+    <edge source="Teresa T." target="Żaneta T.">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d38">2405dbc5-7018-4497-9b08-6a36bf7b42b1</data>
+    </edge>
+    <edge source="Teresa T." target="Paweł T.">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">258444f7-e571-46b2-beb5-26911ad80fab</data>
+    </edge>
+    <edge source="Joanna S." target="Agnieszka K.">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">ba32d929-7cbc-41d1-b6ae-895930bb9865</data>
+    </edge>
+    <edge source="Joanna S." target="Anna Turska">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">1</data>
+      <data key="d42">3</data>
+      <data key="d43">7</data>
+      <data key="d44">3.0</data>
+      <data key="d45">False</data>
+      <data key="d46">False</data>
+    </edge>
+    <edge source="Joanna S." target="Paulina G.">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">9e8bf52b-a211-4e53-915a-6d53a0852723</data>
+    </edge>
+    <edge source="Joanna S." target="Irena O.">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">3bdb1bfc-2654-46f4-913b-3d5967b5b842</data>
+    </edge>
+    <edge source="Joanna S." target="Paweł T.">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">8c6f5ab5-86ce-4382-b2e1-757755b489a6</data>
+    </edge>
+    <edge source="Joanna S." target="Grzegorz S.">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">95a18306-a922-40b7-ba42-73ec07d1537c</data>
+    </edge>
+    <edge source="Joanna S." target="Martyna G.">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">5eec81d3-9e9c-4abf-8cfc-3cf252d95434</data>
+    </edge>
+    <edge source="Joanna W." target="Bartosz W.">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">ecd4cb7d-8ad5-449e-9f8c-75e271d3453b</data>
+    </edge>
+    <edge source="Joanna W." target="Anna Turska">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">4</data>
+      <data key="d42">1</data>
+      <data key="d43">7</data>
+      <data key="d44">10.0</data>
+      <data key="d45">False</data>
+      <data key="d46">True</data>
+    </edge>
+    <edge source="Joanna W." target="Paulina G.">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">f5ecac88-f81a-45d5-9a75-58f2eff78167</data>
+    </edge>
+    <edge source="Joanna W." target="Bartosz K.">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">7ebc4c99-acda-4ca6-92db-a4be4ba30ba2</data>
+    </edge>
+    <edge source="Joanna W." target="Karolina S.">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d38">96af6e7f-6305-4e33-b513-508315220a5d</data>
+    </edge>
+    <edge source="Joanna W." target="Grzegorz S.">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">79bf241f-c4f6-491b-8db5-c5dde425d1f8</data>
+    </edge>
+    <edge source="Joanna W." target="Piotr C.">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">3057ce0a-d4c3-402d-bcf5-fc918a51ab35</data>
+    </edge>
+    <edge source="Piotr C." target="Anna Turska">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">4</data>
+      <data key="d42">4</data>
+      <data key="d43">6</data>
+      <data key="d44">5.0</data>
+      <data key="d45">False</data>
+      <data key="d46">True</data>
+    </edge>
+    <edge source="Bartosz W." target="Katarzyna S.">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d38">d8b181ce-da36-4d1f-a4f7-434d90e57637</data>
+    </edge>
+    <edge source="Bartosz W." target="Anna Turska">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">3</data>
+      <data key="d42">2</data>
+      <data key="d43">8</data>
+      <data key="d44">5.0</data>
+      <data key="d45">False</data>
+      <data key="d46">False</data>
+    </edge>
+    <edge source="Bartosz W." target="Żaneta T.">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">ced2a2d1-84f5-4292-a42d-f187dc2efe6e</data>
+    </edge>
+    <edge source="Katarzyna S." target="Anna Turska">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">3</data>
+      <data key="d42">3</data>
+      <data key="d43">7</data>
+      <data key="d44">5.0</data>
+      <data key="d45">False</data>
+      <data key="d46">False</data>
+    </edge>
+    <edge source="Katarzyna S." target="Żaneta T.">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">1a91570b-ef9e-40e4-87f3-b332853c1f7e</data>
+    </edge>
+    <edge source="Katarzyna M." target="Anna Turska">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">2</data>
+      <data key="d42">4</data>
+      <data key="d43">7</data>
+      <data key="d44">8.0</data>
+      <data key="d45">False</data>
+      <data key="d46">False</data>
+    </edge>
+    <edge source="Jan P." target="Anna Turska">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">3</data>
+      <data key="d42">3</data>
+      <data key="d43">9</data>
+      <data key="d44">10.0</data>
+      <data key="d45">False</data>
+      <data key="d46">False</data>
+    </edge>
+    <edge source="Jan P." target="Żaneta T.">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">1ce7f649-a6e8-4c27-a840-5dff88ea6a22</data>
+    </edge>
+    <edge source="Paulina G." target="Agnieszka K.">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">1936c4df-2c83-4716-9cd8-3631fb4a141b</data>
+    </edge>
+    <edge source="Paulina G." target="Anna Turska">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d39">True</data>
+      <data key="d40">False</data>
+      <data key="d41">2</data>
+      <data key="d42">2</data>
+      <data key="d43">7</data>
+      <data key="d44">3.0</data>
+      <data key="d45">False</data>
+      <data key="d46">False</data>
+    </edge>
+    <edge source="Paulina G." target="Irena O.">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">e97d3a06-027d-474a-98c4-523f788ebab3</data>
+    </edge>
+    <edge source="Paulina G." target="Grzegorz S.">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">9bb2c091-d113-4abe-8b0b-7e390d0a0b94</data>
+    </edge>
+    <edge source="Paulina G." target="Martyna G.">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">4a9117e1-96ef-4ca0-ba22-42df3c37531d</data>
+    </edge>
+    <edge source="Paweł T." target="Marcin J.">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">93b14363-e4fa-419c-8584-a841f45fdec0</data>
+    </edge>
+    <edge source="Paweł T." target="Agnieszka K.">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">e68f3ff2-72af-4cb8-95e4-0b4aa53c5420</data>
+    </edge>
+    <edge source="Paweł T." target="Anna Turska">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d39">False</data>
+      <data key="d40">True</data>
+      <data key="d41">1</data>
+      <data key="d42">4</data>
+      <data key="d43">7</data>
+      <data key="d44">3.0</data>
+      <data key="d45">False</data>
+      <data key="d46">False</data>
+    </edge>
+    <edge source="Paweł T." target="Irena O.">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">462dde5a-9beb-4d00-ada2-e0b6557c956a</data>
+    </edge>
+    <edge source="Paweł T." target="Grzegorz S.">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">b32566f3-bdb3-4c75-ac5e-da959a8c268a</data>
+    </edge>
+    <edge source="Paweł T." target="Martyna G.">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">21410556-a306-481c-922a-7df1d1667bda</data>
+    </edge>
+    <edge source="Paweł T." target="Żaneta T.">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">305ee205-21c5-407f-95ae-45f4a1c75b8d</data>
+    </edge>
+    <edge source="Karolina S." target="Anna Turska">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">4</data>
+      <data key="d42">3</data>
+      <data key="d43">7</data>
+      <data key="d44">5.0</data>
+      <data key="d45">False</data>
+      <data key="d46">True</data>
+    </edge>
+    <edge source="Karolina S." target="Żaneta T.">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">da8578dd-2bc0-4cd2-ae13-5b3d707d92b4</data>
+    </edge>
+    <edge source="Grzegorz S." target="Agnieszka K.">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">e80012b3-2a78-4352-a4a2-86c787bf77d4</data>
+    </edge>
+    <edge source="Grzegorz S." target="Anna Turska">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d39">True</data>
+      <data key="d40">False</data>
+      <data key="d41">1</data>
+      <data key="d42">1</data>
+      <data key="d43">7</data>
+      <data key="d44">10.0</data>
+      <data key="d45">False</data>
+      <data key="d46">False</data>
+    </edge>
+    <edge source="Grzegorz S." target="Irena O.">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">feb51e78-adf8-45de-9bb1-0e1dfefd6825</data>
+    </edge>
+    <edge source="Grzegorz S." target="Martyna G.">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">2a02b964-a1df-462e-9a3c-5907a7c52bec</data>
+    </edge>
+    <edge source="Marcin J." target="Irena O.">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">03d41ada-e95b-44ff-9d0a-b0e50939664b</data>
+    </edge>
+    <edge source="Marcin J." target="Anna Turska">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">3</data>
+      <data key="d42">3</data>
+      <data key="d43">6</data>
+      <data key="d44">5.0</data>
+      <data key="d45">False</data>
+      <data key="d46">False</data>
+    </edge>
+    <edge source="Żaneta T." target="Anna Turska">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">1</data>
+      <data key="d42">4</data>
+      <data key="d43">9</data>
+      <data key="d44">25.0</data>
+      <data key="d45">False</data>
+      <data key="d46">False</data>
+    </edge>
+    <edge source="Wojciech P." target="Anna Turska">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">3</data>
+      <data key="d42">4</data>
+      <data key="d43">6</data>
+      <data key="d44">1.0</data>
+      <data key="d45">False</data>
+      <data key="d46">True</data>
+    </edge>
+    <edge source="Agnieszka K." target="Anna Turska">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d39">True</data>
+      <data key="d40">False</data>
+      <data key="d41">4</data>
+      <data key="d42">1</data>
+      <data key="d43">7</data>
+      <data key="d44">3.0</data>
+      <data key="d45">False</data>
+      <data key="d46">False</data>
+    </edge>
+    <edge source="Agnieszka K." target="Irena O.">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">795efc09-12c7-4eea-b670-8ad79fd51e22</data>
+    </edge>
+    <edge source="Agnieszka K." target="Martyna G.">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">10b9ebd4-d1a7-4f10-ab2b-9bd8d36e1bdb</data>
+    </edge>
+    <edge source="Anna Turska" target="Martyna G.">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">1</data>
+      <data key="d42">3</data>
+      <data key="d43">7</data>
+      <data key="d44">2.0</data>
+      <data key="d45">False</data>
+      <data key="d46">False</data>
+    </edge>
+    <edge source="Anna Turska" target="Bartosz K.">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">2</data>
+      <data key="d42">4</data>
+      <data key="d43">7</data>
+      <data key="d44">5.0</data>
+      <data key="d45">False</data>
+      <data key="d46">False</data>
+    </edge>
+    <edge source="Anna Turska" target="Irena O.">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d39">True</data>
+      <data key="d40">False</data>
+      <data key="d41">2</data>
+      <data key="d42">2</data>
+      <data key="d43">6</data>
+      <data key="d44">3.0</data>
+      <data key="d45">False</data>
+      <data key="d46">False</data>
+    </edge>
+    <edge source="Irena O." target="Martyna G.">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">7cd70999-7014-4777-ace6-d3a752143ffb</data>
+    </edge>
+  </graph>
+</graphml>

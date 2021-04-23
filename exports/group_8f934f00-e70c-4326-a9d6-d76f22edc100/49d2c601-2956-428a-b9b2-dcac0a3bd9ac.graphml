@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?><graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="reluuid" attr.type="string" for="edge" id="d46" />
+  <key attr.name="important" attr.type="boolean" for="edge" id="d45" />
+  <key attr.name="spouse" attr.type="boolean" for="edge" id="d44" />
+  <key attr.name="time" attr.type="double" for="edge" id="d43" />
+  <key attr.name="context" attr.type="int" for="edge" id="d42" />
+  <key attr.name="helps" attr.type="int" for="edge" id="d41" />
+  <key attr.name="frequency" attr.type="int" for="edge" id="d40" />
+  <key attr.name="boss" attr.type="boolean" for="edge" id="d39" />
+  <key attr.name="hinders" attr.type="boolean" for="edge" id="d38" />
+  <key attr.name="weight" attr.type="int" for="edge" id="d37" />
+  <key attr.name="strength" attr.type="int" for="edge" id="d36" />
+  <key attr.name="email" attr.type="string" for="node" id="d35" />
+  <key attr.name="company" attr.type="string" for="node" id="d34" />
+  <key attr.name="education" attr.type="int" for="node" id="d33" />
+  <key attr.name="tenure" attr.type="double" for="node" id="d32" />
+  <key attr.name="end_time" attr.type="string" for="node" id="d31" />
+  <key attr.name="egouuid" attr.type="string" for="node" id="d30" />
+  <key attr.name="people_in_company" attr.type="int" for="node" id="d29" />
+  <key attr.name="annual_sales" attr.type="int" for="node" id="d28" />
+  <key attr.name="start_time" attr.type="string" for="node" id="d27" />
+  <key attr.name="last_name" attr.type="string" for="node" id="d26" />
+  <key attr.name="first_name" attr.type="string" for="node" id="d25" />
+  <key attr.name="current_job" attr.type="int" for="node" id="d24" />
+  <key attr.name="salary" attr.type="int" for="node" id="d23" />
+  <key attr.name="context" attr.type="int" for="node" id="d22" />
+  <key attr.name="work" attr.type="int" for="node" id="d21" />
+  <key attr.name="age" attr.type="int" for="node" id="d20" />
+  <key attr.name="gender" attr.type="string" for="node" id="d19" />
+  <key attr.name="important_career" attr.type="boolean" for="node" id="d18" />
+  <key attr.name="interaction" attr.type="int" for="node" id="d17" />
+  <key attr.name="buyin" attr.type="boolean" for="node" id="d16" />
+  <key attr.name="nationality" attr.type="string" for="node" id="d15" />
+  <key attr.name="hinder_professional" attr.type="boolean" for="node" id="d14" />
+  <key attr.name="spend_free_time" attr.type="boolean" for="node" id="d13" />
+  <key attr.name="reports_to_ego" attr.type="boolean" for="node" id="d12" />
+  <key attr.name="functional_area" attr.type="int" for="node" id="d11" />
+  <key attr.name="helps" attr.type="int" for="node" id="d10" />
+  <key attr.name="important_professional" attr.type="boolean" for="node" id="d9" />
+  <key attr.name="life_partner" attr.type="boolean" for="node" id="d8" />
+  <key attr.name="strength" attr.type="int" for="node" id="d7" />
+  <key attr.name="trust" attr.type="boolean" for="node" id="d6" />
+  <key attr.name="time_knowing" attr.type="double" for="node" id="d5" />
+  <key attr.name="rank" attr.type="int" for="node" id="d4" />
+  <key attr.name="is_ego" attr.type="boolean" for="node" id="d3" />
+  <key attr.name="ego_reports_to" attr.type="boolean" for="node" id="d2" />
+  <key attr.name="alteruuid" attr.type="string" for="node" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="undirected">
+    <data key="d0">Marcin Sobka's Ego Network</data>
+    <node id="BD">
+      <data key="d1">77eab159-c8c2-458a-be88-2c256ae009ac</data>
+      <data key="d2">True</data>
+      <data key="d3">False</data>
+      <data key="d4">1</data>
+      <data key="d5">6.0</data>
+      <data key="d6">False</data>
+      <data key="d7">4</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">1</data>
+      <data key="d11">6</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">True</data>
+      <data key="d15">poland</data>
+      <data key="d16">False</data>
+      <data key="d17">1</data>
+      <data key="d18">False</data>
+      <data key="d19">M</data>
+      <data key="d20">40</data>
+      <data key="d21">1</data>
+      <data key="d22">6</data>
+    </node>
+    <node id="Marcin Sobka">
+      <data key="d23">5</data>
+      <data key="d24">5</data>
+      <data key="d25">Marcin</data>
+      <data key="d26">Sobka</data>
+      <data key="d27">2017-06-12 20:21:13</data>
+      <data key="d3">True</data>
+      <data key="d19">M</data>
+      <data key="d20">37</data>
+      <data key="d28">0</data>
+      <data key="d29">0</data>
+      <data key="d30">49d2c601-2956-428a-b9b2-dcac0a3bd9ac</data>
+      <data key="d31">2017-06-12 20:36:05</data>
+      <data key="d11">6</data>
+      <data key="d32">4.0</data>
+      <data key="d15">poland</data>
+      <data key="d33">4</data>
+      <data key="d34">None</data>
+      <data key="d35">marcin.sobka@gmail.com</data>
+    </node>
+    <node id="AG">
+      <data key="d1">a22fa1a1-ce6c-440c-8abc-b196b2e6f326</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+      <data key="d5">4.0</data>
+      <data key="d6">False</data>
+      <data key="d7">2</data>
+      <data key="d8">False</data>
+      <data key="d9">True</data>
+      <data key="d10">3</data>
+      <data key="d11">6</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">poland</data>
+      <data key="d16">True</data>
+      <data key="d17">2</data>
+      <data key="d18">False</data>
+      <data key="d19">F</data>
+      <data key="d20">40</data>
+      <data key="d21">3</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="AK">
+      <data key="d1">dd6c77cf-6876-4b03-b7e8-0b66bf786b54</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">1</data>
+      <data key="d5">4.0</data>
+      <data key="d6">False</data>
+      <data key="d7">3</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">3</data>
+      <data key="d11">6</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">poland</data>
+      <data key="d16">False</data>
+      <data key="d17">3</data>
+      <data key="d18">True</data>
+      <data key="d19">F</data>
+      <data key="d20">44</data>
+      <data key="d21">4</data>
+      <data key="d22">6</data>
+    </node>
+    <node id="PP">
+      <data key="d1">c0c97232-0e6c-4af2-a125-70533a98806f</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+      <data key="d5">13.0</data>
+      <data key="d6">True</data>
+      <data key="d7">2</data>
+      <data key="d8">False</data>
+      <data key="d9">True</data>
+      <data key="d10">3</data>
+      <data key="d11">8</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">poland</data>
+      <data key="d16">False</data>
+      <data key="d17">3</data>
+      <data key="d18">False</data>
+      <data key="d19">M</data>
+      <data key="d20">37</data>
+      <data key="d21">4</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="KS">
+      <data key="d1">322fa2ae-0fa3-4eab-85d5-78649a7a25d2</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+      <data key="d5">11.0</data>
+      <data key="d6">True</data>
+      <data key="d7">1</data>
+      <data key="d8">True</data>
+      <data key="d9">True</data>
+      <data key="d10">3</data>
+      <data key="d11">6</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">poland</data>
+      <data key="d16">False</data>
+      <data key="d17">1</data>
+      <data key="d18">False</data>
+      <data key="d19">F</data>
+      <data key="d20">38</data>
+      <data key="d21">4</data>
+      <data key="d22">9</data>
+    </node>
+    <node id="RCh">
+      <data key="d1">391b1c33-c63d-4f51-af51-7920b7e455bb</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">1</data>
+      <data key="d5">11.0</data>
+      <data key="d6">False</data>
+      <data key="d7">2</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">3</data>
+      <data key="d11">6</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">poland</data>
+      <data key="d16">False</data>
+      <data key="d17">4</data>
+      <data key="d18">True</data>
+      <data key="d19">M</data>
+      <data key="d20">44</data>
+      <data key="d21">4</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="WM">
+      <data key="d1">29ffab4c-5589-413f-becd-8251dd5ea0a7</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+      <data key="d5">8.0</data>
+      <data key="d6">False</data>
+      <data key="d7">2</data>
+      <data key="d8">False</data>
+      <data key="d9">True</data>
+      <data key="d10">4</data>
+      <data key="d11">6</data>
+      <data key="d12">True</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">poland</data>
+      <data key="d16">True</data>
+      <data key="d17">2</data>
+      <data key="d18">False</data>
+      <data key="d19">M</data>
+      <data key="d20">32</data>
+      <data key="d21">1</data>
+      <data key="d22">7</data>
+    </node>
+    <edge source="BD" target="Marcin Sobka">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">True</data>
+      <data key="d39">True</data>
+      <data key="d40">1</data>
+      <data key="d41">1</data>
+      <data key="d42">6</data>
+      <data key="d43">6.0</data>
+      <data key="d44">False</data>
+      <data key="d45">False</data>
+    </edge>
+    <edge source="BD" target="RCh">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d46">66d10595-4bc7-4e20-88f5-47dc6c24f956</data>
+    </edge>
+    <edge source="BD" target="AK">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d46">3b96952a-7ddc-4247-9544-452ac7108b90</data>
+    </edge>
+    <edge source="BD" target="AG">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d46">b3810c0c-5135-4b59-aace-cdef122df9b7</data>
+    </edge>
+    <edge source="BD" target="WM">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d46">d6bb6a6a-608c-421c-9218-a0d6417d3552</data>
+    </edge>
+    <edge source="Marcin Sobka" target="PP">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">False</data>
+      <data key="d39">False</data>
+      <data key="d40">3</data>
+      <data key="d41">3</data>
+      <data key="d42">7</data>
+      <data key="d43">13.0</data>
+      <data key="d44">False</data>
+      <data key="d45">False</data>
+    </edge>
+    <edge source="Marcin Sobka" target="AG">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">False</data>
+      <data key="d39">False</data>
+      <data key="d40">2</data>
+      <data key="d41">3</data>
+      <data key="d42">7</data>
+      <data key="d43">4.0</data>
+      <data key="d44">False</data>
+      <data key="d45">False</data>
+    </edge>
+    <edge source="Marcin Sobka" target="AK">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">False</data>
+      <data key="d39">False</data>
+      <data key="d40">3</data>
+      <data key="d41">3</data>
+      <data key="d42">6</data>
+      <data key="d43">4.0</data>
+      <data key="d44">False</data>
+      <data key="d45">True</data>
+    </edge>
+    <edge source="Marcin Sobka" target="KS">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d38">False</data>
+      <data key="d39">False</data>
+      <data key="d40">1</data>
+      <data key="d41">3</data>
+      <data key="d42">9</data>
+      <data key="d43">11.0</data>
+      <data key="d44">True</data>
+      <data key="d45">False</data>
+    </edge>
+    <edge source="Marcin Sobka" target="RCh">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">False</data>
+      <data key="d39">False</data>
+      <data key="d40">4</data>
+      <data key="d41">3</data>
+      <data key="d42">7</data>
+      <data key="d43">11.0</data>
+      <data key="d44">False</data>
+      <data key="d45">True</data>
+    </edge>
+    <edge source="Marcin Sobka" target="WM">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">False</data>
+      <data key="d39">False</data>
+      <data key="d40">2</data>
+      <data key="d41">4</data>
+      <data key="d42">7</data>
+      <data key="d43">8.0</data>
+      <data key="d44">False</data>
+      <data key="d45">False</data>
+    </edge>
+    <edge source="AG" target="AK">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d46">58f200e6-39f6-4dfc-a48c-731e6853a6f1</data>
+    </edge>
+    <edge source="AG" target="WM">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d46">ffd47a88-9870-4ec8-aa1a-37ef6554c742</data>
+    </edge>
+    <edge source="AK" target="RCh">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d46">1a3dbea8-14fb-40da-9e96-1bbff8ada805</data>
+    </edge>
+    <edge source="AK" target="WM">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d46">2864a595-240a-4d24-b373-4d1122c58674</data>
+    </edge>
+    <edge source="PP" target="RCh">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d46">3f4f8153-0c24-43f3-88e2-5ed47e34ce3f</data>
+    </edge>
+    <edge source="PP" target="WM">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d46">4dd7cc49-c756-4341-8ef5-a7968288edcf</data>
+    </edge>
+    <edge source="RCh" target="WM">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d46">6f541909-aa1a-405d-aeba-58fa0cb80750</data>
+    </edge>
+  </graph>
+</graphml>

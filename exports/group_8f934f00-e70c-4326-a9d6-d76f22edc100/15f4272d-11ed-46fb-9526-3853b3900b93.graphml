@@ -1,0 +1,1218 @@
+<?xml version="1.0" encoding="utf-8"?><graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="important" attr.type="boolean" for="edge" id="d46" />
+  <key attr.name="spouse" attr.type="boolean" for="edge" id="d45" />
+  <key attr.name="time" attr.type="double" for="edge" id="d44" />
+  <key attr.name="context" attr.type="int" for="edge" id="d43" />
+  <key attr.name="helps" attr.type="int" for="edge" id="d42" />
+  <key attr.name="frequency" attr.type="int" for="edge" id="d41" />
+  <key attr.name="boss" attr.type="boolean" for="edge" id="d40" />
+  <key attr.name="hinders" attr.type="boolean" for="edge" id="d39" />
+  <key attr.name="reluuid" attr.type="string" for="edge" id="d38" />
+  <key attr.name="weight" attr.type="int" for="edge" id="d37" />
+  <key attr.name="strength" attr.type="int" for="edge" id="d36" />
+  <key attr.name="email" attr.type="string" for="node" id="d35" />
+  <key attr.name="company" attr.type="string" for="node" id="d34" />
+  <key attr.name="education" attr.type="int" for="node" id="d33" />
+  <key attr.name="tenure" attr.type="double" for="node" id="d32" />
+  <key attr.name="end_time" attr.type="string" for="node" id="d31" />
+  <key attr.name="egouuid" attr.type="string" for="node" id="d30" />
+  <key attr.name="people_in_company" attr.type="int" for="node" id="d29" />
+  <key attr.name="annual_sales" attr.type="int" for="node" id="d28" />
+  <key attr.name="start_time" attr.type="string" for="node" id="d27" />
+  <key attr.name="last_name" attr.type="string" for="node" id="d26" />
+  <key attr.name="first_name" attr.type="string" for="node" id="d25" />
+  <key attr.name="current_job" attr.type="int" for="node" id="d24" />
+  <key attr.name="salary" attr.type="int" for="node" id="d23" />
+  <key attr.name="context" attr.type="int" for="node" id="d22" />
+  <key attr.name="work" attr.type="int" for="node" id="d21" />
+  <key attr.name="age" attr.type="int" for="node" id="d20" />
+  <key attr.name="gender" attr.type="string" for="node" id="d19" />
+  <key attr.name="important_career" attr.type="boolean" for="node" id="d18" />
+  <key attr.name="interaction" attr.type="int" for="node" id="d17" />
+  <key attr.name="buyin" attr.type="boolean" for="node" id="d16" />
+  <key attr.name="nationality" attr.type="string" for="node" id="d15" />
+  <key attr.name="hinder_professional" attr.type="boolean" for="node" id="d14" />
+  <key attr.name="spend_free_time" attr.type="boolean" for="node" id="d13" />
+  <key attr.name="reports_to_ego" attr.type="boolean" for="node" id="d12" />
+  <key attr.name="functional_area" attr.type="int" for="node" id="d11" />
+  <key attr.name="helps" attr.type="int" for="node" id="d10" />
+  <key attr.name="important_professional" attr.type="boolean" for="node" id="d9" />
+  <key attr.name="life_partner" attr.type="boolean" for="node" id="d8" />
+  <key attr.name="strength" attr.type="int" for="node" id="d7" />
+  <key attr.name="trust" attr.type="boolean" for="node" id="d6" />
+  <key attr.name="time_knowing" attr.type="double" for="node" id="d5" />
+  <key attr.name="rank" attr.type="int" for="node" id="d4" />
+  <key attr.name="is_ego" attr.type="boolean" for="node" id="d3" />
+  <key attr.name="ego_reports_to" attr.type="boolean" for="node" id="d2" />
+  <key attr.name="alteruuid" attr.type="string" for="node" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="undirected">
+    <data key="d0">Michał Paradowski's Ego Network</data>
+    <node id="Adam Guzek">
+      <data key="d1">5806e78a-dfd2-4c07-b277-67254fe4d015</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+      <data key="d5">16.0</data>
+      <data key="d6">True</data>
+      <data key="d7">1</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">5</data>
+      <data key="d11">1</data>
+      <data key="d12">True</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">poland</data>
+      <data key="d16">True</data>
+      <data key="d17">1</data>
+      <data key="d18">False</data>
+      <data key="d19">F</data>
+      <data key="d20">50</data>
+      <data key="d21">1</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="Aura Botorog">
+      <data key="d1">41d63ce5-1b02-45ce-88a4-396556037b4e</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+      <data key="d5">8.0</data>
+      <data key="d6">False</data>
+      <data key="d7">4</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">1</data>
+      <data key="d11">5</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">True</data>
+      <data key="d15">hungary</data>
+      <data key="d16">False</data>
+      <data key="d17">4</data>
+      <data key="d18">False</data>
+      <data key="d19">F</data>
+      <data key="d20">45</data>
+      <data key="d21">4</data>
+      <data key="d22">6</data>
+    </node>
+    <node id="Paweł Szarkowski">
+      <data key="d1">110f03b2-c026-4d61-af28-4c3d4f0fe211</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+      <data key="d5">16.0</data>
+      <data key="d6">True</data>
+      <data key="d7">2</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">2</data>
+      <data key="d11">8</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">poland</data>
+      <data key="d16">False</data>
+      <data key="d17">4</data>
+      <data key="d18">True</data>
+      <data key="d19">M</data>
+      <data key="d20">46</data>
+      <data key="d21">4</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="Gniewomir Kuciapski">
+      <data key="d1">b9a2ad51-8656-4180-a116-24c0f3548904</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+      <data key="d5">8.0</data>
+      <data key="d6">True</data>
+      <data key="d7">2</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">5</data>
+      <data key="d11">1</data>
+      <data key="d12">True</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">poland</data>
+      <data key="d16">True</data>
+      <data key="d17">1</data>
+      <data key="d18">False</data>
+      <data key="d19">M</data>
+      <data key="d20">43</data>
+      <data key="d21">1</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="Michał Paradowski">
+      <data key="d23">4</data>
+      <data key="d24">6</data>
+      <data key="d25">Michał</data>
+      <data key="d26">Paradowski</data>
+      <data key="d27">2017-06-13 21:07:20</data>
+      <data key="d3">True</data>
+      <data key="d19">M</data>
+      <data key="d20">40</data>
+      <data key="d28">0</data>
+      <data key="d29">0</data>
+      <data key="d30">15f4272d-11ed-46fb-9526-3853b3900b93</data>
+      <data key="d31">2017-06-13 21:47:13</data>
+      <data key="d11">1</data>
+      <data key="d32">5.0</data>
+      <data key="d15">poland</data>
+      <data key="d33">4</data>
+      <data key="d34">4 RESULTS</data>
+      <data key="d35">michalparad@gmail.com</data>
+    </node>
+    <node id="Irek Biliński">
+      <data key="d1">352bcf7c-055f-413c-8ff0-5b8cc587f3c0</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+      <data key="d5">6.0</data>
+      <data key="d6">True</data>
+      <data key="d7">1</data>
+      <data key="d8">False</data>
+      <data key="d9">True</data>
+      <data key="d10">5</data>
+      <data key="d11">3</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">poland</data>
+      <data key="d16">False</data>
+      <data key="d17">1</data>
+      <data key="d18">False</data>
+      <data key="d19">M</data>
+      <data key="d20">44</data>
+      <data key="d21">2</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="Barbara Paradowska">
+      <data key="d1">48537d02-dd71-41dd-ba78-fba66c25e68a</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+      <data key="d5">9.0</data>
+      <data key="d6">True</data>
+      <data key="d7">1</data>
+      <data key="d8">False</data>
+      <data key="d9">True</data>
+      <data key="d10">5</data>
+      <data key="d11">9</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">poland</data>
+      <data key="d16">False</data>
+      <data key="d17">1</data>
+      <data key="d18">False</data>
+      <data key="d19">F</data>
+      <data key="d20">41</data>
+      <data key="d21">5</data>
+      <data key="d22">9</data>
+    </node>
+    <node id="Sławomir Błaszczak">
+      <data key="d1">0e351265-9b14-4611-8651-98200db31c2a</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+      <data key="d5">20.0</data>
+      <data key="d6">False</data>
+      <data key="d7">4</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">2</data>
+      <data key="d11">2</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">True</data>
+      <data key="d15">poland</data>
+      <data key="d16">False</data>
+      <data key="d17">2</data>
+      <data key="d18">False</data>
+      <data key="d19">M</data>
+      <data key="d20">41</data>
+      <data key="d21">3</data>
+      <data key="d22">1</data>
+    </node>
+    <node id="Andreas Jacobsen">
+      <data key="d1">004591cf-db2c-4919-927c-dcac949f91df</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">1</data>
+      <data key="d5">12.0</data>
+      <data key="d6">True</data>
+      <data key="d7">3</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">3</data>
+      <data key="d11">8</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">poland</data>
+      <data key="d16">False</data>
+      <data key="d17">4</data>
+      <data key="d18">True</data>
+      <data key="d19">M</data>
+      <data key="d20">50</data>
+      <data key="d21">4</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="Emil Dębiński">
+      <data key="d1">d552decd-22df-4841-bb83-aa2042397f56</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+      <data key="d5">10.0</data>
+      <data key="d6">True</data>
+      <data key="d7">3</data>
+      <data key="d8">False</data>
+      <data key="d9">True</data>
+      <data key="d10">3</data>
+      <data key="d11">6</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">poland</data>
+      <data key="d16">False</data>
+      <data key="d17">4</data>
+      <data key="d18">False</data>
+      <data key="d19">M</data>
+      <data key="d20">41</data>
+      <data key="d21">4</data>
+      <data key="d22">1</data>
+    </node>
+    <node id="Tomasz Miśkiewicz">
+      <data key="d1">54dc8853-9d6f-49eb-9b85-b25604a07191</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">1</data>
+      <data key="d5">6.0</data>
+      <data key="d6">True</data>
+      <data key="d7">2</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">4</data>
+      <data key="d11">8</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">poland</data>
+      <data key="d16">False</data>
+      <data key="d17">3</data>
+      <data key="d18">False</data>
+      <data key="d19">M</data>
+      <data key="d20">52</data>
+      <data key="d21">4</data>
+      <data key="d22">6</data>
+    </node>
+    <node id="Piotr Rutkowski">
+      <data key="d1">e33a4e18-2365-4bb6-9be5-760ba856ee3f</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">1</data>
+      <data key="d5">6.0</data>
+      <data key="d6">True</data>
+      <data key="d7">2</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">4</data>
+      <data key="d11">8</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">poland</data>
+      <data key="d16">False</data>
+      <data key="d17">3</data>
+      <data key="d18">False</data>
+      <data key="d19">M</data>
+      <data key="d20">45</data>
+      <data key="d21">4</data>
+      <data key="d22">6</data>
+    </node>
+    <node id="Krzysztof Pimpicki">
+      <data key="d1">5fc7d541-ea9d-40af-ac25-ffa5f7174a32</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+      <data key="d5">20.0</data>
+      <data key="d6">False</data>
+      <data key="d7">4</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">2</data>
+      <data key="d11">2</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">True</data>
+      <data key="d15">poland</data>
+      <data key="d16">False</data>
+      <data key="d17">3</data>
+      <data key="d18">False</data>
+      <data key="d19">M</data>
+      <data key="d20">41</data>
+      <data key="d21">3</data>
+      <data key="d22">1</data>
+    </node>
+    <node id="Marta Florczak">
+      <data key="d1">c3e6228c-eb8b-47f7-8b30-b12920e8e561</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+      <data key="d5">4.0</data>
+      <data key="d6">True</data>
+      <data key="d7">2</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">3</data>
+      <data key="d11">1</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">poland</data>
+      <data key="d16">False</data>
+      <data key="d17">4</data>
+      <data key="d18">False</data>
+      <data key="d19">F</data>
+      <data key="d20">45</data>
+      <data key="d21">4</data>
+      <data key="d22">6</data>
+    </node>
+    <node id="Zuzanna Warowna">
+      <data key="d1">28a6051d-2b36-4132-8285-af648f0d1e72</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+      <data key="d5">16.0</data>
+      <data key="d6">True</data>
+      <data key="d7">1</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">4</data>
+      <data key="d11">8</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">poland</data>
+      <data key="d16">False</data>
+      <data key="d17">3</data>
+      <data key="d18">False</data>
+      <data key="d19">F</data>
+      <data key="d20">41</data>
+      <data key="d21">4</data>
+      <data key="d22">6</data>
+    </node>
+    <node id="Ewa Błaszczak">
+      <data key="d1">afb1ba5e-6575-4410-a2b1-6b1242b010e2</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+      <data key="d5">6.0</data>
+      <data key="d6">False</data>
+      <data key="d7">4</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">1</data>
+      <data key="d11">7</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">True</data>
+      <data key="d15">poland</data>
+      <data key="d16">False</data>
+      <data key="d17">4</data>
+      <data key="d18">False</data>
+      <data key="d19">F</data>
+      <data key="d20">40</data>
+      <data key="d21">3</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="Filip Popławski">
+      <data key="d1">f42a6c18-fe41-4845-8328-82c268e5fef7</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+      <data key="d5">16.0</data>
+      <data key="d6">True</data>
+      <data key="d7">2</data>
+      <data key="d8">False</data>
+      <data key="d9">True</data>
+      <data key="d10">3</data>
+      <data key="d11">8</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">poland</data>
+      <data key="d16">False</data>
+      <data key="d17">4</data>
+      <data key="d18">False</data>
+      <data key="d19">M</data>
+      <data key="d20">41</data>
+      <data key="d21">4</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="Krzysztof Potyrała">
+      <data key="d1">3420d60b-4cbd-40d6-a1ea-1fc943210910</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">1</data>
+      <data key="d5">16.0</data>
+      <data key="d6">True</data>
+      <data key="d7">2</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">3</data>
+      <data key="d11">7</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">poland</data>
+      <data key="d16">False</data>
+      <data key="d17">4</data>
+      <data key="d18">True</data>
+      <data key="d19">M</data>
+      <data key="d20">50</data>
+      <data key="d21">4</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="Piotr Chęcielewski">
+      <data key="d1">c7ff3fa3-7fbd-4741-8c71-7916c7cda0ed</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">1</data>
+      <data key="d5">16.0</data>
+      <data key="d6">True</data>
+      <data key="d7">2</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">3</data>
+      <data key="d11">5</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">poland</data>
+      <data key="d16">False</data>
+      <data key="d17">3</data>
+      <data key="d18">True</data>
+      <data key="d19">M</data>
+      <data key="d20">50</data>
+      <data key="d21">4</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="Claus Aagard">
+      <data key="d1">936eea76-c2b4-4e81-b515-3d98e15d4313</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">1</data>
+      <data key="d5">12.0</data>
+      <data key="d6">True</data>
+      <data key="d7">2</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">3</data>
+      <data key="d11">6</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">denmark</data>
+      <data key="d16">False</data>
+      <data key="d17">4</data>
+      <data key="d18">True</data>
+      <data key="d19">M</data>
+      <data key="d20">50</data>
+      <data key="d21">4</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="Damian Kozłowski">
+      <data key="d1">3f6c418a-d900-45ac-b0d7-5f5d8fa9e407</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+      <data key="d5">12.0</data>
+      <data key="d6">False</data>
+      <data key="d7">4</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">1</data>
+      <data key="d11">1</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">True</data>
+      <data key="d15">poland</data>
+      <data key="d16">False</data>
+      <data key="d17">4</data>
+      <data key="d18">False</data>
+      <data key="d19">M</data>
+      <data key="d20">37</data>
+      <data key="d21">4</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="Iza Starnawska">
+      <data key="d1">e2ae9d5f-fa91-49f2-812b-5c67b9ed5a4f</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+      <data key="d5">6.0</data>
+      <data key="d6">True</data>
+      <data key="d7">1</data>
+      <data key="d8">False</data>
+      <data key="d9">True</data>
+      <data key="d10">5</data>
+      <data key="d11">3</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">poland</data>
+      <data key="d16">False</data>
+      <data key="d17">2</data>
+      <data key="d18">False</data>
+      <data key="d19">F</data>
+      <data key="d20">41</data>
+      <data key="d21">2</data>
+      <data key="d22">7</data>
+    </node>
+    <edge source="Adam Guzek" target="Paweł Szarkowski">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">7071e7af-6c12-4500-a702-a7f70a9b36ac</data>
+    </edge>
+    <edge source="Adam Guzek" target="Piotr Chęcielewski">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">9bacf35c-3534-438d-9145-738af3dc1ad8</data>
+    </edge>
+    <edge source="Adam Guzek" target="Zuzanna Warowna">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">ad590766-9ead-44ee-a931-52ed1c497214</data>
+    </edge>
+    <edge source="Adam Guzek" target="Gniewomir Kuciapski">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d38">b10ac371-5d52-492b-97b3-534f045f748c</data>
+    </edge>
+    <edge source="Adam Guzek" target="Michał Paradowski">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">1</data>
+      <data key="d42">5</data>
+      <data key="d43">7</data>
+      <data key="d44">16.0</data>
+      <data key="d45">False</data>
+      <data key="d46">False</data>
+    </edge>
+    <edge source="Adam Guzek" target="Piotr Rutkowski">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">5387f42a-2171-48a9-8270-da4aeb372970</data>
+    </edge>
+    <edge source="Adam Guzek" target="Krzysztof Pimpicki">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">780f4d90-2717-4b34-8be5-6a80fda693b5</data>
+    </edge>
+    <edge source="Adam Guzek" target="Ewa Błaszczak">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">a97ac5fe-7ab7-4661-835a-96245d5e3afc</data>
+    </edge>
+    <edge source="Adam Guzek" target="Irek Biliński">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">039ad14b-d6a3-4bc0-87f5-654ca72c1a64</data>
+    </edge>
+    <edge source="Adam Guzek" target="Andreas Jacobsen">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">751ecdf3-bdbd-4a73-8c10-111479ac2cb0</data>
+    </edge>
+    <edge source="Adam Guzek" target="Sławomir Błaszczak">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">b5aaec23-1bb8-4d4b-adf4-057108e3fcf4</data>
+    </edge>
+    <edge source="Adam Guzek" target="Iza Starnawska">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">209397ad-416c-4535-95ba-7bb11acb6c59</data>
+    </edge>
+    <edge source="Adam Guzek" target="Filip Popławski">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">5f191265-8a45-4db3-acfd-f4aaad076dc7</data>
+    </edge>
+    <edge source="Adam Guzek" target="Krzysztof Potyrała">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">a03bb37c-6dc3-442e-bf93-ce7617fae493</data>
+    </edge>
+    <edge source="Aura Botorog" target="Paweł Szarkowski">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">8a26d05e-ace5-47d3-9e2b-454476d3c544</data>
+    </edge>
+    <edge source="Aura Botorog" target="Piotr Chęcielewski">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">da214870-4e4f-41db-b2d6-65f1dcdc364d</data>
+    </edge>
+    <edge source="Aura Botorog" target="Claus Aagard">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">05919732-203a-4eb0-ac38-4cab7e7819ab</data>
+    </edge>
+    <edge source="Aura Botorog" target="Michał Paradowski">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d39">True</data>
+      <data key="d40">False</data>
+      <data key="d41">4</data>
+      <data key="d42">1</data>
+      <data key="d43">6</data>
+      <data key="d44">8.0</data>
+      <data key="d45">False</data>
+      <data key="d46">False</data>
+    </edge>
+    <edge source="Aura Botorog" target="Andreas Jacobsen">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">ad896e56-5b0f-418c-b573-15f29af3bf52</data>
+    </edge>
+    <edge source="Aura Botorog" target="Filip Popławski">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">ac3a0271-a3e0-4858-b07b-d60546477ed6</data>
+    </edge>
+    <edge source="Aura Botorog" target="Krzysztof Potyrała">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">0bb53403-f253-4d7c-89a4-fc53733c118f</data>
+    </edge>
+    <edge source="Paweł Szarkowski" target="Piotr Chęcielewski">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">d2c3f824-df23-4e4e-91ae-77eb5ccb9e47</data>
+    </edge>
+    <edge source="Paweł Szarkowski" target="Claus Aagard">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">6b9d9317-4468-498b-9523-662b883bdd0a</data>
+    </edge>
+    <edge source="Paweł Szarkowski" target="Michał Paradowski">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">4</data>
+      <data key="d42">2</data>
+      <data key="d43">7</data>
+      <data key="d44">16.0</data>
+      <data key="d45">False</data>
+      <data key="d46">True</data>
+    </edge>
+    <edge source="Paweł Szarkowski" target="Filip Popławski">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">742125da-2976-47db-ae4c-eecfb5e8ac9f</data>
+    </edge>
+    <edge source="Paweł Szarkowski" target="Krzysztof Potyrała">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">e49e6e4e-00f2-47ff-80ea-10dd79990a1f</data>
+    </edge>
+    <edge source="Gniewomir Kuciapski" target="Tomasz Miśkiewicz">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">b6ab0aca-8c53-455d-87c6-86713c4bb25b</data>
+    </edge>
+    <edge source="Gniewomir Kuciapski" target="Zuzanna Warowna">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">d5fff588-d319-4752-9124-add0b3575381</data>
+    </edge>
+    <edge source="Gniewomir Kuciapski" target="Piotr Rutkowski">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">256fddd1-d7c2-4ece-8320-3f306f72eaae</data>
+    </edge>
+    <edge source="Gniewomir Kuciapski" target="Michał Paradowski">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">1</data>
+      <data key="d42">5</data>
+      <data key="d43">7</data>
+      <data key="d44">8.0</data>
+      <data key="d45">False</data>
+      <data key="d46">False</data>
+    </edge>
+    <edge source="Gniewomir Kuciapski" target="Damian Kozłowski">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">ed102048-ce0c-4d3e-947a-b7f0f269caec</data>
+    </edge>
+    <edge source="Gniewomir Kuciapski" target="Krzysztof Pimpicki">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">03091235-0b65-4845-b1c4-16bc9adc33b2</data>
+    </edge>
+    <edge source="Gniewomir Kuciapski" target="Ewa Błaszczak">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">9f2c692b-9452-406f-94db-cb3139720ce2</data>
+    </edge>
+    <edge source="Gniewomir Kuciapski" target="Irek Biliński">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">9e070561-e233-42c3-b814-6dfa702487c1</data>
+    </edge>
+    <edge source="Gniewomir Kuciapski" target="Barbara Paradowska">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">7813f21f-28b5-4007-8716-5df8fdf6de5a</data>
+    </edge>
+    <edge source="Gniewomir Kuciapski" target="Iza Starnawska">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">154655c1-ac81-4dd9-b55f-47f99e4fe438</data>
+    </edge>
+    <edge source="Gniewomir Kuciapski" target="Sławomir Błaszczak">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">d9913e0f-943c-4d5e-bdb7-fef5ca875df5</data>
+    </edge>
+    <edge source="Gniewomir Kuciapski" target="Filip Popławski">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">e1f84d3c-58be-4609-b316-5c1b03ffe9ad</data>
+    </edge>
+    <edge source="Michał Paradowski" target="Zuzanna Warowna">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">3</data>
+      <data key="d42">4</data>
+      <data key="d43">6</data>
+      <data key="d44">16.0</data>
+      <data key="d45">False</data>
+      <data key="d46">False</data>
+    </edge>
+    <edge source="Michał Paradowski" target="Piotr Chęcielewski">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">3</data>
+      <data key="d42">3</data>
+      <data key="d43">7</data>
+      <data key="d44">16.0</data>
+      <data key="d45">False</data>
+      <data key="d46">True</data>
+    </edge>
+    <edge source="Michał Paradowski" target="Claus Aagard">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">4</data>
+      <data key="d42">3</data>
+      <data key="d43">7</data>
+      <data key="d44">12.0</data>
+      <data key="d45">False</data>
+      <data key="d46">True</data>
+    </edge>
+    <edge source="Michał Paradowski" target="Tomasz Miśkiewicz">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">3</data>
+      <data key="d42">4</data>
+      <data key="d43">6</data>
+      <data key="d44">6.0</data>
+      <data key="d45">False</data>
+      <data key="d46">False</data>
+    </edge>
+    <edge source="Michał Paradowski" target="Iza Starnawska">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">2</data>
+      <data key="d42">5</data>
+      <data key="d43">7</data>
+      <data key="d44">6.0</data>
+      <data key="d45">False</data>
+      <data key="d46">False</data>
+    </edge>
+    <edge source="Michał Paradowski" target="Piotr Rutkowski">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">3</data>
+      <data key="d42">4</data>
+      <data key="d43">6</data>
+      <data key="d44">6.0</data>
+      <data key="d45">False</data>
+      <data key="d46">False</data>
+    </edge>
+    <edge source="Michał Paradowski" target="Damian Kozłowski">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d39">True</data>
+      <data key="d40">False</data>
+      <data key="d41">4</data>
+      <data key="d42">1</data>
+      <data key="d43">7</data>
+      <data key="d44">12.0</data>
+      <data key="d45">False</data>
+      <data key="d46">False</data>
+    </edge>
+    <edge source="Michał Paradowski" target="Krzysztof Pimpicki">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d39">True</data>
+      <data key="d40">False</data>
+      <data key="d41">3</data>
+      <data key="d42">2</data>
+      <data key="d43">1</data>
+      <data key="d44">20.0</data>
+      <data key="d45">False</data>
+      <data key="d46">False</data>
+    </edge>
+    <edge source="Michał Paradowski" target="Marta Florczak">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">4</data>
+      <data key="d42">3</data>
+      <data key="d43">6</data>
+      <data key="d44">4.0</data>
+      <data key="d45">False</data>
+      <data key="d46">False</data>
+    </edge>
+    <edge source="Michał Paradowski" target="Ewa Błaszczak">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d39">True</data>
+      <data key="d40">False</data>
+      <data key="d41">4</data>
+      <data key="d42">1</data>
+      <data key="d43">7</data>
+      <data key="d44">6.0</data>
+      <data key="d45">False</data>
+      <data key="d46">False</data>
+    </edge>
+    <edge source="Michał Paradowski" target="Irek Biliński">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">1</data>
+      <data key="d42">5</data>
+      <data key="d43">7</data>
+      <data key="d44">6.0</data>
+      <data key="d45">False</data>
+      <data key="d46">False</data>
+    </edge>
+    <edge source="Michał Paradowski" target="Barbara Paradowska">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">1</data>
+      <data key="d42">5</data>
+      <data key="d43">9</data>
+      <data key="d44">9.0</data>
+      <data key="d45">False</data>
+      <data key="d46">False</data>
+    </edge>
+    <edge source="Michał Paradowski" target="Andreas Jacobsen">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">4</data>
+      <data key="d42">3</data>
+      <data key="d43">7</data>
+      <data key="d44">12.0</data>
+      <data key="d45">False</data>
+      <data key="d46">True</data>
+    </edge>
+    <edge source="Michał Paradowski" target="Sławomir Błaszczak">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d39">True</data>
+      <data key="d40">False</data>
+      <data key="d41">2</data>
+      <data key="d42">2</data>
+      <data key="d43">1</data>
+      <data key="d44">20.0</data>
+      <data key="d45">False</data>
+      <data key="d46">False</data>
+    </edge>
+    <edge source="Michał Paradowski" target="Emil Dębiński">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">4</data>
+      <data key="d42">3</data>
+      <data key="d43">1</data>
+      <data key="d44">10.0</data>
+      <data key="d45">False</data>
+      <data key="d46">False</data>
+    </edge>
+    <edge source="Michał Paradowski" target="Filip Popławski">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">4</data>
+      <data key="d42">3</data>
+      <data key="d43">7</data>
+      <data key="d44">16.0</data>
+      <data key="d45">False</data>
+      <data key="d46">False</data>
+    </edge>
+    <edge source="Michał Paradowski" target="Krzysztof Potyrała">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">4</data>
+      <data key="d42">3</data>
+      <data key="d43">7</data>
+      <data key="d44">16.0</data>
+      <data key="d45">False</data>
+      <data key="d46">True</data>
+    </edge>
+    <edge source="Irek Biliński" target="Piotr Rutkowski">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">e06bf95f-b166-441e-8570-bdd4824e4183</data>
+    </edge>
+    <edge source="Irek Biliński" target="Krzysztof Pimpicki">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">f9677164-b7ab-40ba-b8c5-62fac845adde</data>
+    </edge>
+    <edge source="Irek Biliński" target="Marta Florczak">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">6a939b4f-d1c8-463f-8483-301efdf73a87</data>
+    </edge>
+    <edge source="Irek Biliński" target="Ewa Błaszczak">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">9cfd9d73-1f68-4d2e-9c79-0b2c65404436</data>
+    </edge>
+    <edge source="Irek Biliński" target="Barbara Paradowska">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">0767aae4-45e2-4a7e-8478-4bdb4d03afe2</data>
+    </edge>
+    <edge source="Irek Biliński" target="Sławomir Błaszczak">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">17159181-0774-401d-ab2a-19093dbc8f01</data>
+    </edge>
+    <edge source="Irek Biliński" target="Iza Starnawska">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">0f6190d2-782d-435b-a174-8ac71ac5a7fd</data>
+    </edge>
+    <edge source="Barbara Paradowska" target="Zuzanna Warowna">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">1243482a-de18-4e52-9b38-6cc88716f4f8</data>
+    </edge>
+    <edge source="Barbara Paradowska" target="Tomasz Miśkiewicz">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">75d5bbc1-8027-4134-8625-f06cafac6740</data>
+    </edge>
+    <edge source="Barbara Paradowska" target="Damian Kozłowski">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">bafd6577-a690-4b10-ae87-c59dee41453a</data>
+    </edge>
+    <edge source="Barbara Paradowska" target="Krzysztof Pimpicki">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">9582f804-83cb-4f7a-bf07-09b32be4c8df</data>
+    </edge>
+    <edge source="Barbara Paradowska" target="Sławomir Błaszczak">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">183f90a6-6bcd-4e80-a725-74147e387798</data>
+    </edge>
+    <edge source="Barbara Paradowska" target="Iza Starnawska">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">4589765f-11c8-4616-a4ac-775de41951d5</data>
+    </edge>
+    <edge source="Barbara Paradowska" target="Filip Popławski">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">ed396cf4-1ba9-45be-99f2-7de47281dfa7</data>
+    </edge>
+    <edge source="Sławomir Błaszczak" target="Tomasz Miśkiewicz">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">9ac5f901-9986-4f41-9457-ba09693baa7e</data>
+    </edge>
+    <edge source="Sławomir Błaszczak" target="Damian Kozłowski">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">e1074421-b9fa-4e0b-a63e-d482ec75e16d</data>
+    </edge>
+    <edge source="Sławomir Błaszczak" target="Krzysztof Pimpicki">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">31cd7008-f199-4ad7-87c7-c51538ce9266</data>
+    </edge>
+    <edge source="Sławomir Błaszczak" target="Emil Dębiński">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">01138bb2-052f-4bd4-b422-66263134a100</data>
+    </edge>
+    <edge source="Sławomir Błaszczak" target="Ewa Błaszczak">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d38">b9b48133-10ce-4d77-981e-3ded62ea1500</data>
+    </edge>
+    <edge source="Sławomir Błaszczak" target="Iza Starnawska">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">74b331ad-a8a2-4a07-a214-a877d747093d</data>
+    </edge>
+    <edge source="Sławomir Błaszczak" target="Marta Florczak">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">303cd4b9-9567-42dd-9d98-fb44c3444f47</data>
+    </edge>
+    <edge source="Andreas Jacobsen" target="Zuzanna Warowna">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">518a8d3f-7b37-4a4d-aa92-503daf8a8e57</data>
+    </edge>
+    <edge source="Andreas Jacobsen" target="Piotr Chęcielewski">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">83b807df-56f7-45fc-9694-542d36a6a18f</data>
+    </edge>
+    <edge source="Andreas Jacobsen" target="Claus Aagard">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">3f756490-60c7-47b7-8d47-8a7e574ade79</data>
+    </edge>
+    <edge source="Andreas Jacobsen" target="Filip Popławski">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">46d263d4-b28e-4b36-a441-05990ac9d054</data>
+    </edge>
+    <edge source="Andreas Jacobsen" target="Krzysztof Potyrała">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">69fe6593-f610-4439-9a2e-b21f9f537990</data>
+    </edge>
+    <edge source="Emil Dębiński" target="Krzysztof Pimpicki">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">d904d415-4c01-490c-a3d4-9d7b3e71ae17</data>
+    </edge>
+    <edge source="Tomasz Miśkiewicz" target="Zuzanna Warowna">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">0ef89428-d9a3-4914-8f2e-7b2fd64f3d90</data>
+    </edge>
+    <edge source="Tomasz Miśkiewicz" target="Krzysztof Pimpicki">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">c7117cbe-2c9e-4819-af70-2849658393a1</data>
+    </edge>
+    <edge source="Tomasz Miśkiewicz" target="Ewa Błaszczak">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">59f64fc1-6724-48d4-884f-8a96c037bea0</data>
+    </edge>
+    <edge source="Tomasz Miśkiewicz" target="Iza Starnawska">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">e3993ab6-834a-4335-b700-f82026808e92</data>
+    </edge>
+    <edge source="Piotr Rutkowski" target="Krzysztof Pimpicki">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">8fc03c3d-9aec-4f2d-99f2-ad1aff7067db</data>
+    </edge>
+    <edge source="Krzysztof Pimpicki" target="Damian Kozłowski">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">a4657171-deb9-4bb5-888d-672a6a8b52cc</data>
+    </edge>
+    <edge source="Krzysztof Pimpicki" target="Ewa Błaszczak">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">7f595697-f76d-46e1-9012-759ee914c6d2</data>
+    </edge>
+    <edge source="Krzysztof Pimpicki" target="Iza Starnawska">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">cb229aac-471b-4dad-bc66-915c7edd4e31</data>
+    </edge>
+    <edge source="Marta Florczak" target="Ewa Błaszczak">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">add0edcf-b142-4102-9e0a-f76a2eb704e0</data>
+    </edge>
+    <edge source="Zuzanna Warowna" target="Piotr Chęcielewski">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">dec54437-70c8-4ccd-82a2-b961ae3335e1</data>
+    </edge>
+    <edge source="Ewa Błaszczak" target="Iza Starnawska">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">8bf54f93-5d4a-4f95-87ff-042a8811698f</data>
+    </edge>
+    <edge source="Filip Popławski" target="Piotr Chęcielewski">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">d5f923bd-a837-4757-8853-bebbae6b66a9</data>
+    </edge>
+    <edge source="Filip Popławski" target="Claus Aagard">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">a6f5970a-ba43-42a6-b0ef-e3c507556df2</data>
+    </edge>
+    <edge source="Filip Popławski" target="Krzysztof Potyrała">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">d1c24ba0-cb5b-4ff0-8035-d1992ccdd47f</data>
+    </edge>
+    <edge source="Krzysztof Potyrała" target="Piotr Chęcielewski">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">28ee1f7d-80f6-4152-ae39-a325069b4901</data>
+    </edge>
+    <edge source="Krzysztof Potyrała" target="Claus Aagard">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">73ccfca2-c693-408c-bc04-ce10952ece2d</data>
+    </edge>
+    <edge source="Piotr Chęcielewski" target="Claus Aagard">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">0b0a7509-4a5f-4012-97e6-e4fc3d19b6b4</data>
+    </edge>
+  </graph>
+</graphml>

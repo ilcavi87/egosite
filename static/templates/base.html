@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+{% load static %}
+{% load bootstrap3 %}
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>{% block title %}Ego network{% if title %} - {{ title }}{% endif %}{% endblock %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Social Network Survey">
+    <meta name="author" content="Jordi Torrents">
+    {% bootstrap_css %}
+    {# Display django.contrib.messages as Bootstrap alerts }
+    {% bootstrap_messages %}
+    <link href="{% static 'egonet/egonet.css' %}" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        .top-row {
+            padding-bottom: 10px;
+        }
+    </style>
+    <!--[if lt IE 9]>
+        <script type="text/javascript">
+            window.alert("Your browser (Internet Explorer < 9) is not supported. Please, upgrade it or, better, use Mozilla Firefox or Google Chrome")
+        </script>
+        <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    {% block extra_head %}{% endblock %}
+</head>
+
+<body>
+
+        <!--
+    <nav class="navbar navbar-inverse">
+        <div class="navbar-header">
+            <a class="navbar-brand" href={% url 'start' %}>Social Network Survey</a>
+        </div>
+        <div class="navbar-header navbar-right">
+            <p class="navbar-text">Welcome!</p>
+        </div>
+    </nav>
+        -->
+
+
+    <!-- Static navbar -->
+    <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" 
+                        data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href={% url 'start' %}>Social Network Survey</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href={% url 'sample-report' %}>Sample Report</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href={% url 'terms' %}>Terms and conditions</a></li>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div>
+    </div>
+
+    <div class="container">
+
+        {% block content %}{% endblock %}
+
+       <footer class="row">
+            <div class="col-xs-6">
+                <p>Social Network Survey</p>
+            </div>
+            <div class="col-xs-6" style="text-align:right">
+                <p>Copyright 2014 nwebtools</p>
+            </div>
+        </footer>
+
+    </div> <!-- container -->
+
+    <!-- Add javascript at the end for faster loading -->
+    {% bootstrap_javascript jquery=True %}
+</body>
+</html>
+

@@ -1,0 +1,1327 @@
+<?xml version="1.0" encoding="utf-8"?><graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="important" attr.type="boolean" for="edge" id="d46" />
+  <key attr.name="spouse" attr.type="boolean" for="edge" id="d45" />
+  <key attr.name="time" attr.type="double" for="edge" id="d44" />
+  <key attr.name="context" attr.type="int" for="edge" id="d43" />
+  <key attr.name="helps" attr.type="int" for="edge" id="d42" />
+  <key attr.name="frequency" attr.type="int" for="edge" id="d41" />
+  <key attr.name="boss" attr.type="boolean" for="edge" id="d40" />
+  <key attr.name="hinders" attr.type="boolean" for="edge" id="d39" />
+  <key attr.name="reluuid" attr.type="string" for="edge" id="d38" />
+  <key attr.name="weight" attr.type="int" for="edge" id="d37" />
+  <key attr.name="strength" attr.type="int" for="edge" id="d36" />
+  <key attr.name="email" attr.type="string" for="node" id="d35" />
+  <key attr.name="company" attr.type="string" for="node" id="d34" />
+  <key attr.name="education" attr.type="int" for="node" id="d33" />
+  <key attr.name="tenure" attr.type="double" for="node" id="d32" />
+  <key attr.name="end_time" attr.type="string" for="node" id="d31" />
+  <key attr.name="egouuid" attr.type="string" for="node" id="d30" />
+  <key attr.name="people_in_company" attr.type="int" for="node" id="d29" />
+  <key attr.name="annual_sales" attr.type="int" for="node" id="d28" />
+  <key attr.name="start_time" attr.type="string" for="node" id="d27" />
+  <key attr.name="last_name" attr.type="string" for="node" id="d26" />
+  <key attr.name="first_name" attr.type="string" for="node" id="d25" />
+  <key attr.name="current_job" attr.type="int" for="node" id="d24" />
+  <key attr.name="salary" attr.type="int" for="node" id="d23" />
+  <key attr.name="context" attr.type="int" for="node" id="d22" />
+  <key attr.name="work" attr.type="int" for="node" id="d21" />
+  <key attr.name="age" attr.type="int" for="node" id="d20" />
+  <key attr.name="gender" attr.type="string" for="node" id="d19" />
+  <key attr.name="important_career" attr.type="boolean" for="node" id="d18" />
+  <key attr.name="interaction" attr.type="int" for="node" id="d17" />
+  <key attr.name="buyin" attr.type="boolean" for="node" id="d16" />
+  <key attr.name="nationality" attr.type="string" for="node" id="d15" />
+  <key attr.name="hinder_professional" attr.type="boolean" for="node" id="d14" />
+  <key attr.name="spend_free_time" attr.type="boolean" for="node" id="d13" />
+  <key attr.name="reports_to_ego" attr.type="boolean" for="node" id="d12" />
+  <key attr.name="functional_area" attr.type="int" for="node" id="d11" />
+  <key attr.name="helps" attr.type="int" for="node" id="d10" />
+  <key attr.name="important_professional" attr.type="boolean" for="node" id="d9" />
+  <key attr.name="life_partner" attr.type="boolean" for="node" id="d8" />
+  <key attr.name="strength" attr.type="int" for="node" id="d7" />
+  <key attr.name="trust" attr.type="boolean" for="node" id="d6" />
+  <key attr.name="time_knowing" attr.type="double" for="node" id="d5" />
+  <key attr.name="rank" attr.type="int" for="node" id="d4" />
+  <key attr.name="is_ego" attr.type="boolean" for="node" id="d3" />
+  <key attr.name="ego_reports_to" attr.type="boolean" for="node" id="d2" />
+  <key attr.name="alteruuid" attr.type="string" for="node" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="undirected">
+    <data key="d0">Hildo Brilleman's Ego Network</data>
+    <node id="Jose">
+      <data key="d1">f5d284cb-158c-4494-87be-3a50e68de8ce</data>
+      <data key="d2">True</data>
+      <data key="d3">False</data>
+      <data key="d4">1</data>
+      <data key="d5">3.0</data>
+      <data key="d6">True</data>
+      <data key="d7">2</data>
+      <data key="d8">False</data>
+      <data key="d9">True</data>
+      <data key="d10">5</data>
+      <data key="d11">8</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">france</data>
+      <data key="d16">True</data>
+      <data key="d17">1</data>
+      <data key="d18">True</data>
+      <data key="d19">M</data>
+      <data key="d20">56</data>
+      <data key="d21">1</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="Suus">
+      <data key="d1">4b476f03-7c4a-4999-9ba8-44d43c3feb9a</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+      <data key="d5">23.0</data>
+      <data key="d6">True</data>
+      <data key="d7">1</data>
+      <data key="d8">True</data>
+      <data key="d9">True</data>
+      <data key="d10">5</data>
+      <data key="d11">5</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">True</data>
+      <data key="d15">netherlands</data>
+      <data key="d16">False</data>
+      <data key="d17">1</data>
+      <data key="d18">True</data>
+      <data key="d19">F</data>
+      <data key="d20">46</data>
+      <data key="d21">5</data>
+      <data key="d22">8</data>
+    </node>
+    <node id="Michael B">
+      <data key="d1">1c3edb46-cb28-42e6-9c6f-f3861d84622b</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+      <data key="d5">1.0</data>
+      <data key="d6">True</data>
+      <data key="d7">4</data>
+      <data key="d8">False</data>
+      <data key="d9">True</data>
+      <data key="d10">3</data>
+      <data key="d11">2</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">germany</data>
+      <data key="d16">False</data>
+      <data key="d17">4</data>
+      <data key="d18">False</data>
+      <data key="d19">M</data>
+      <data key="d20">55</data>
+      <data key="d21">5</data>
+      <data key="d22">6</data>
+    </node>
+    <node id="Edwin">
+      <data key="d1">f2ef1782-53d0-41aa-9c2f-767f11d4da20</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+      <data key="d5">30.0</data>
+      <data key="d6">True</data>
+      <data key="d7">2</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">3</data>
+      <data key="d11">9</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">netherlands</data>
+      <data key="d16">False</data>
+      <data key="d17">2</data>
+      <data key="d18">False</data>
+      <data key="d19">M</data>
+      <data key="d20">49</data>
+      <data key="d21">4</data>
+      <data key="d22">1</data>
+    </node>
+    <node id="Delene van der Horst">
+      <data key="d1">9242469a-6153-4e67-8f98-3b1bcf691c3d</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+      <data key="d5">2.0</data>
+      <data key="d6">True</data>
+      <data key="d7">3</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">3</data>
+      <data key="d11">3</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">True</data>
+      <data key="d15">south africa</data>
+      <data key="d16">False</data>
+      <data key="d17">1</data>
+      <data key="d18">False</data>
+      <data key="d19">F</data>
+      <data key="d20">46</data>
+      <data key="d21">1</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="Sybrant">
+      <data key="d1">4de8ddab-a294-4127-9200-310b797f2372</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+      <data key="d5">20.0</data>
+      <data key="d6">False</data>
+      <data key="d7">2</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">3</data>
+      <data key="d11">4</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">netherlands</data>
+      <data key="d16">False</data>
+      <data key="d17">3</data>
+      <data key="d18">False</data>
+      <data key="d19">M</data>
+      <data key="d20">60</data>
+      <data key="d21">5</data>
+      <data key="d22">2</data>
+    </node>
+    <node id="John">
+      <data key="d1">4370a4b9-b7b3-436e-bc69-96d2d10b7cf8</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+      <data key="d5">30.0</data>
+      <data key="d6">True</data>
+      <data key="d7">1</data>
+      <data key="d8">False</data>
+      <data key="d9">True</data>
+      <data key="d10">3</data>
+      <data key="d11">8</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">netherlands</data>
+      <data key="d16">False</data>
+      <data key="d17">2</data>
+      <data key="d18">False</data>
+      <data key="d19">M</data>
+      <data key="d20">49</data>
+      <data key="d21">5</data>
+      <data key="d22">1</data>
+    </node>
+    <node id="Bert">
+      <data key="d1">57afd85a-ccb3-48ac-9e43-00fa2ce14092</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+      <data key="d5">30.0</data>
+      <data key="d6">True</data>
+      <data key="d7">1</data>
+      <data key="d8">False</data>
+      <data key="d9">True</data>
+      <data key="d10">5</data>
+      <data key="d11">8</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">netherlands</data>
+      <data key="d16">False</data>
+      <data key="d17">2</data>
+      <data key="d18">True</data>
+      <data key="d19">M</data>
+      <data key="d20">52</data>
+      <data key="d21">4</data>
+      <data key="d22">1</data>
+    </node>
+    <node id="Marco">
+      <data key="d1">fa580cd4-9a6e-4622-921a-6ea06cc0a64b</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+      <data key="d5">30.0</data>
+      <data key="d6">True</data>
+      <data key="d7">2</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">3</data>
+      <data key="d11">2</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">netherlands</data>
+      <data key="d16">False</data>
+      <data key="d17">2</data>
+      <data key="d18">False</data>
+      <data key="d19">M</data>
+      <data key="d20">50</data>
+      <data key="d21">4</data>
+      <data key="d22">1</data>
+    </node>
+    <node id="Hildo Brilleman">
+      <data key="d23">8</data>
+      <data key="d24">5</data>
+      <data key="d25">Hildo</data>
+      <data key="d26">Brilleman</data>
+      <data key="d27">2017-09-10 04:48:45</data>
+      <data key="d3">True</data>
+      <data key="d19">M</data>
+      <data key="d20">49</data>
+      <data key="d28">0</data>
+      <data key="d29">0</data>
+      <data key="d30">40dd7ad9-ebed-4bd8-9ab0-034943da2936</data>
+      <data key="d31">2017-09-10 05:25:54</data>
+      <data key="d11">8</data>
+      <data key="d32">8.0</data>
+      <data key="d15">netherlands</data>
+      <data key="d33">4</data>
+      <data key="d34">Arysta LifeScience</data>
+      <data key="d35">hildo.brilleman@arysta.com</data>
+    </node>
+    <node id="Richard Matei">
+      <data key="d1">89685abb-d317-4121-beec-d4d11b103eb1</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+      <data key="d5">2.0</data>
+      <data key="d6">True</data>
+      <data key="d7">2</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">3</data>
+      <data key="d11">8</data>
+      <data key="d12">True</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">romania</data>
+      <data key="d16">True</data>
+      <data key="d17">1</data>
+      <data key="d18">False</data>
+      <data key="d19">M</data>
+      <data key="d20">43</data>
+      <data key="d21">1</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="John Street">
+      <data key="d1">a547f3b6-029c-44a8-94b2-9dafa67d6458</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+      <data key="d5">18.0</data>
+      <data key="d6">True</data>
+      <data key="d7">2</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">4</data>
+      <data key="d11">4</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">united kingdom</data>
+      <data key="d16">True</data>
+      <data key="d17">3</data>
+      <data key="d18">True</data>
+      <data key="d19">M</data>
+      <data key="d20">62</data>
+      <data key="d21">2</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="Jozef Michrina">
+      <data key="d1">51857ca9-69a4-441c-a0aa-df0f4be6300c</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+      <data key="d5">3.0</data>
+      <data key="d6">False</data>
+      <data key="d7">4</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">2</data>
+      <data key="d11">5</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">True</data>
+      <data key="d15">slovakia</data>
+      <data key="d16">False</data>
+      <data key="d17">2</data>
+      <data key="d18">False</data>
+      <data key="d19">M</data>
+      <data key="d20">54</data>
+      <data key="d21">1</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="Flavio Prezzi">
+      <data key="d1">8d5e4965-1914-484f-8706-0e1d42cded7f</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">1</data>
+      <data key="d5">21.0</data>
+      <data key="d6">True</data>
+      <data key="d7">1</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">4</data>
+      <data key="d11">8</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">brazil</data>
+      <data key="d16">False</data>
+      <data key="d17">2</data>
+      <data key="d18">True</data>
+      <data key="d19">M</data>
+      <data key="d20">64</data>
+      <data key="d21">3</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="Gilles Cerruti">
+      <data key="d1">93c7a8a1-da2d-4147-b503-19d1eee40d15</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">1</data>
+      <data key="d5">5.0</data>
+      <data key="d6">False</data>
+      <data key="d7">3</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">2</data>
+      <data key="d11">3</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">france</data>
+      <data key="d16">False</data>
+      <data key="d17">4</data>
+      <data key="d18">True</data>
+      <data key="d19">M</data>
+      <data key="d20">54</data>
+      <data key="d21">3</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="Chris Richards">
+      <data key="d1">8e330d12-377c-4b5f-bb3d-f532306da4ba</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">1</data>
+      <data key="d5">18.0</data>
+      <data key="d6">True</data>
+      <data key="d7">4</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">2</data>
+      <data key="d11">8</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">united kingdom</data>
+      <data key="d16">False</data>
+      <data key="d17">4</data>
+      <data key="d18">True</data>
+      <data key="d19">M</data>
+      <data key="d20">65</data>
+      <data key="d21">5</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="Sandor Herpai">
+      <data key="d1">5442cb6c-ec56-4b27-9728-036b100c7cb9</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+      <data key="d5">3.0</data>
+      <data key="d6">False</data>
+      <data key="d7">4</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">1</data>
+      <data key="d11">5</data>
+      <data key="d12">True</data>
+      <data key="d13">False</data>
+      <data key="d14">True</data>
+      <data key="d15">hungary</data>
+      <data key="d16">False</data>
+      <data key="d17">4</data>
+      <data key="d18">False</data>
+      <data key="d19">M</data>
+      <data key="d20">53</data>
+      <data key="d21">1</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="Ivan Shabliy">
+      <data key="d1">2e51a3a6-c685-49ef-a517-4deb286cbfcd</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+      <data key="d5">3.0</data>
+      <data key="d6">False</data>
+      <data key="d7">4</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">1</data>
+      <data key="d11">8</data>
+      <data key="d12">True</data>
+      <data key="d13">False</data>
+      <data key="d14">True</data>
+      <data key="d15">ukraine</data>
+      <data key="d16">False</data>
+      <data key="d17">2</data>
+      <data key="d18">False</data>
+      <data key="d19">M</data>
+      <data key="d20">60</data>
+      <data key="d21">1</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="Martin Martens">
+      <data key="d1">d1fefe56-c79d-4afc-a27e-839e7f5ec76f</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+      <data key="d5">3.0</data>
+      <data key="d6">True</data>
+      <data key="d7">2</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">4</data>
+      <data key="d11">5</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">belgium</data>
+      <data key="d16">True</data>
+      <data key="d17">2</data>
+      <data key="d18">True</data>
+      <data key="d19">M</data>
+      <data key="d20">58</data>
+      <data key="d21">1</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="Gert Jan">
+      <data key="d1">37a6c7f8-4a04-4951-b77a-e1c32e33b102</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+      <data key="d5">16.0</data>
+      <data key="d6">True</data>
+      <data key="d7">2</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">3</data>
+      <data key="d11">2</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">netherlands</data>
+      <data key="d16">False</data>
+      <data key="d17">3</data>
+      <data key="d18">False</data>
+      <data key="d19">M</data>
+      <data key="d20">47</data>
+      <data key="d21">5</data>
+      <data key="d22">9</data>
+    </node>
+    <node id="Christophe F">
+      <data key="d1">7d65a433-3b47-4e58-9626-7d4fea818ec7</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+      <data key="d5">7.0</data>
+      <data key="d6">False</data>
+      <data key="d7">3</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">3</data>
+      <data key="d11">5</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">france</data>
+      <data key="d16">True</data>
+      <data key="d17">2</data>
+      <data key="d18">True</data>
+      <data key="d19">M</data>
+      <data key="d20">55</data>
+      <data key="d21">2</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="Alexey Fokin">
+      <data key="d1">da38bc3a-0e5d-4d64-80fa-5648620d964c</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+      <data key="d5">3.0</data>
+      <data key="d6">True</data>
+      <data key="d7">2</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">3</data>
+      <data key="d11">8</data>
+      <data key="d12">True</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">russia</data>
+      <data key="d16">True</data>
+      <data key="d17">1</data>
+      <data key="d18">False</data>
+      <data key="d19">M</data>
+      <data key="d20">51</data>
+      <data key="d21">1</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="Garth Drury">
+      <data key="d1">603b32bd-1162-4c01-946c-90cbe948909f</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+      <data key="d5">1.0</data>
+      <data key="d6">False</data>
+      <data key="d7">4</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">1</data>
+      <data key="d11">4</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">True</data>
+      <data key="d15">united kingdom</data>
+      <data key="d16">False</data>
+      <data key="d17">4</data>
+      <data key="d18">False</data>
+      <data key="d19">M</data>
+      <data key="d20">52</data>
+      <data key="d21">1</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="Bart">
+      <data key="d1">1c208f44-dda5-4fa8-ac68-6c9dd0641a0a</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+      <data key="d5">31.0</data>
+      <data key="d6">True</data>
+      <data key="d7">1</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">3</data>
+      <data key="d11">8</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">netherlands</data>
+      <data key="d16">False</data>
+      <data key="d17">3</data>
+      <data key="d18">False</data>
+      <data key="d19">M</data>
+      <data key="d20">49</data>
+      <data key="d21">4</data>
+      <data key="d22">1</data>
+    </node>
+    <node id="John Barnes">
+      <data key="d1">d2aee91d-ec58-490d-8380-40caa8a3297b</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">1</data>
+      <data key="d5">20.0</data>
+      <data key="d6">True</data>
+      <data key="d7">2</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">3</data>
+      <data key="d11">8</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">south africa</data>
+      <data key="d16">False</data>
+      <data key="d17">3</data>
+      <data key="d18">True</data>
+      <data key="d19">M</data>
+      <data key="d20">54</data>
+      <data key="d21">4</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="Paula Pinto">
+      <data key="d1">32cfa85b-6cb7-4ce4-a26d-fbcaa095efb6</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">1</data>
+      <data key="d5">6.0</data>
+      <data key="d6">False</data>
+      <data key="d7">3</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">2</data>
+      <data key="d11">5</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">True</data>
+      <data key="d15">brazil</data>
+      <data key="d16">False</data>
+      <data key="d17">4</data>
+      <data key="d18">True</data>
+      <data key="d19">F</data>
+      <data key="d20">52</data>
+      <data key="d21">3</data>
+      <data key="d22">7</data>
+    </node>
+    <edge source="Jose" target="Chris Richards">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">99e13ac0-8235-426f-a30f-dbc2a6971d93</data>
+    </edge>
+    <edge source="Jose" target="Alexey Fokin">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">4c4e05e4-428b-4585-b8ca-b7d36297b9a2</data>
+    </edge>
+    <edge source="Jose" target="John Barnes">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d38">3dc8e00b-0324-4a16-adc5-d57ecbcf2f06</data>
+    </edge>
+    <edge source="Jose" target="Hildo Brilleman">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d39">False</data>
+      <data key="d40">True</data>
+      <data key="d41">1</data>
+      <data key="d42">5</data>
+      <data key="d43">7</data>
+      <data key="d44">3.0</data>
+      <data key="d45">False</data>
+      <data key="d46">True</data>
+    </edge>
+    <edge source="Jose" target="Christophe F">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">436f5cc7-f27b-4487-a413-341f6adae9d9</data>
+    </edge>
+    <edge source="Jose" target="Richard Matei">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">7dae0743-41aa-437e-82a2-530a425d24c9</data>
+    </edge>
+    <edge source="Jose" target="John Street">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">6ce252ca-8ce5-4d23-bd5d-aa85ac2b0788</data>
+    </edge>
+    <edge source="Jose" target="Gilles Cerruti">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">a6e57b19-26fd-4662-9f34-645a27e95acf</data>
+    </edge>
+    <edge source="Jose" target="Jozef Michrina">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">afec4d1b-ee62-40fa-bb29-68db13350c15</data>
+    </edge>
+    <edge source="Jose" target="Flavio Prezzi">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d38">04400aca-36bf-4eeb-998e-9513a9b323e3</data>
+    </edge>
+    <edge source="Jose" target="Paula Pinto">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">459e505d-e3e6-415f-9d14-1f6b53db2ca0</data>
+    </edge>
+    <edge source="Jose" target="Garth Drury">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">92ef2a0a-0c63-4cbd-adef-61d4240cee4e</data>
+    </edge>
+    <edge source="Suus" target="Bert">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d38">1a0dd35a-112c-4499-8c6f-411d1a0e8fd8</data>
+    </edge>
+    <edge source="Suus" target="Marco">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">6bace632-07c4-4ebd-a282-ca046975815f</data>
+    </edge>
+    <edge source="Suus" target="Bart">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">35c908b2-05da-4c9f-bf2d-f5ede31dd085</data>
+    </edge>
+    <edge source="Suus" target="Edwin">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">0127153d-eb29-4c11-925a-d26f28ee83eb</data>
+    </edge>
+    <edge source="Suus" target="Hildo Brilleman">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d39">True</data>
+      <data key="d40">False</data>
+      <data key="d41">1</data>
+      <data key="d42">5</data>
+      <data key="d43">8</data>
+      <data key="d44">23.0</data>
+      <data key="d45">True</data>
+      <data key="d46">True</data>
+    </edge>
+    <edge source="Suus" target="Gert Jan">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">9c6329d1-ded2-4a6a-b841-8acb78726e0a</data>
+    </edge>
+    <edge source="Suus" target="Sybrant">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">390da832-168b-457f-8408-c2aba6f77360</data>
+    </edge>
+    <edge source="Suus" target="John">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">26efe943-8bff-423a-b070-80cced8a1c7c</data>
+    </edge>
+    <edge source="Suus" target="Flavio Prezzi">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">4398fbd6-3c99-4d07-8685-f994433bd894</data>
+    </edge>
+    <edge source="Michael B" target="Hildo Brilleman">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">4</data>
+      <data key="d42">3</data>
+      <data key="d43">6</data>
+      <data key="d44">1.0</data>
+      <data key="d45">False</data>
+      <data key="d46">False</data>
+    </edge>
+    <edge source="Edwin" target="Bert">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d38">5587d788-07a8-407a-ae68-04d55cfafeb7</data>
+    </edge>
+    <edge source="Edwin" target="Marco">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d38">0a8cd84b-ae60-43e3-9819-d13a58776f17</data>
+    </edge>
+    <edge source="Edwin" target="Bart">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">3c162b64-c48f-4b0f-9df2-c0ac878af8aa</data>
+    </edge>
+    <edge source="Edwin" target="Hildo Brilleman">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">2</data>
+      <data key="d42">3</data>
+      <data key="d43">1</data>
+      <data key="d44">30.0</data>
+      <data key="d45">False</data>
+      <data key="d46">False</data>
+    </edge>
+    <edge source="Edwin" target="John">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d38">126ae8dd-c03e-4152-886b-665ae70fd61a</data>
+    </edge>
+    <edge source="Delene van der Horst" target="Martin Martens">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">3960380e-4176-4da5-873f-d9bf310f0d11</data>
+    </edge>
+    <edge source="Delene van der Horst" target="Hildo Brilleman">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d39">True</data>
+      <data key="d40">False</data>
+      <data key="d41">1</data>
+      <data key="d42">3</data>
+      <data key="d43">7</data>
+      <data key="d44">2.0</data>
+      <data key="d45">False</data>
+      <data key="d46">False</data>
+    </edge>
+    <edge source="Delene van der Horst" target="John Barnes">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d38">e7a0954b-8556-463b-8d17-9bbe5797497a</data>
+    </edge>
+    <edge source="Delene van der Horst" target="Richard Matei">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">4489e12b-e512-4382-b265-80881fa12e3d</data>
+    </edge>
+    <edge source="Delene van der Horst" target="Alexey Fokin">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">3e3ce97f-6f62-4bcc-90ed-f84a308b3ab3</data>
+    </edge>
+    <edge source="Delene van der Horst" target="Garth Drury">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">ee841906-d4c5-4a48-bf65-d8279ab7f04c</data>
+    </edge>
+    <edge source="Delene van der Horst" target="Jozef Michrina">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">bba42732-ecac-4027-ad43-1f728b037554</data>
+    </edge>
+    <edge source="Delene van der Horst" target="Gilles Cerruti">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">5f43f267-7f9b-417e-8cb7-272deb6d2135</data>
+    </edge>
+    <edge source="Sybrant" target="Hildo Brilleman">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">3</data>
+      <data key="d42">3</data>
+      <data key="d43">2</data>
+      <data key="d44">20.0</data>
+      <data key="d45">False</data>
+      <data key="d46">False</data>
+    </edge>
+    <edge source="John" target="Bert">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">d8ae20a1-61d5-44c2-bb6d-eff8379b12dc</data>
+    </edge>
+    <edge source="John" target="Marco">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d38">8ce5d058-6400-4b7f-9b01-66c9efd8f45a</data>
+    </edge>
+    <edge source="John" target="Bart">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d38">0a312cc2-79f6-430c-8bab-94270aeb4762</data>
+    </edge>
+    <edge source="John" target="Hildo Brilleman">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">2</data>
+      <data key="d42">3</data>
+      <data key="d43">1</data>
+      <data key="d44">30.0</data>
+      <data key="d45">False</data>
+      <data key="d46">False</data>
+    </edge>
+    <edge source="Bert" target="Marco">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d38">7f789e07-c905-400f-a939-15e86957898b</data>
+    </edge>
+    <edge source="Bert" target="Bart">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">f960d0e7-c65c-4fa3-a840-583e7090500a</data>
+    </edge>
+    <edge source="Bert" target="Hildo Brilleman">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">2</data>
+      <data key="d42">5</data>
+      <data key="d43">1</data>
+      <data key="d44">30.0</data>
+      <data key="d45">False</data>
+      <data key="d46">True</data>
+    </edge>
+    <edge source="Bert" target="Gert Jan">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">89c2cd95-f26f-4bd0-89f3-4d031b297c0e</data>
+    </edge>
+    <edge source="Marco" target="Bart">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">bf4054ba-7108-44b9-9a42-a6f74c4b1cc4</data>
+    </edge>
+    <edge source="Marco" target="Hildo Brilleman">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">2</data>
+      <data key="d42">3</data>
+      <data key="d43">1</data>
+      <data key="d44">30.0</data>
+      <data key="d45">False</data>
+      <data key="d46">False</data>
+    </edge>
+    <edge source="Hildo Brilleman" target="Richard Matei">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">1</data>
+      <data key="d42">3</data>
+      <data key="d43">7</data>
+      <data key="d44">2.0</data>
+      <data key="d45">False</data>
+      <data key="d46">False</data>
+    </edge>
+    <edge source="Hildo Brilleman" target="John Street">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">3</data>
+      <data key="d42">4</data>
+      <data key="d43">7</data>
+      <data key="d44">18.0</data>
+      <data key="d45">False</data>
+      <data key="d46">True</data>
+    </edge>
+    <edge source="Hildo Brilleman" target="Jozef Michrina">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d39">True</data>
+      <data key="d40">False</data>
+      <data key="d41">2</data>
+      <data key="d42">2</data>
+      <data key="d43">7</data>
+      <data key="d44">3.0</data>
+      <data key="d45">False</data>
+      <data key="d46">False</data>
+    </edge>
+    <edge source="Hildo Brilleman" target="Flavio Prezzi">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">2</data>
+      <data key="d42">4</data>
+      <data key="d43">7</data>
+      <data key="d44">21.0</data>
+      <data key="d45">False</data>
+      <data key="d46">True</data>
+    </edge>
+    <edge source="Hildo Brilleman" target="Gilles Cerruti">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">4</data>
+      <data key="d42">2</data>
+      <data key="d43">7</data>
+      <data key="d44">5.0</data>
+      <data key="d45">False</data>
+      <data key="d46">True</data>
+    </edge>
+    <edge source="Hildo Brilleman" target="Chris Richards">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">4</data>
+      <data key="d42">2</data>
+      <data key="d43">7</data>
+      <data key="d44">18.0</data>
+      <data key="d45">False</data>
+      <data key="d46">True</data>
+    </edge>
+    <edge source="Hildo Brilleman" target="Sandor Herpai">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d39">True</data>
+      <data key="d40">False</data>
+      <data key="d41">4</data>
+      <data key="d42">1</data>
+      <data key="d43">7</data>
+      <data key="d44">3.0</data>
+      <data key="d45">False</data>
+      <data key="d46">False</data>
+    </edge>
+    <edge source="Hildo Brilleman" target="Ivan Shabliy">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d39">True</data>
+      <data key="d40">False</data>
+      <data key="d41">2</data>
+      <data key="d42">1</data>
+      <data key="d43">7</data>
+      <data key="d44">3.0</data>
+      <data key="d45">False</data>
+      <data key="d46">False</data>
+    </edge>
+    <edge source="Hildo Brilleman" target="Martin Martens">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">2</data>
+      <data key="d42">4</data>
+      <data key="d43">7</data>
+      <data key="d44">3.0</data>
+      <data key="d45">False</data>
+      <data key="d46">True</data>
+    </edge>
+    <edge source="Hildo Brilleman" target="Gert Jan">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">3</data>
+      <data key="d42">3</data>
+      <data key="d43">9</data>
+      <data key="d44">16.0</data>
+      <data key="d45">False</data>
+      <data key="d46">False</data>
+    </edge>
+    <edge source="Hildo Brilleman" target="Christophe F">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">2</data>
+      <data key="d42">3</data>
+      <data key="d43">7</data>
+      <data key="d44">7.0</data>
+      <data key="d45">False</data>
+      <data key="d46">True</data>
+    </edge>
+    <edge source="Hildo Brilleman" target="Alexey Fokin">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">1</data>
+      <data key="d42">3</data>
+      <data key="d43">7</data>
+      <data key="d44">3.0</data>
+      <data key="d45">False</data>
+      <data key="d46">False</data>
+    </edge>
+    <edge source="Hildo Brilleman" target="Garth Drury">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d39">True</data>
+      <data key="d40">False</data>
+      <data key="d41">4</data>
+      <data key="d42">1</data>
+      <data key="d43">7</data>
+      <data key="d44">1.0</data>
+      <data key="d45">False</data>
+      <data key="d46">False</data>
+    </edge>
+    <edge source="Hildo Brilleman" target="Bart">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">3</data>
+      <data key="d42">3</data>
+      <data key="d43">1</data>
+      <data key="d44">31.0</data>
+      <data key="d45">False</data>
+      <data key="d46">False</data>
+    </edge>
+    <edge source="Hildo Brilleman" target="John Barnes">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d39">False</data>
+      <data key="d40">False</data>
+      <data key="d41">3</data>
+      <data key="d42">3</data>
+      <data key="d43">7</data>
+      <data key="d44">20.0</data>
+      <data key="d45">False</data>
+      <data key="d46">True</data>
+    </edge>
+    <edge source="Hildo Brilleman" target="Paula Pinto">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d39">True</data>
+      <data key="d40">False</data>
+      <data key="d41">4</data>
+      <data key="d42">2</data>
+      <data key="d43">7</data>
+      <data key="d44">6.0</data>
+      <data key="d45">False</data>
+      <data key="d46">True</data>
+    </edge>
+    <edge source="Richard Matei" target="Martin Martens">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">8e63a585-9e40-4b75-8802-fba5a014ac4a</data>
+    </edge>
+    <edge source="Richard Matei" target="Christophe F">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">949dbeaf-78df-42f1-ab7e-7befe1ac6b4b</data>
+    </edge>
+    <edge source="Richard Matei" target="Alexey Fokin">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">d473c9a9-44fc-4b90-aa51-347c30d30d15</data>
+    </edge>
+    <edge source="Richard Matei" target="Jozef Michrina">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">44a7009a-dae8-487c-8cec-f94d06394ddf</data>
+    </edge>
+    <edge source="John Street" target="Chris Richards">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">9edadad6-ec9f-4858-96d1-afe06afd67b5</data>
+    </edge>
+    <edge source="John Street" target="John Barnes">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">74124169-bb8e-475b-b7be-ae8bb523af0a</data>
+    </edge>
+    <edge source="John Street" target="Garth Drury">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">2d01f111-b084-433a-8d44-af791e961895</data>
+    </edge>
+    <edge source="John Street" target="Jozef Michrina">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">9d82af3d-a408-4975-90c6-03ce69137f41</data>
+    </edge>
+    <edge source="John Street" target="Flavio Prezzi">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">c8c2bc87-4392-43a0-800f-518c03ed5506</data>
+    </edge>
+    <edge source="John Street" target="Paula Pinto">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">7f4138dd-1dc6-44cc-b6ce-671017f1cafb</data>
+    </edge>
+    <edge source="Jozef Michrina" target="Sandor Herpai">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">2a33ca8a-c650-4c1d-8d3e-2bb7a712dda1</data>
+    </edge>
+    <edge source="Jozef Michrina" target="Alexey Fokin">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">82843a9b-c966-4a47-ac15-c08d58dd9edc</data>
+    </edge>
+    <edge source="Jozef Michrina" target="Martin Martens">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">e7b242c6-b243-48c1-baba-8d5c366311e6</data>
+    </edge>
+    <edge source="Jozef Michrina" target="Christophe F">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">7f4d5d18-bd27-4c22-89e7-069a113f17b5</data>
+    </edge>
+    <edge source="Jozef Michrina" target="Garth Drury">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">376aaede-402c-49a6-acbc-ebf97e75d5a0</data>
+    </edge>
+    <edge source="Jozef Michrina" target="Paula Pinto">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">5f590959-b080-4c6c-b439-a81af7771ff8</data>
+    </edge>
+    <edge source="Flavio Prezzi" target="Chris Richards">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d38">bc2c5dde-6fc0-48ba-b55e-117e9f4fd763</data>
+    </edge>
+    <edge source="Flavio Prezzi" target="John Barnes">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d38">13711d19-c95b-482f-8729-5b555e48ff9e</data>
+    </edge>
+    <edge source="Flavio Prezzi" target="Gilles Cerruti">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">0af5eb50-0517-4649-9470-a549cfa43aba</data>
+    </edge>
+    <edge source="Flavio Prezzi" target="Paula Pinto">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">3fb5cc1b-7cc0-4e1e-a4cf-c0cd1b7258dd</data>
+    </edge>
+    <edge source="Gilles Cerruti" target="Martin Martens">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">08303487-489a-4ea2-bc75-6a3377ba157b</data>
+    </edge>
+    <edge source="Gilles Cerruti" target="John Barnes">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">25f2c6d0-f210-4ee2-b846-1d756b13f130</data>
+    </edge>
+    <edge source="Gilles Cerruti" target="Paula Pinto">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">20983085-f814-4d11-9db6-a46c0d442361</data>
+    </edge>
+    <edge source="Chris Richards" target="John Barnes">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">81f1ef41-cba6-49ec-87fc-6877d841be07</data>
+    </edge>
+    <edge source="Ivan Shabliy" target="Alexey Fokin">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">fda54b53-b2d6-449d-806c-312a610002e3</data>
+    </edge>
+    <edge source="Martin Martens" target="Christophe F">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">00f65ec4-085a-4417-abe4-38768668b6bd</data>
+    </edge>
+    <edge source="Martin Martens" target="Alexey Fokin">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">a56af816-56f3-4b05-a34e-5dcffb4ac9b5</data>
+    </edge>
+    <edge source="Martin Martens" target="Paula Pinto">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">544ad2a1-cb71-4857-a564-9d0a4cc0346e</data>
+    </edge>
+    <edge source="Martin Martens" target="Garth Drury">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">ae969096-9d95-4282-91f2-aea8e570b5c9</data>
+    </edge>
+    <edge source="Christophe F" target="Alexey Fokin">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">afb58dca-46a0-463f-92d8-c74364eef385</data>
+    </edge>
+    <edge source="Christophe F" target="Garth Drury">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">ff1ec6da-ded5-474d-a46d-2a60172a9aec</data>
+    </edge>
+    <edge source="Christophe F" target="Paula Pinto">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">f0c8fdd9-da8f-448d-bd05-26d5f1ae6280</data>
+    </edge>
+    <edge source="Garth Drury" target="Paula Pinto">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">43fa45d5-63fb-4e5e-81fb-1cdf6f3e0e95</data>
+    </edge>
+    <edge source="John Barnes" target="Paula Pinto">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">b045a7bc-16c6-4310-b36b-0cea26290895</data>
+    </edge>
+  </graph>
+</graphml>

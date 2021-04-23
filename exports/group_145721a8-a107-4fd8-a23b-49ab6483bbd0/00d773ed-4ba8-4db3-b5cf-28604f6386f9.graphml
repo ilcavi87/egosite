@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?><graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="reluuid" attr.type="string" for="edge" id="d46" />
+  <key attr.name="important" attr.type="boolean" for="edge" id="d45" />
+  <key attr.name="spouse" attr.type="boolean" for="edge" id="d44" />
+  <key attr.name="time" attr.type="double" for="edge" id="d43" />
+  <key attr.name="context" attr.type="int" for="edge" id="d42" />
+  <key attr.name="helps" attr.type="int" for="edge" id="d41" />
+  <key attr.name="frequency" attr.type="int" for="edge" id="d40" />
+  <key attr.name="boss" attr.type="boolean" for="edge" id="d39" />
+  <key attr.name="hinders" attr.type="boolean" for="edge" id="d38" />
+  <key attr.name="weight" attr.type="int" for="edge" id="d37" />
+  <key attr.name="strength" attr.type="int" for="edge" id="d36" />
+  <key attr.name="context" attr.type="int" for="node" id="d35" />
+  <key attr.name="work" attr.type="int" for="node" id="d34" />
+  <key attr.name="important_career" attr.type="boolean" for="node" id="d33" />
+  <key attr.name="interaction" attr.type="int" for="node" id="d32" />
+  <key attr.name="buyin" attr.type="boolean" for="node" id="d31" />
+  <key attr.name="hinder_professional" attr.type="boolean" for="node" id="d30" />
+  <key attr.name="spend_free_time" attr.type="boolean" for="node" id="d29" />
+  <key attr.name="reports_to_ego" attr.type="boolean" for="node" id="d28" />
+  <key attr.name="helps" attr.type="int" for="node" id="d27" />
+  <key attr.name="important_professional" attr.type="boolean" for="node" id="d26" />
+  <key attr.name="life_partner" attr.type="boolean" for="node" id="d25" />
+  <key attr.name="strength" attr.type="int" for="node" id="d24" />
+  <key attr.name="trust" attr.type="boolean" for="node" id="d23" />
+  <key attr.name="time_knowing" attr.type="double" for="node" id="d22" />
+  <key attr.name="rank" attr.type="int" for="node" id="d21" />
+  <key attr.name="ego_reports_to" attr.type="boolean" for="node" id="d20" />
+  <key attr.name="alteruuid" attr.type="string" for="node" id="d19" />
+  <key attr.name="email" attr.type="string" for="node" id="d18" />
+  <key attr.name="company" attr.type="string" for="node" id="d17" />
+  <key attr.name="education" attr.type="int" for="node" id="d16" />
+  <key attr.name="nationality" attr.type="string" for="node" id="d15" />
+  <key attr.name="tenure" attr.type="double" for="node" id="d14" />
+  <key attr.name="functional_area" attr.type="int" for="node" id="d13" />
+  <key attr.name="end_time" attr.type="string" for="node" id="d12" />
+  <key attr.name="egouuid" attr.type="string" for="node" id="d11" />
+  <key attr.name="people_in_company" attr.type="int" for="node" id="d10" />
+  <key attr.name="annual_sales" attr.type="int" for="node" id="d9" />
+  <key attr.name="age" attr.type="int" for="node" id="d8" />
+  <key attr.name="gender" attr.type="string" for="node" id="d7" />
+  <key attr.name="is_ego" attr.type="boolean" for="node" id="d6" />
+  <key attr.name="start_time" attr.type="string" for="node" id="d5" />
+  <key attr.name="last_name" attr.type="string" for="node" id="d4" />
+  <key attr.name="first_name" attr.type="string" for="node" id="d3" />
+  <key attr.name="current_job" attr.type="int" for="node" id="d2" />
+  <key attr.name="salary" attr.type="int" for="node" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="undirected">
+    <data key="d0">Martí Carbonell's Ego Network</data>
+    <node id="Martí Carbonell">
+      <data key="d1">8</data>
+      <data key="d2">5</data>
+      <data key="d3">Martí</data>
+      <data key="d4">Carbonell</data>
+      <data key="d5">2017-09-06 16:39:14</data>
+      <data key="d6">True</data>
+      <data key="d7">M</data>
+      <data key="d8">44</data>
+      <data key="d9">0</data>
+      <data key="d10">0</data>
+      <data key="d11">00d773ed-4ba8-4db3-b5cf-28604f6386f9</data>
+      <data key="d12">2017-09-06 16:47:45</data>
+      <data key="d13">6</data>
+      <data key="d14">17.0</data>
+      <data key="d15">spain</data>
+      <data key="d16">4</data>
+      <data key="d17">Abertis Infraestructuras</data>
+      <data key="d18">marti.carbonell@abertis.com</data>
+    </node>
+    <node id="Alberto">
+      <data key="d19">c17d9db1-dcc8-471e-a3b3-dc5971676adf</data>
+      <data key="d20">False</data>
+      <data key="d6">False</data>
+      <data key="d21">3</data>
+      <data key="d22">10.0</data>
+      <data key="d23">True</data>
+      <data key="d24">2</data>
+      <data key="d25">False</data>
+      <data key="d26">False</data>
+      <data key="d27">4</data>
+      <data key="d13">6</data>
+      <data key="d28">True</data>
+      <data key="d29">False</data>
+      <data key="d30">False</data>
+      <data key="d15">spain</data>
+      <data key="d31">True</data>
+      <data key="d32">1</data>
+      <data key="d33">False</data>
+      <data key="d7">M</data>
+      <data key="d8">40</data>
+      <data key="d34">1</data>
+      <data key="d35">7</data>
+    </node>
+    <node id="Pepe">
+      <data key="d19">f13b8ab4-644d-41a9-9f79-94e2de95f3a8</data>
+      <data key="d20">True</data>
+      <data key="d6">False</data>
+      <data key="d21">1</data>
+      <data key="d22">10.0</data>
+      <data key="d23">True</data>
+      <data key="d24">1</data>
+      <data key="d25">True</data>
+      <data key="d26">True</data>
+      <data key="d27">5</data>
+      <data key="d13">6</data>
+      <data key="d28">False</data>
+      <data key="d29">False</data>
+      <data key="d30">False</data>
+      <data key="d15">spain</data>
+      <data key="d31">False</data>
+      <data key="d32">1</data>
+      <data key="d33">True</data>
+      <data key="d7">M</data>
+      <data key="d8">55</data>
+      <data key="d34">1</data>
+      <data key="d35">7</data>
+    </node>
+    <node id="Francesc">
+      <data key="d19">f74c556f-12a0-4c95-87e4-23c8b3f629e1</data>
+      <data key="d20">True</data>
+      <data key="d6">False</data>
+      <data key="d21">1</data>
+      <data key="d22">7.0</data>
+      <data key="d23">True</data>
+      <data key="d24">2</data>
+      <data key="d25">False</data>
+      <data key="d26">True</data>
+      <data key="d27">5</data>
+      <data key="d13">8</data>
+      <data key="d28">False</data>
+      <data key="d29">False</data>
+      <data key="d30">False</data>
+      <data key="d15">spain</data>
+      <data key="d31">False</data>
+      <data key="d32">1</data>
+      <data key="d33">False</data>
+      <data key="d7">M</data>
+      <data key="d8">55</data>
+      <data key="d34">1</data>
+      <data key="d35">7</data>
+    </node>
+    <node id="Dani">
+      <data key="d19">9d939971-82d9-4ebf-8a38-144851c82946</data>
+      <data key="d20">False</data>
+      <data key="d6">False</data>
+      <data key="d21">3</data>
+      <data key="d22">44.0</data>
+      <data key="d23">True</data>
+      <data key="d24">1</data>
+      <data key="d25">False</data>
+      <data key="d26">False</data>
+      <data key="d27">5</data>
+      <data key="d13">6</data>
+      <data key="d28">True</data>
+      <data key="d29">False</data>
+      <data key="d30">False</data>
+      <data key="d15">spain</data>
+      <data key="d31">True</data>
+      <data key="d32">2</data>
+      <data key="d33">False</data>
+      <data key="d7">M</data>
+      <data key="d8">45</data>
+      <data key="d34">2</data>
+      <data key="d35">7</data>
+    </node>
+    <node id="Steven">
+      <data key="d19">1dde2188-6045-4193-b39e-d68a1f5748e4</data>
+      <data key="d20">False</data>
+      <data key="d6">False</data>
+      <data key="d21">2</data>
+      <data key="d22">8.0</data>
+      <data key="d23">True</data>
+      <data key="d24">1</data>
+      <data key="d25">False</data>
+      <data key="d26">True</data>
+      <data key="d27">4</data>
+      <data key="d13">6</data>
+      <data key="d28">False</data>
+      <data key="d29">False</data>
+      <data key="d30">False</data>
+      <data key="d15">spain</data>
+      <data key="d31">False</data>
+      <data key="d32">2</data>
+      <data key="d33">False</data>
+      <data key="d7">M</data>
+      <data key="d8">44</data>
+      <data key="d34">2</data>
+      <data key="d35">7</data>
+    </node>
+    <node id="Jordi">
+      <data key="d19">98f0c86b-3335-43c7-b702-d42a2e4b1ee2</data>
+      <data key="d20">False</data>
+      <data key="d6">False</data>
+      <data key="d21">2</data>
+      <data key="d22">12.0</data>
+      <data key="d23">True</data>
+      <data key="d24">1</data>
+      <data key="d25">False</data>
+      <data key="d26">True</data>
+      <data key="d27">4</data>
+      <data key="d13">7</data>
+      <data key="d28">False</data>
+      <data key="d29">False</data>
+      <data key="d30">False</data>
+      <data key="d15">spain</data>
+      <data key="d31">False</data>
+      <data key="d32">2</data>
+      <data key="d33">False</data>
+      <data key="d7">M</data>
+      <data key="d8">46</data>
+      <data key="d34">2</data>
+      <data key="d35">7</data>
+    </node>
+    <node id="Lluis">
+      <data key="d19">125fa6e9-f6b1-4765-b0ea-8f971212af6b</data>
+      <data key="d20">False</data>
+      <data key="d6">False</data>
+      <data key="d21">1</data>
+      <data key="d22">10.0</data>
+      <data key="d23">True</data>
+      <data key="d24">2</data>
+      <data key="d25">False</data>
+      <data key="d26">False</data>
+      <data key="d27">4</data>
+      <data key="d13">8</data>
+      <data key="d28">False</data>
+      <data key="d29">False</data>
+      <data key="d30">False</data>
+      <data key="d15">spain</data>
+      <data key="d31">False</data>
+      <data key="d32">2</data>
+      <data key="d33">True</data>
+      <data key="d7">M</data>
+      <data key="d8">62</data>
+      <data key="d34">2</data>
+      <data key="d35">7</data>
+    </node>
+    <edge source="Martí Carbonell" target="Alberto">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">False</data>
+      <data key="d39">False</data>
+      <data key="d40">1</data>
+      <data key="d41">4</data>
+      <data key="d42">7</data>
+      <data key="d43">10.0</data>
+      <data key="d44">False</data>
+      <data key="d45">False</data>
+    </edge>
+    <edge source="Martí Carbonell" target="Pepe">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d38">False</data>
+      <data key="d39">True</data>
+      <data key="d40">1</data>
+      <data key="d41">5</data>
+      <data key="d42">7</data>
+      <data key="d43">10.0</data>
+      <data key="d44">True</data>
+      <data key="d45">True</data>
+    </edge>
+    <edge source="Martí Carbonell" target="Francesc">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">False</data>
+      <data key="d39">True</data>
+      <data key="d40">1</data>
+      <data key="d41">5</data>
+      <data key="d42">7</data>
+      <data key="d43">7.0</data>
+      <data key="d44">False</data>
+      <data key="d45">False</data>
+    </edge>
+    <edge source="Martí Carbonell" target="Dani">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d38">False</data>
+      <data key="d39">False</data>
+      <data key="d40">2</data>
+      <data key="d41">5</data>
+      <data key="d42">7</data>
+      <data key="d43">44.0</data>
+      <data key="d44">False</data>
+      <data key="d45">False</data>
+    </edge>
+    <edge source="Martí Carbonell" target="Steven">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d38">False</data>
+      <data key="d39">False</data>
+      <data key="d40">2</data>
+      <data key="d41">4</data>
+      <data key="d42">7</data>
+      <data key="d43">8.0</data>
+      <data key="d44">False</data>
+      <data key="d45">False</data>
+    </edge>
+    <edge source="Martí Carbonell" target="Jordi">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d38">False</data>
+      <data key="d39">False</data>
+      <data key="d40">2</data>
+      <data key="d41">4</data>
+      <data key="d42">7</data>
+      <data key="d43">12.0</data>
+      <data key="d44">False</data>
+      <data key="d45">False</data>
+    </edge>
+    <edge source="Martí Carbonell" target="Lluis">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">False</data>
+      <data key="d39">False</data>
+      <data key="d40">2</data>
+      <data key="d41">4</data>
+      <data key="d42">7</data>
+      <data key="d43">10.0</data>
+      <data key="d44">False</data>
+      <data key="d45">True</data>
+    </edge>
+    <edge source="Alberto" target="Lluis">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d46">273c5463-d0a4-4f9b-b938-c88e338a3368</data>
+    </edge>
+    <edge source="Alberto" target="Pepe">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d46">47945d98-cde2-4751-99b1-4f28a2a3ee0a</data>
+    </edge>
+    <edge source="Alberto" target="Dani">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d46">33050907-3c63-41ce-9068-59a33072764c</data>
+    </edge>
+    <edge source="Alberto" target="Steven">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d46">56c6f9cc-a4e7-4c17-b48a-188d9ebbc8eb</data>
+    </edge>
+    <edge source="Pepe" target="Dani">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d46">d88a2205-5434-4cdc-910c-6264db26256a</data>
+    </edge>
+    <edge source="Pepe" target="Francesc">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d46">48881246-18ca-43cc-bc85-61b701d41e4c</data>
+    </edge>
+    <edge source="Pepe" target="Steven">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d46">3cd69842-e20c-476a-b1e4-e51635565178</data>
+    </edge>
+    <edge source="Pepe" target="Jordi">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d46">be12f729-8ad0-4fbc-a16a-64332acd178c</data>
+    </edge>
+    <edge source="Pepe" target="Lluis">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d46">ced21da6-7b92-4cd2-84ba-d9b67f94cc9a</data>
+    </edge>
+    <edge source="Francesc" target="Jordi">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d46">619da260-7063-4e4f-ab1c-c56eadd4152f</data>
+    </edge>
+    <edge source="Francesc" target="Lluis">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d46">4ce3fbb4-f9f1-478c-9dd5-17b09cdb5bec</data>
+    </edge>
+    <edge source="Francesc" target="Steven">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d46">9e9711e6-8ad2-4f20-b58b-bf0861732066</data>
+    </edge>
+    <edge source="Steven" target="Jordi">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d46">35493eca-3c19-4171-8d3d-8c86996b030c</data>
+    </edge>
+    <edge source="Jordi" target="Lluis">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d46">697aefae-ddeb-4768-bb77-70597a695c3a</data>
+    </edge>
+  </graph>
+</graphml>

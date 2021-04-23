@@ -1,0 +1,1084 @@
+<?xml version="1.0" encoding="utf-8"?><graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="reluuid" attr.type="string" for="edge" id="d46" />
+  <key attr.name="important" attr.type="boolean" for="edge" id="d45" />
+  <key attr.name="spouse" attr.type="boolean" for="edge" id="d44" />
+  <key attr.name="time" attr.type="double" for="edge" id="d43" />
+  <key attr.name="context" attr.type="int" for="edge" id="d42" />
+  <key attr.name="helps" attr.type="int" for="edge" id="d41" />
+  <key attr.name="frequency" attr.type="int" for="edge" id="d40" />
+  <key attr.name="boss" attr.type="boolean" for="edge" id="d39" />
+  <key attr.name="hinders" attr.type="boolean" for="edge" id="d38" />
+  <key attr.name="weight" attr.type="int" for="edge" id="d37" />
+  <key attr.name="strength" attr.type="int" for="edge" id="d36" />
+  <key attr.name="email" attr.type="string" for="node" id="d35" />
+  <key attr.name="company" attr.type="string" for="node" id="d34" />
+  <key attr.name="education" attr.type="int" for="node" id="d33" />
+  <key attr.name="tenure" attr.type="double" for="node" id="d32" />
+  <key attr.name="end_time" attr.type="string" for="node" id="d31" />
+  <key attr.name="egouuid" attr.type="string" for="node" id="d30" />
+  <key attr.name="people_in_company" attr.type="int" for="node" id="d29" />
+  <key attr.name="annual_sales" attr.type="int" for="node" id="d28" />
+  <key attr.name="start_time" attr.type="string" for="node" id="d27" />
+  <key attr.name="last_name" attr.type="string" for="node" id="d26" />
+  <key attr.name="first_name" attr.type="string" for="node" id="d25" />
+  <key attr.name="current_job" attr.type="int" for="node" id="d24" />
+  <key attr.name="salary" attr.type="int" for="node" id="d23" />
+  <key attr.name="context" attr.type="int" for="node" id="d22" />
+  <key attr.name="work" attr.type="int" for="node" id="d21" />
+  <key attr.name="age" attr.type="int" for="node" id="d20" />
+  <key attr.name="gender" attr.type="string" for="node" id="d19" />
+  <key attr.name="important_career" attr.type="boolean" for="node" id="d18" />
+  <key attr.name="interaction" attr.type="int" for="node" id="d17" />
+  <key attr.name="buyin" attr.type="boolean" for="node" id="d16" />
+  <key attr.name="nationality" attr.type="string" for="node" id="d15" />
+  <key attr.name="hinder_professional" attr.type="boolean" for="node" id="d14" />
+  <key attr.name="spend_free_time" attr.type="boolean" for="node" id="d13" />
+  <key attr.name="reports_to_ego" attr.type="boolean" for="node" id="d12" />
+  <key attr.name="functional_area" attr.type="int" for="node" id="d11" />
+  <key attr.name="helps" attr.type="int" for="node" id="d10" />
+  <key attr.name="important_professional" attr.type="boolean" for="node" id="d9" />
+  <key attr.name="life_partner" attr.type="boolean" for="node" id="d8" />
+  <key attr.name="strength" attr.type="int" for="node" id="d7" />
+  <key attr.name="trust" attr.type="boolean" for="node" id="d6" />
+  <key attr.name="time_knowing" attr.type="double" for="node" id="d5" />
+  <key attr.name="rank" attr.type="int" for="node" id="d4" />
+  <key attr.name="is_ego" attr.type="boolean" for="node" id="d3" />
+  <key attr.name="ego_reports_to" attr.type="boolean" for="node" id="d2" />
+  <key attr.name="alteruuid" attr.type="string" for="node" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="undirected">
+    <data key="d0">Marisa Bombardo's Ego Network</data>
+    <node id="Maria Puig">
+      <data key="d1">38750e6f-c0d9-4532-8a86-111a5581c0c2</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+      <data key="d5">21.0</data>
+      <data key="d6">False</data>
+      <data key="d7">2</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">3</data>
+      <data key="d11">1</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">spain</data>
+      <data key="d16">False</data>
+      <data key="d17">4</data>
+      <data key="d18">True</data>
+      <data key="d19">F</data>
+      <data key="d20">57</data>
+      <data key="d21">3</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="My friend">
+      <data key="d1">716fdca0-aab0-4318-893b-a3a1df946bf1</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+      <data key="d5">35.0</data>
+      <data key="d6">True</data>
+      <data key="d7">1</data>
+      <data key="d8">False</data>
+      <data key="d9">True</data>
+      <data key="d10">2</data>
+      <data key="d11">10</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">spain</data>
+      <data key="d16">False</data>
+      <data key="d17">3</data>
+      <data key="d18">False</data>
+      <data key="d19">F</data>
+      <data key="d20">45</data>
+      <data key="d21">5</data>
+      <data key="d22">1</data>
+    </node>
+    <node id="My colleague">
+      <data key="d1">06b832bb-ccf4-4e7d-993d-44a0c5596abf</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+      <data key="d5">10.0</data>
+      <data key="d6">True</data>
+      <data key="d7">1</data>
+      <data key="d8">False</data>
+      <data key="d9">True</data>
+      <data key="d10">2</data>
+      <data key="d11">4</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">spain</data>
+      <data key="d16">True</data>
+      <data key="d17">3</data>
+      <data key="d18">False</data>
+      <data key="d19">F</data>
+      <data key="d20">46</data>
+      <data key="d21">4</data>
+      <data key="d22">9</data>
+    </node>
+    <node id="Mercedes Castello">
+      <data key="d1">c4ef29b3-3c7d-49ee-830f-78ab87004936</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+      <data key="d5">10.0</data>
+      <data key="d6">False</data>
+      <data key="d7">2</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">3</data>
+      <data key="d11">5</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">spain</data>
+      <data key="d16">False</data>
+      <data key="d17">3</data>
+      <data key="d18">False</data>
+      <data key="d19">F</data>
+      <data key="d20">45</data>
+      <data key="d21">3</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="Eduard Portella">
+      <data key="d1">038c76c4-8da3-4062-81a3-f69f99eacbae</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+      <data key="d5">20.0</data>
+      <data key="d6">False</data>
+      <data key="d7">4</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">1</data>
+      <data key="d11">2</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">spain</data>
+      <data key="d16">False</data>
+      <data key="d17">4</data>
+      <data key="d18">True</data>
+      <data key="d19">M</data>
+      <data key="d20">65</data>
+      <data key="d21">5</data>
+      <data key="d22">6</data>
+    </node>
+    <node id="Carmen Roch">
+      <data key="d1">b56a61e0-4cad-44aa-a401-217d3d7daaa0</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+      <data key="d5">10.0</data>
+      <data key="d6">True</data>
+      <data key="d7">1</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">5</data>
+      <data key="d11">2</data>
+      <data key="d12">True</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">spain</data>
+      <data key="d16">True</data>
+      <data key="d17">1</data>
+      <data key="d18">False</data>
+      <data key="d19">F</data>
+      <data key="d20">59</data>
+      <data key="d21">1</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="My sister">
+      <data key="d1">fac1cf0c-26d6-4a10-93ec-34937411bd99</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">1</data>
+      <data key="d5">42.0</data>
+      <data key="d6">True</data>
+      <data key="d7">1</data>
+      <data key="d8">False</data>
+      <data key="d9">True</data>
+      <data key="d10">2</data>
+      <data key="d11">1</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">spain</data>
+      <data key="d16">False</data>
+      <data key="d17">2</data>
+      <data key="d18">False</data>
+      <data key="d19">F</data>
+      <data key="d20">42</data>
+      <data key="d21">4</data>
+      <data key="d22">1</data>
+    </node>
+    <node id="Eulalia Puig">
+      <data key="d1">c3de593e-1a63-4cee-b31a-07e9439033d5</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+      <data key="d5">15.0</data>
+      <data key="d6">True</data>
+      <data key="d7">1</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">5</data>
+      <data key="d11">2</data>
+      <data key="d12">True</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">spain</data>
+      <data key="d16">True</data>
+      <data key="d17">1</data>
+      <data key="d18">True</data>
+      <data key="d19">F</data>
+      <data key="d20">47</data>
+      <data key="d21">1</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="Anna Vera">
+      <data key="d1">de7dfb87-35c3-4ded-82eb-a8425519a00c</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+      <data key="d5">15.0</data>
+      <data key="d6">True</data>
+      <data key="d7">1</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">4</data>
+      <data key="d11">1</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">spain</data>
+      <data key="d16">False</data>
+      <data key="d17">3</data>
+      <data key="d18">False</data>
+      <data key="d19">F</data>
+      <data key="d20">50</data>
+      <data key="d21">3</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="Sergi Jufresa">
+      <data key="d1">1f1daf8f-dd09-4ab9-adbe-921fbc7ce2be</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+      <data key="d5">2.0</data>
+      <data key="d6">False</data>
+      <data key="d7">4</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">1</data>
+      <data key="d11">10</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">True</data>
+      <data key="d15">spain</data>
+      <data key="d16">False</data>
+      <data key="d17">4</data>
+      <data key="d18">False</data>
+      <data key="d19">M</data>
+      <data key="d20">55</data>
+      <data key="d21">3</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="Aida Rueda">
+      <data key="d1">548c3fb3-0c71-425d-a5e4-32f045c2abc2</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+      <data key="d5">7.0</data>
+      <data key="d6">True</data>
+      <data key="d7">2</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">5</data>
+      <data key="d11">5</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">spain</data>
+      <data key="d16">False</data>
+      <data key="d17">2</data>
+      <data key="d18">True</data>
+      <data key="d19">F</data>
+      <data key="d20">40</data>
+      <data key="d21">3</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="Angel Pallares">
+      <data key="d1">629a5052-a001-44d2-b3cd-a243f625a873</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+      <data key="d5">6.0</data>
+      <data key="d6">False</data>
+      <data key="d7">4</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">1</data>
+      <data key="d11">9</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">True</data>
+      <data key="d15">spain</data>
+      <data key="d16">False</data>
+      <data key="d17">4</data>
+      <data key="d18">False</data>
+      <data key="d19">M</data>
+      <data key="d20">40</data>
+      <data key="d21">3</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="Javier Muñoz">
+      <data key="d1">18ebf7ae-e8b6-40e0-b476-c745cf4001f5</data>
+      <data key="d2">True</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+      <data key="d5">3.0</data>
+      <data key="d6">False</data>
+      <data key="d7">3</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">3</data>
+      <data key="d11">2</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">spain</data>
+      <data key="d16">False</data>
+      <data key="d17">1</data>
+      <data key="d18">False</data>
+      <data key="d19">M</data>
+      <data key="d20">43</data>
+      <data key="d21">2</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="Serena Salvado">
+      <data key="d1">ce6d8f7a-fea9-4266-b4bb-5b3b085df905</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+      <data key="d5">10.0</data>
+      <data key="d6">True</data>
+      <data key="d7">2</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">3</data>
+      <data key="d11">2</data>
+      <data key="d12">True</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">spain</data>
+      <data key="d16">False</data>
+      <data key="d17">2</data>
+      <data key="d18">False</data>
+      <data key="d19">F</data>
+      <data key="d20">48</data>
+      <data key="d21">1</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="Catarina Heleno">
+      <data key="d1">82fbc168-72f6-4d16-9ae7-82b614d96f75</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+      <data key="d5">7.0</data>
+      <data key="d6">True</data>
+      <data key="d7">1</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">5</data>
+      <data key="d11">6</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">portugal</data>
+      <data key="d16">False</data>
+      <data key="d17">3</data>
+      <data key="d18">False</data>
+      <data key="d19">F</data>
+      <data key="d20">45</data>
+      <data key="d21">4</data>
+      <data key="d22">6</data>
+    </node>
+    <node id="Marisa Bombardo">
+      <data key="d23">4</data>
+      <data key="d24">3</data>
+      <data key="d25">Marisa</data>
+      <data key="d26">Bombardo</data>
+      <data key="d27">2017-09-14 11:29:56</data>
+      <data key="d3">True</data>
+      <data key="d19">F</data>
+      <data key="d20">45</data>
+      <data key="d28">0</data>
+      <data key="d29">0</data>
+      <data key="d30">662f34e7-876f-4764-a52e-dab2f4c41403</data>
+      <data key="d31">2017-09-14 12:19:02</data>
+      <data key="d11">2</data>
+      <data key="d32">15.0</data>
+      <data key="d15">spain</data>
+      <data key="d33">4</data>
+      <data key="d34">IESE</data>
+      <data key="d35">mbombardo@iese.edu</data>
+    </node>
+    <node id="Lluis Triquell">
+      <data key="d1">6b17b4bf-5a70-48b5-bb12-564fb57a7650</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">5</data>
+      <data key="d5">20.0</data>
+      <data key="d6">False</data>
+      <data key="d7">3</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">1</data>
+      <data key="d11">10</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">spain</data>
+      <data key="d16">False</data>
+      <data key="d17">4</data>
+      <data key="d18">True</data>
+      <data key="d19">M</data>
+      <data key="d20">67</data>
+      <data key="d21">6</data>
+      <data key="d22">6</data>
+    </node>
+    <node id="Mireia Rius">
+      <data key="d1">23ac63b1-b7f0-49e9-b579-a4dc874ad82a</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+      <data key="d5">15.0</data>
+      <data key="d6">False</data>
+      <data key="d7">2</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">4</data>
+      <data key="d11">1</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">spain</data>
+      <data key="d16">False</data>
+      <data key="d17">3</data>
+      <data key="d18">True</data>
+      <data key="d19">F</data>
+      <data key="d20">52</data>
+      <data key="d21">3</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="Carlos Ore">
+      <data key="d1">733f887e-d6e2-40c6-8130-4ecc04078eb2</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+      <data key="d5">14.0</data>
+      <data key="d6">False</data>
+      <data key="d7">3</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">3</data>
+      <data key="d11">5</data>
+      <data key="d12">True</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">spain</data>
+      <data key="d16">True</data>
+      <data key="d17">2</data>
+      <data key="d18">False</data>
+      <data key="d19">M</data>
+      <data key="d20">33</data>
+      <data key="d21">1</data>
+      <data key="d22">6</data>
+    </node>
+    <node id="Marta Serrano">
+      <data key="d1">95e8feab-3ca3-48bf-a744-e8f036b130f4</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+      <data key="d5">10.0</data>
+      <data key="d6">False</data>
+      <data key="d7">4</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">1</data>
+      <data key="d11">10</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">True</data>
+      <data key="d15">spain</data>
+      <data key="d16">False</data>
+      <data key="d17">4</data>
+      <data key="d18">False</data>
+      <data key="d19">F</data>
+      <data key="d20">51</data>
+      <data key="d21">3</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="My Husband">
+      <data key="d1">bfb12e34-a4a2-4262-a96c-50aeba83bd1c</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">1</data>
+      <data key="d5">21.0</data>
+      <data key="d6">True</data>
+      <data key="d7">1</data>
+      <data key="d8">True</data>
+      <data key="d9">True</data>
+      <data key="d10">4</data>
+      <data key="d11">6</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">spain</data>
+      <data key="d16">False</data>
+      <data key="d17">1</data>
+      <data key="d18">True</data>
+      <data key="d19">M</data>
+      <data key="d20">48</data>
+      <data key="d21">4</data>
+      <data key="d22">1</data>
+    </node>
+    <node id="Lourdes Bosch">
+      <data key="d1">0d52132d-7954-4174-845f-ad27a267a3f4</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+      <data key="d5">15.0</data>
+      <data key="d6">False</data>
+      <data key="d7">2</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">3</data>
+      <data key="d11">1</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">spain</data>
+      <data key="d16">True</data>
+      <data key="d17">1</data>
+      <data key="d18">True</data>
+      <data key="d19">F</data>
+      <data key="d20">59</data>
+      <data key="d21">3</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="Gemma Golobardes">
+      <data key="d1">092c2593-4809-409a-9ff8-926041a02f02</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">2</data>
+      <data key="d5">15.0</data>
+      <data key="d6">True</data>
+      <data key="d7">2</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">3</data>
+      <data key="d11">4</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">spain</data>
+      <data key="d16">False</data>
+      <data key="d17">3</data>
+      <data key="d18">False</data>
+      <data key="d19">F</data>
+      <data key="d20">45</data>
+      <data key="d21">3</data>
+      <data key="d22">6</data>
+    </node>
+    <edge source="Maria Puig" target="Marisa Bombardo">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">False</data>
+      <data key="d39">False</data>
+      <data key="d40">4</data>
+      <data key="d41">3</data>
+      <data key="d42">7</data>
+      <data key="d43">21.0</data>
+      <data key="d44">False</data>
+      <data key="d45">True</data>
+    </edge>
+    <edge source="Maria Puig" target="Eulalia Puig">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d46">38ddf352-6c38-4e37-8904-932692303d03</data>
+    </edge>
+    <edge source="Maria Puig" target="Mireia Rius">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d46">d396b838-1ad9-4a31-813c-e2fa260c1766</data>
+    </edge>
+    <edge source="Maria Puig" target="Anna Vera">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d46">45b33d09-587a-44ae-82f4-56513c608c85</data>
+    </edge>
+    <edge source="Maria Puig" target="My Husband">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d46">f2f0f0aa-e45e-4b33-b10f-d34d45e86b45</data>
+    </edge>
+    <edge source="Maria Puig" target="Lourdes Bosch">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d46">1d3fbcac-c65b-4250-90c6-7f3904d6ac98</data>
+    </edge>
+    <edge source="My friend" target="My Husband">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d46">64738723-8757-40ed-8b08-4f12fe2a75d1</data>
+    </edge>
+    <edge source="My friend" target="Marisa Bombardo">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d38">False</data>
+      <data key="d39">False</data>
+      <data key="d40">3</data>
+      <data key="d41">2</data>
+      <data key="d42">1</data>
+      <data key="d43">35.0</data>
+      <data key="d44">False</data>
+      <data key="d45">False</data>
+    </edge>
+    <edge source="My friend" target="My sister">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d46">fc7bfabe-cf42-45b9-875e-cce0a8a3d516</data>
+    </edge>
+    <edge source="My friend" target="My colleague">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d46">26719176-fba4-4ca6-8b91-ad6a570a62a9</data>
+    </edge>
+    <edge source="My colleague" target="My Husband">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d46">87aed688-2e15-43e3-85c3-a3e3bb6ca9e3</data>
+    </edge>
+    <edge source="My colleague" target="Marisa Bombardo">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d38">False</data>
+      <data key="d39">False</data>
+      <data key="d40">3</data>
+      <data key="d41">2</data>
+      <data key="d42">9</data>
+      <data key="d43">10.0</data>
+      <data key="d44">False</data>
+      <data key="d45">False</data>
+    </edge>
+    <edge source="My colleague" target="My sister">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d46">70fff42d-7862-43c5-9276-42f80d9eff98</data>
+    </edge>
+    <edge source="Mercedes Castello" target="Mireia Rius">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d46">374fe9ba-a702-435c-bf9f-f246b97f780e</data>
+    </edge>
+    <edge source="Mercedes Castello" target="Marisa Bombardo">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">False</data>
+      <data key="d39">False</data>
+      <data key="d40">3</data>
+      <data key="d41">3</data>
+      <data key="d42">7</data>
+      <data key="d43">10.0</data>
+      <data key="d44">False</data>
+      <data key="d45">False</data>
+    </edge>
+    <edge source="Mercedes Castello" target="Anna Vera">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d46">ac463fcb-e64d-4591-8b18-ceb4006a89bc</data>
+    </edge>
+    <edge source="Mercedes Castello" target="Aida Rueda">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d46">3843faba-3177-4057-b7be-47a5ca175a30</data>
+    </edge>
+    <edge source="Eduard Portella" target="Marisa Bombardo">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">False</data>
+      <data key="d39">False</data>
+      <data key="d40">4</data>
+      <data key="d41">1</data>
+      <data key="d42">6</data>
+      <data key="d43">20.0</data>
+      <data key="d44">False</data>
+      <data key="d45">True</data>
+    </edge>
+    <edge source="Eduard Portella" target="Lluis Triquell">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d46">a841e30e-f5e1-4986-b867-30588a53db68</data>
+    </edge>
+    <edge source="Carmen Roch" target="Marisa Bombardo">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d38">False</data>
+      <data key="d39">False</data>
+      <data key="d40">1</data>
+      <data key="d41">5</data>
+      <data key="d42">7</data>
+      <data key="d43">10.0</data>
+      <data key="d44">False</data>
+      <data key="d45">False</data>
+    </edge>
+    <edge source="Carmen Roch" target="Eulalia Puig">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d46">9662c5ed-9dc9-421d-be77-6f8087f1f276</data>
+    </edge>
+    <edge source="Carmen Roch" target="Mireia Rius">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d46">48f32698-415f-4c1e-8bf3-a6ca8df17e8d</data>
+    </edge>
+    <edge source="Carmen Roch" target="Carlos Ore">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d46">40065bcc-8f6e-4884-9941-b57fbd216ba1</data>
+    </edge>
+    <edge source="Carmen Roch" target="Anna Vera">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d46">f450bdc1-c744-4ab6-ada7-e778aea1b53b</data>
+    </edge>
+    <edge source="Carmen Roch" target="Gemma Golobardes">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d46">a18eab0f-5387-4c4c-8dd4-1e49d46843c4</data>
+    </edge>
+    <edge source="Carmen Roch" target="Aida Rueda">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d46">f0ac720b-72f9-4e2c-8ed5-0d7da08fdcaa</data>
+    </edge>
+    <edge source="Carmen Roch" target="Serena Salvado">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d46">4e4049eb-21c9-4a33-928a-28f06a022434</data>
+    </edge>
+    <edge source="Carmen Roch" target="Catarina Heleno">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d46">ba4d56e5-5d5d-42be-9c09-86446407661e</data>
+    </edge>
+    <edge source="My sister" target="My Husband">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d46">7c84692c-f342-421d-9fee-750638398f19</data>
+    </edge>
+    <edge source="My sister" target="Marisa Bombardo">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d38">False</data>
+      <data key="d39">False</data>
+      <data key="d40">2</data>
+      <data key="d41">2</data>
+      <data key="d42">1</data>
+      <data key="d43">42.0</data>
+      <data key="d44">False</data>
+      <data key="d45">False</data>
+    </edge>
+    <edge source="Eulalia Puig" target="Marisa Bombardo">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d38">False</data>
+      <data key="d39">False</data>
+      <data key="d40">1</data>
+      <data key="d41">5</data>
+      <data key="d42">7</data>
+      <data key="d43">15.0</data>
+      <data key="d44">False</data>
+      <data key="d45">True</data>
+    </edge>
+    <edge source="Eulalia Puig" target="Mireia Rius">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d46">4d3ebdd8-6735-4aba-8b1c-eb96890f4fad</data>
+    </edge>
+    <edge source="Eulalia Puig" target="Carlos Ore">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d46">6675f492-a2c8-4b46-aafa-a304c5e79444</data>
+    </edge>
+    <edge source="Eulalia Puig" target="Anna Vera">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d46">10db4410-fc30-4e5b-b16e-9d5e38501de7</data>
+    </edge>
+    <edge source="Eulalia Puig" target="Serena Salvado">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d46">ebea572e-fd59-47c5-a0bc-561ad2360fb5</data>
+    </edge>
+    <edge source="Eulalia Puig" target="Javier Muñoz">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d46">f7a36d7a-da7b-452c-b16a-bda7fcb38021</data>
+    </edge>
+    <edge source="Eulalia Puig" target="Lourdes Bosch">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d46">a96cbfc1-fc06-48a6-9164-a6a87d85e043</data>
+    </edge>
+    <edge source="Eulalia Puig" target="Catarina Heleno">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d46">c74ccaf6-52e0-4e61-957c-324101fd2ab7</data>
+    </edge>
+    <edge source="Anna Vera" target="Marisa Bombardo">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d38">False</data>
+      <data key="d39">False</data>
+      <data key="d40">3</data>
+      <data key="d41">4</data>
+      <data key="d42">7</data>
+      <data key="d43">15.0</data>
+      <data key="d44">False</data>
+      <data key="d45">False</data>
+    </edge>
+    <edge source="Anna Vera" target="Mireia Rius">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d46">dfd5e353-48d8-4dba-ae73-e05e8b24df52</data>
+    </edge>
+    <edge source="Anna Vera" target="Lourdes Bosch">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d46">e9168a39-7fda-4ef2-b8dc-98056b5fd2db</data>
+    </edge>
+    <edge source="Sergi Jufresa" target="Mireia Rius">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d46">1c6a1cf6-3e76-4b41-bbe0-228f6715673b</data>
+    </edge>
+    <edge source="Sergi Jufresa" target="Marisa Bombardo">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">True</data>
+      <data key="d39">False</data>
+      <data key="d40">4</data>
+      <data key="d41">1</data>
+      <data key="d42">7</data>
+      <data key="d43">2.0</data>
+      <data key="d44">False</data>
+      <data key="d45">False</data>
+    </edge>
+    <edge source="Sergi Jufresa" target="Marta Serrano">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d46">341c3264-46c0-4b36-aa4f-d4ac71c9c181</data>
+    </edge>
+    <edge source="Sergi Jufresa" target="Angel Pallares">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d46">451ca76a-bbc7-4739-abdc-87eca8893502</data>
+    </edge>
+    <edge source="Aida Rueda" target="Marisa Bombardo">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">False</data>
+      <data key="d39">False</data>
+      <data key="d40">2</data>
+      <data key="d41">5</data>
+      <data key="d42">7</data>
+      <data key="d43">7.0</data>
+      <data key="d44">False</data>
+      <data key="d45">True</data>
+    </edge>
+    <edge source="Aida Rueda" target="Mireia Rius">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d46">2354edb3-b208-43be-8c5d-c545d21b9335</data>
+    </edge>
+    <edge source="Angel Pallares" target="Marisa Bombardo">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">True</data>
+      <data key="d39">False</data>
+      <data key="d40">4</data>
+      <data key="d41">1</data>
+      <data key="d42">7</data>
+      <data key="d43">6.0</data>
+      <data key="d44">False</data>
+      <data key="d45">False</data>
+    </edge>
+    <edge source="Angel Pallares" target="Marta Serrano">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d46">f9c2524d-62e7-4fcf-8845-7bc0a2461f43</data>
+    </edge>
+    <edge source="Javier Muñoz" target="Carlos Ore">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d46">6564907a-81ee-40e2-9e2e-c365882d0831</data>
+    </edge>
+    <edge source="Javier Muñoz" target="Marisa Bombardo">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">False</data>
+      <data key="d39">True</data>
+      <data key="d40">1</data>
+      <data key="d41">3</data>
+      <data key="d42">7</data>
+      <data key="d43">3.0</data>
+      <data key="d44">False</data>
+      <data key="d45">False</data>
+    </edge>
+    <edge source="Javier Muñoz" target="Serena Salvado">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d46">899d85ca-6ba9-4aea-9957-0e81ad2c918b</data>
+    </edge>
+    <edge source="Serena Salvado" target="Marisa Bombardo">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">False</data>
+      <data key="d39">False</data>
+      <data key="d40">2</data>
+      <data key="d41">3</data>
+      <data key="d42">7</data>
+      <data key="d43">10.0</data>
+      <data key="d44">False</data>
+      <data key="d45">False</data>
+    </edge>
+    <edge source="Serena Salvado" target="Carlos Ore">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d46">51a6e0ec-efda-4e35-94f5-576bcee1ee6c</data>
+    </edge>
+    <edge source="Catarina Heleno" target="Marisa Bombardo">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d38">False</data>
+      <data key="d39">False</data>
+      <data key="d40">3</data>
+      <data key="d41">5</data>
+      <data key="d42">6</data>
+      <data key="d43">7.0</data>
+      <data key="d44">False</data>
+      <data key="d45">False</data>
+    </edge>
+    <edge source="Catarina Heleno" target="Marta Serrano">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d46">683176c1-8685-4462-bd93-dada716a6def</data>
+    </edge>
+    <edge source="Catarina Heleno" target="Mireia Rius">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d46">77917110-dd8a-4807-9f87-ca638660fcfe</data>
+    </edge>
+    <edge source="Marisa Bombardo" target="Lluis Triquell">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">False</data>
+      <data key="d39">False</data>
+      <data key="d40">4</data>
+      <data key="d41">1</data>
+      <data key="d42">6</data>
+      <data key="d43">20.0</data>
+      <data key="d44">False</data>
+      <data key="d45">True</data>
+    </edge>
+    <edge source="Marisa Bombardo" target="Mireia Rius">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">False</data>
+      <data key="d39">False</data>
+      <data key="d40">3</data>
+      <data key="d41">4</data>
+      <data key="d42">7</data>
+      <data key="d43">15.0</data>
+      <data key="d44">False</data>
+      <data key="d45">True</data>
+    </edge>
+    <edge source="Marisa Bombardo" target="Carlos Ore">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">False</data>
+      <data key="d39">False</data>
+      <data key="d40">2</data>
+      <data key="d41">3</data>
+      <data key="d42">6</data>
+      <data key="d43">14.0</data>
+      <data key="d44">False</data>
+      <data key="d45">False</data>
+    </edge>
+    <edge source="Marisa Bombardo" target="Marta Serrano">
+      <data key="d36">4</data>
+      <data key="d37">1</data>
+      <data key="d38">True</data>
+      <data key="d39">False</data>
+      <data key="d40">4</data>
+      <data key="d41">1</data>
+      <data key="d42">7</data>
+      <data key="d43">10.0</data>
+      <data key="d44">False</data>
+      <data key="d45">False</data>
+    </edge>
+    <edge source="Marisa Bombardo" target="My Husband">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d38">False</data>
+      <data key="d39">False</data>
+      <data key="d40">1</data>
+      <data key="d41">4</data>
+      <data key="d42">1</data>
+      <data key="d43">21.0</data>
+      <data key="d44">True</data>
+      <data key="d45">True</data>
+    </edge>
+    <edge source="Marisa Bombardo" target="Lourdes Bosch">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">False</data>
+      <data key="d39">False</data>
+      <data key="d40">1</data>
+      <data key="d41">3</data>
+      <data key="d42">7</data>
+      <data key="d43">15.0</data>
+      <data key="d44">False</data>
+      <data key="d45">True</data>
+    </edge>
+    <edge source="Marisa Bombardo" target="Gemma Golobardes">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">False</data>
+      <data key="d39">False</data>
+      <data key="d40">3</data>
+      <data key="d41">3</data>
+      <data key="d42">6</data>
+      <data key="d43">15.0</data>
+      <data key="d44">False</data>
+      <data key="d45">False</data>
+    </edge>
+    <edge source="Mireia Rius" target="Marta Serrano">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d46">8d90e989-2dae-49b1-8da6-c59cdb89deca</data>
+    </edge>
+    <edge source="Mireia Rius" target="Lourdes Bosch">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d46">4fd637c5-3205-4050-af3d-961307aeaf4d</data>
+    </edge>
+  </graph>
+</graphml>

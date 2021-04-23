@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?><graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="reluuid" attr.type="string" for="edge" id="d46" />
+  <key attr.name="important" attr.type="boolean" for="edge" id="d45" />
+  <key attr.name="spouse" attr.type="boolean" for="edge" id="d44" />
+  <key attr.name="time" attr.type="double" for="edge" id="d43" />
+  <key attr.name="context" attr.type="int" for="edge" id="d42" />
+  <key attr.name="helps" attr.type="int" for="edge" id="d41" />
+  <key attr.name="frequency" attr.type="int" for="edge" id="d40" />
+  <key attr.name="boss" attr.type="boolean" for="edge" id="d39" />
+  <key attr.name="hinders" attr.type="boolean" for="edge" id="d38" />
+  <key attr.name="weight" attr.type="int" for="edge" id="d37" />
+  <key attr.name="strength" attr.type="int" for="edge" id="d36" />
+  <key attr.name="email" attr.type="string" for="node" id="d35" />
+  <key attr.name="company" attr.type="string" for="node" id="d34" />
+  <key attr.name="education" attr.type="int" for="node" id="d33" />
+  <key attr.name="tenure" attr.type="double" for="node" id="d32" />
+  <key attr.name="end_time" attr.type="string" for="node" id="d31" />
+  <key attr.name="egouuid" attr.type="string" for="node" id="d30" />
+  <key attr.name="people_in_company" attr.type="int" for="node" id="d29" />
+  <key attr.name="annual_sales" attr.type="int" for="node" id="d28" />
+  <key attr.name="start_time" attr.type="string" for="node" id="d27" />
+  <key attr.name="last_name" attr.type="string" for="node" id="d26" />
+  <key attr.name="first_name" attr.type="string" for="node" id="d25" />
+  <key attr.name="current_job" attr.type="int" for="node" id="d24" />
+  <key attr.name="salary" attr.type="int" for="node" id="d23" />
+  <key attr.name="context" attr.type="int" for="node" id="d22" />
+  <key attr.name="work" attr.type="int" for="node" id="d21" />
+  <key attr.name="age" attr.type="int" for="node" id="d20" />
+  <key attr.name="gender" attr.type="string" for="node" id="d19" />
+  <key attr.name="important_career" attr.type="boolean" for="node" id="d18" />
+  <key attr.name="interaction" attr.type="int" for="node" id="d17" />
+  <key attr.name="buyin" attr.type="boolean" for="node" id="d16" />
+  <key attr.name="nationality" attr.type="string" for="node" id="d15" />
+  <key attr.name="hinder_professional" attr.type="boolean" for="node" id="d14" />
+  <key attr.name="spend_free_time" attr.type="boolean" for="node" id="d13" />
+  <key attr.name="reports_to_ego" attr.type="boolean" for="node" id="d12" />
+  <key attr.name="functional_area" attr.type="int" for="node" id="d11" />
+  <key attr.name="helps" attr.type="int" for="node" id="d10" />
+  <key attr.name="important_professional" attr.type="boolean" for="node" id="d9" />
+  <key attr.name="life_partner" attr.type="boolean" for="node" id="d8" />
+  <key attr.name="strength" attr.type="int" for="node" id="d7" />
+  <key attr.name="trust" attr.type="boolean" for="node" id="d6" />
+  <key attr.name="time_knowing" attr.type="double" for="node" id="d5" />
+  <key attr.name="rank" attr.type="int" for="node" id="d4" />
+  <key attr.name="is_ego" attr.type="boolean" for="node" id="d3" />
+  <key attr.name="ego_reports_to" attr.type="boolean" for="node" id="d2" />
+  <key attr.name="alteruuid" attr.type="string" for="node" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="undirected">
+    <data key="d0">Artur Skiba's Ego Network</data>
+    <node id="Sebastian Sala">
+      <data key="d1">558e2d04-7c54-4361-9747-7ee3e964f603</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+      <data key="d5">7.0</data>
+      <data key="d6">False</data>
+      <data key="d7">2</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">4</data>
+      <data key="d11">9</data>
+      <data key="d12">True</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">poland</data>
+      <data key="d16">False</data>
+      <data key="d17">1</data>
+      <data key="d18">False</data>
+      <data key="d19">M</data>
+      <data key="d20">35</data>
+      <data key="d21">1</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="Artur Skiba">
+      <data key="d23">8</data>
+      <data key="d24">6</data>
+      <data key="d25">Artur</data>
+      <data key="d26">Skiba</data>
+      <data key="d27">2017-06-12 09:07:57</data>
+      <data key="d3">True</data>
+      <data key="d19">M</data>
+      <data key="d20">42</data>
+      <data key="d28">0</data>
+      <data key="d29">0</data>
+      <data key="d30">1eb6abce-c816-4baf-a360-4c749781739e</data>
+      <data key="d31">2017-06-12 09:26:02</data>
+      <data key="d11">8</data>
+      <data key="d32">17.0</data>
+      <data key="d15">poland</data>
+      <data key="d33">4</data>
+      <data key="d34">Antal</data>
+      <data key="d35">artur.skiba@wp.pl</data>
+    </node>
+    <node id="Tomasz Misiak">
+      <data key="d1">aac0a2b8-eb5b-4b07-91d6-1964d589baf4</data>
+      <data key="d2">True</data>
+      <data key="d3">False</data>
+      <data key="d4">1</data>
+      <data key="d5">6.0</data>
+      <data key="d6">False</data>
+      <data key="d7">3</data>
+      <data key="d8">False</data>
+      <data key="d9">True</data>
+      <data key="d10">3</data>
+      <data key="d11">8</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">poland</data>
+      <data key="d16">True</data>
+      <data key="d17">3</data>
+      <data key="d18">True</data>
+      <data key="d19">M</data>
+      <data key="d20">45</data>
+      <data key="d21">3</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="Artur Migon">
+      <data key="d1">6d25a5de-d639-44c9-82fc-dce64b938a9f</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">3</data>
+      <data key="d5">13.0</data>
+      <data key="d6">True</data>
+      <data key="d7">1</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+      <data key="d10">4</data>
+      <data key="d11">8</data>
+      <data key="d12">True</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">poland</data>
+      <data key="d16">False</data>
+      <data key="d17">1</data>
+      <data key="d18">False</data>
+      <data key="d19">M</data>
+      <data key="d20">41</data>
+      <data key="d21">1</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="Tony Goodwin">
+      <data key="d1">02eb3e3b-8426-456f-8781-29351af488a9</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+      <data key="d5">16.0</data>
+      <data key="d6">False</data>
+      <data key="d7">3</data>
+      <data key="d8">False</data>
+      <data key="d9">True</data>
+      <data key="d10">2</data>
+      <data key="d11">8</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">poland</data>
+      <data key="d16">False</data>
+      <data key="d17">4</data>
+      <data key="d18">True</data>
+      <data key="d19">M</data>
+      <data key="d20">52</data>
+      <data key="d21">5</data>
+      <data key="d22">9</data>
+    </node>
+    <node id="Tomasz Hanczarek">
+      <data key="d1">814ad86c-7ab1-4c31-8ff5-33c90e6fd3ba</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">1</data>
+      <data key="d5">6.0</data>
+      <data key="d6">False</data>
+      <data key="d7">3</data>
+      <data key="d8">False</data>
+      <data key="d9">True</data>
+      <data key="d10">2</data>
+      <data key="d11">8</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">poland</data>
+      <data key="d16">False</data>
+      <data key="d17">3</data>
+      <data key="d18">False</data>
+      <data key="d19">M</data>
+      <data key="d20">48</data>
+      <data key="d21">3</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="Paul Russell">
+      <data key="d1">b681bc3d-8af9-4210-a7c9-c128041af548</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+      <data key="d5">15.0</data>
+      <data key="d6">True</data>
+      <data key="d7">2</data>
+      <data key="d8">False</data>
+      <data key="d9">True</data>
+      <data key="d10">3</data>
+      <data key="d11">9</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">united kingdom</data>
+      <data key="d16">True</data>
+      <data key="d17">3</data>
+      <data key="d18">False</data>
+      <data key="d19">M</data>
+      <data key="d20">41</data>
+      <data key="d21">5</data>
+      <data key="d22">7</data>
+    </node>
+    <node id="Lilianna Skiba">
+      <data key="d1">8c3268e3-91b6-4ea5-811f-d27d751839df</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">4</data>
+      <data key="d5">15.0</data>
+      <data key="d6">True</data>
+      <data key="d7">1</data>
+      <data key="d8">True</data>
+      <data key="d9">True</data>
+      <data key="d10">3</data>
+      <data key="d11">10</data>
+      <data key="d12">False</data>
+      <data key="d13">False</data>
+      <data key="d14">False</data>
+      <data key="d15">poland</data>
+      <data key="d16">True</data>
+      <data key="d17">1</data>
+      <data key="d18">True</data>
+      <data key="d19">F</data>
+      <data key="d20">42</data>
+      <data key="d21">5</data>
+      <data key="d22">9</data>
+    </node>
+    <edge source="Sebastian Sala" target="Artur Skiba">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">False</data>
+      <data key="d39">False</data>
+      <data key="d40">1</data>
+      <data key="d41">4</data>
+      <data key="d42">7</data>
+      <data key="d43">7.0</data>
+      <data key="d44">False</data>
+      <data key="d45">False</data>
+    </edge>
+    <edge source="Sebastian Sala" target="Artur Migon">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d46">ae422462-d371-447f-a066-048976a7c588</data>
+    </edge>
+    <edge source="Artur Skiba" target="Tomasz Hanczarek">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">False</data>
+      <data key="d39">False</data>
+      <data key="d40">3</data>
+      <data key="d41">2</data>
+      <data key="d42">7</data>
+      <data key="d43">6.0</data>
+      <data key="d44">False</data>
+      <data key="d45">False</data>
+    </edge>
+    <edge source="Artur Skiba" target="Tomasz Misiak">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">False</data>
+      <data key="d39">True</data>
+      <data key="d40">3</data>
+      <data key="d41">3</data>
+      <data key="d42">7</data>
+      <data key="d43">6.0</data>
+      <data key="d44">False</data>
+      <data key="d45">True</data>
+    </edge>
+    <edge source="Artur Skiba" target="Artur Migon">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d38">False</data>
+      <data key="d39">False</data>
+      <data key="d40">1</data>
+      <data key="d41">4</data>
+      <data key="d42">7</data>
+      <data key="d43">13.0</data>
+      <data key="d44">False</data>
+      <data key="d45">False</data>
+    </edge>
+    <edge source="Artur Skiba" target="Tony Goodwin">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d38">False</data>
+      <data key="d39">False</data>
+      <data key="d40">4</data>
+      <data key="d41">2</data>
+      <data key="d42">9</data>
+      <data key="d43">16.0</data>
+      <data key="d44">False</data>
+      <data key="d45">True</data>
+    </edge>
+    <edge source="Artur Skiba" target="Paul Russell">
+      <data key="d36">2</data>
+      <data key="d37">3</data>
+      <data key="d38">False</data>
+      <data key="d39">False</data>
+      <data key="d40">3</data>
+      <data key="d41">3</data>
+      <data key="d42">7</data>
+      <data key="d43">15.0</data>
+      <data key="d44">False</data>
+      <data key="d45">False</data>
+    </edge>
+    <edge source="Artur Skiba" target="Lilianna Skiba">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d38">False</data>
+      <data key="d39">False</data>
+      <data key="d40">1</data>
+      <data key="d41">3</data>
+      <data key="d42">9</data>
+      <data key="d43">15.0</data>
+      <data key="d44">True</data>
+      <data key="d45">True</data>
+    </edge>
+    <edge source="Tomasz Misiak" target="Tomasz Hanczarek">
+      <data key="d36">1</data>
+      <data key="d37">4</data>
+      <data key="d46">0671b418-defe-4c04-8022-d8a50e476cc6</data>
+    </edge>
+    <edge source="Tomasz Misiak" target="Artur Migon">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d46">94784631-0a38-4318-a974-40a359a0a0fc</data>
+    </edge>
+    <edge source="Artur Migon" target="Lilianna Skiba">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d46">b5df592f-0488-4d96-af91-d906116ee320</data>
+    </edge>
+    <edge source="Tony Goodwin" target="Paul Russell">
+      <data key="d36">3</data>
+      <data key="d37">2</data>
+      <data key="d46">2714453a-e02e-45f5-8ac6-d4ff39405ac1</data>
+    </edge>
+  </graph>
+</graphml>
