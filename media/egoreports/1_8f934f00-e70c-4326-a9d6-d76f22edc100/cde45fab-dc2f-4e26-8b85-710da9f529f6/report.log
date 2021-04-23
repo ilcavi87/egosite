@@ -287,12 +287,12 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Warning: No \author given.
 
 
-</egonet/static/egonet/report/sample_n
+<~/egosite/egonet/static/egonet/report/sample_n
 et.pdf, id=1, 578.16pt x 433.62pt>
-File: /egonet/static/egonet/report/sam
+File: ~/egosite/egonet/static/egonet/report/sam
 ple_net.pdf Graphic file (type pdf)
 
-<use /egonet/static/egonet/report/samp
+<use ~/egosite/egonet/static/egonet/report/samp
 le_net.pdf>
 Package pdftex.def Info: /home/networker/webapps/netwrkr/networker/egonet/stati
 c/egonet/report/sample_net.pdf used on input line 26.
@@ -319,21 +319,21 @@ dia/logos/iese_logo.png used on input line 36.
 
 
 {/usr/share/texlive/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/networker/
-webapps/netwrkr/networker/egonet/static/egonet/report/sample_net.pdf> </home/ne
+webapps/netwrkr/networker~/egosite/egonet/static/egonet/report/sample_net.pdf> </home/ne
 tworker/webapps/netwrkr/networker/egonet/../media/logos/iese_logo.png>]
-</egonet/static/egonet/report/organiza
+<~/egosite/egonet/static/egonet/report/organiza
 tional_network.png, id=73, 485.6544pt x 356.2911pt>
-File: /egonet/static/egonet/report/org
+File: ~/egosite/egonet/static/egonet/report/org
 anizational_network.png Graphic file (type png)
 
-<use /egonet/static/egonet/report/orga
+<use ~/egosite/egonet/static/egonet/report/orga
 nizational_network.png>
 Package pdftex.def Info: /home/networker/webapps/netwrkr/networker/egonet/stati
 c/egonet/report/organizational_network.png used on input line 57.
 (pdftex.def)             Requested size: 339.95576pt x 249.40205pt.
 [1
 
- </egonet/static/egonet/report/organiz
+ <~/egosite/egonet/static/egonet/report/organiz
 ational_network.png>] [2]
 </home/networker/webapps/netwrkr/networker/media/egoreports/1_8f934f00-e70c-432
 6-a9d6-d76f22edc100/average/gender.pdf, id=81, 578.16pt x 433.62pt>

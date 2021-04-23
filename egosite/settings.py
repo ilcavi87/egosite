@@ -93,7 +93,7 @@ STATICFILES_DIRS = (
     # Don't forget to use absolute paths, not relative paths.
  #   os.path.join(ROOT, "static"),
  #   os.path.join(ROOT, os.pardir, "egonet", "static"),
-    '/egonet/static/egonet/',
+    '~/egosite/egonet/static/egonet/',
  #   '/home/networker/webapps/static',
     '/home/networker/webapps/netwrkr/networker/static',
 #    '/home/networker/webapps/netwrkr/networker/static',
