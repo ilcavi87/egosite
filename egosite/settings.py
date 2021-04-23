@@ -1,6 +1,10 @@
 # Django settings for egosite project.
 import os
 
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+
+
 DEBUG = True
 #TEMPLATE_DEBUG = DEBUG
 
@@ -80,24 +84,23 @@ MEDIA_URL = '/media/'
 # Example: "/var/www/example.com/static/"
 #STATIC_ROOT = os.path.join(ROOT, os.pardir, "static")
 #STATIC_ROOT = '/webapps/netwrkr/networker/static'
-STATIC_ROOT = '/static'
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
+
+# Static files (CSS, JavaScript, Images)
+# https://docs.djangoproject.com/en/1.9/howto/static-files/
+
+# Extra places for collectstatic to find static files.
+
 
 # URL prefix for static files.
 # Example: "http://example.com/static/", "http://static.example.com/"
 STATIC_URL = '/static/'
 
 # Additional locations of static files
-#STATICFILES_DIRS = (
-    # Put strings here, like "/home/html/static" or "C:/www/django/static".
-    # Always use forward slashes, even on Windows.
-    # Don't forget to use absolute paths, not relative paths.
- #   os.path.join(ROOT, "static"),
- #   os.path.join(ROOT, os.pardir, "egonet", "static"),
-    #'/egonet/static/egonet/',
- #   '/webapps/static',
-  #  '/webapps/netwrkr/networker/static',
-#    '/webapps/netwrkr/networker/static',
-#)
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static'),
+)
 
 # List of finder classes that know how to find static files in
 # various locations.
