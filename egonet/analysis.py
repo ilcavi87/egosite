@@ -39,7 +39,7 @@ def median(x):
 ##
 def get_node_percentages(G, attr):
     result = defaultdict(int)
-    nodes = set(n for n, d in G.nodes(data=True) if not d['is_ego'])
+    nodes = set(n for n, d in G.nodes(data='True', default=False) if G.nodes[n]['is_ego'])
     total = float(len(nodes))
     for n in nodes:
         if G.nodes[n][attr] is not None:
@@ -109,7 +109,7 @@ def accumulate_attributes(G, attr, result, nodes_or_edges='nodes'):
 def centralization_degree(H, exclude_ego=True):
     if exclude_ego:
         G = H.copy()
-        ego = next(n for n, d in G.nodes(data='True') if d['is_ego'])
+
         G.remove_node(ego)
     else:
         G = H
