@@ -31,12 +31,12 @@ DEFAULT_FROM_EMAIL = 'no_reply@networker.webfactional.com'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2','mysql','sqlite3' or 'oracle'
-        'NAME': 'egodb.db',                      # Or path to database file if using sqlite3.
+        'NAME': 'egodb',                      # Or path to database file if using sqlite3.
         # The following settings are not used with sqlite3:
-        'USER': 'networker',
-        'PASSWORD': 'Embedded',
+        'USER': 'egodb',
+        'PASSWORD': 'lkj2ihvigayv2xwp',
         'HOST': '127.0.0.1',                      # Empty for localhost through domain sockets or '127.0.0.1' for localhost through TCP.
-        'PORT': '5432',                      # Set to empty string for default.
+        'PORT': '25060',                      # Set to empty string for default.
     }
 }
 
