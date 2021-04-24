@@ -30,7 +30,7 @@ def edges_not_to_ego(G):
 class Group(models.Model):
 
     name = models.CharField(max_length=255)
-    start_date = models.DateTimeField()
+    start_date = models.DateTimeField(auto_now_add=True)
     end_date = models.DateTimeField()
     password = models.CharField(max_length=50, unique=True)
     category = models.CharField(max_length=50, blank=True, null=True)
@@ -227,7 +227,7 @@ class Group(models.Model):
         this_ego = Ego.objects.get(pk=ego.id)
         this_ego.make_plots()
 
-    def __unicode__(self):
+    def __str__(self):
         return self.name
 
 
@@ -445,7 +445,7 @@ class Ego(models.Model):
             return None
         return report_path
 
-    def __unicode__(self):
+    def __str__(self):
         return self.first_name + " " + self.last_name
 
 
@@ -555,7 +555,7 @@ class Alter(models.Model):
         editable=False,
     )
 
-    def __unicode__(self):
+    def __str__(self):
         return self.name
 
 
@@ -573,6 +573,6 @@ class Relationship(models.Model):
         editable=False,
     )
 
-    def __unicode__(self):
+    def __str__(self):
         return " ".join([self.source.name, '->', self.target.name])
 
