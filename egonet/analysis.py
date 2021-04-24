@@ -39,7 +39,7 @@ def median(x):
 ##
 def get_node_percentages(G, attr):
     result = defaultdict(int)
-    nodes = set(n for n, d in G.nodes(data='True', default=False) if G.nodes[n]['is_ego'])
+    nodes = set(n for n, d in G.nodes(data='True', default=False) if G.nodes[n]['is_ego']==False)
     total = float(len(nodes))
     for n in nodes:
         if G.nodes[n][attr] is not None:
@@ -109,16 +109,16 @@ def accumulate_attributes(G, attr, result, nodes_or_edges='nodes'):
 def centralization_degree(H, exclude_ego=True):
     if exclude_ego:
         G = H.copy()
-
-        G.remove_node(ego)
+        to_delete=next(n for n, d in G.nodes(data='True', default=False) if G.nodes[n]['is_ego'])
+        G.remove_node(to_delete)
     else:
         G = H
     # Isolated ego corner case
     if G.order() < 2:
         return 0
-    deg = G.degree()
-    dmax = max(deg.values())
-    num = sum([(dmax - d) for d in deg.values()])
+    deg = (d for n, d in G.degree())
+    dmax = max(deg)
+    num = sum([(dmax - d) for d in deg])
     denom = float((len(G) - 1) * (len(G) - 2))
     return (num / denom) if denom else 0
 

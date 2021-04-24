@@ -167,9 +167,9 @@ def plot_scatter(metrics, xmetric='density', ymetric='centralization',
                               )
         ax.add_patch(rectangle)
     ax.scatter(metrics[xmetric], metrics[ymetric], s=40,
-               c=dark2_colors[1], marker='s', faceted=False)
+               c=dark2_colors[1], marker='s')
     ax.scatter([ego[0]], [ego[1]], s=60,
-               c=dark2_colors[0], marker='o', faceted=True)
+               c=dark2_colors[0], marker='o')
     if xmetric == 'density' and ymetric == 'centralization':
         leg = ax.legend(
             ("Broker's region", 'Reference Group', 'You'),

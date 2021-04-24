@@ -54,7 +54,7 @@ def build_pdf_report(ego, metrics=None, colors=None, lang=lang):
     ego.make_group_plots(metrics=metrics, colors=colors)
     # Build LaTeX file and compile it
     latex_file = os.path.join(egodir, 'report.tex')
-    with open(latex_file, 'wb') as fh:
+    with open(latex_file, 'w') as fh:
         # Header of the LaTeX document
         write_latex_header(fh, lang=lang)
         # title page
@@ -130,15 +130,15 @@ def build_pdf_report(ego, metrics=None, colors=None, lang=lang):
 ## helper functions to write the LaTeX report
 ##
 def write_latex_header(fh, lang='english'):
-    fh.write("\documentclass[a4paper,12pt]{article}\n")
-    fh.write(r"\usepackage[utf8x]{inputenc}\n")
-    fh.write(r"\usepackage[%s]{babel}\n" % lang)
-    fh.write(r"\usepackage[T1]{fontenc}\n")
-    fh.write(r"\usepackage{times}\n")
-    fh.write(r"\usepackage{graphicx}\n")
-    fh.write(r"\usepackage{float}\n")
-    fh.write(r"\usepackage{subfig}\n")
-    fh.write(r"\usepackage[top=2cm, bottom=2cm, left=2.5cm, right=2.5cm]{geometry}\n")
+    fh.write("\\documentclass[a4paper,12pt]{article}\n")
+    fh.write("\\usepackage[utf8x]{inputenc}\n")
+    fh.write("\\usepackage[%s]{babel}\n" % lang)
+    fh.write("\\usepackage[T1]{fontenc}\n")
+    fh.write("\\usepackage{times}\n")
+    fh.write("\\usepackage{graphicx}\n")
+    fh.write("\\usepackage{float}\n")
+    fh.write("\\usepackage{subfig}\n")
+    fh.write("\\usepackage[top=2cm, bottom=2cm, left=2.5cm, right=2.5cm]{geometry}\n")
     fh.write("\n")
     fh.write("\\batchmode")
     fh.write("\n")

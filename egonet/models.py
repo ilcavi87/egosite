@@ -4,7 +4,7 @@ import types
 from collections import defaultdict
 
 import networkx as nx
-
+import numpy as np
 from django.db import models
 from django.utils.translation import ugettext_lazy as _
 
@@ -91,6 +91,7 @@ class Group(models.Model):
         plotdir = self.get_plotdir()
         colors = plots.plot_average_pies(attrs, plotdir)
         return colors
+
 
     def compute_reference_group_metrics(self):
         metrics = defaultdict(list)
