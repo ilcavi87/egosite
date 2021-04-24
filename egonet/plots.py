@@ -253,7 +253,8 @@ def fancy_scatter(metrics, xmetric='density', ymetric='centralization',
 
 
 def plot_bivariate(metrics, G, egodir):
-    ego = next(n for n, d in G.nodes(data='True') if d['is_ego'])
+    ego = next(n for n, d in G.nodes(data='True', default=False) if G.nodes[n]['is_ego'])
+    #ego = next(n for n, d in G.nodes(data='True') if d['is_ego'])
     plots = [
         dict(title='Network Density vs. Network Centralization',
              xmetric='density',
