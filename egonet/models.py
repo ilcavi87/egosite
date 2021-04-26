@@ -433,6 +433,7 @@ class Ego(models.Model):
         egodir = self.get_egodir()
         plots.plot_pies(G, egodir, colors=colors)
         plots.plot_bivariate(metrics, G, egodir)
+        G = self.build_ego_network()
         plots.plot_egonet(G, layout='neato',
             fname=os.path.join(egodir, "egonet_kk"))
 

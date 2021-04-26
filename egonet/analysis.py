@@ -108,17 +108,20 @@ def accumulate_attributes(G, attr, result, nodes_or_edges='nodes'):
 ##
 def centralization_degree(H, exclude_ego=True):
     if exclude_ego:
-        G = H.copy()
-        to_delete=next(n for n, d in G.nodes(data='True', default=False) if G.nodes[n]['is_ego'])
-        G.remove_node(to_delete)
+        GG = H.copy()
+        to_delete=next(n for n, d in GG.nodes(data='True', default=False) if GG.nodes[n]['is_ego'])
+        GG.remove_node(to_delete)
     else:
-        G = H
+        GG = H
     # Isolated ego corner case
-    if G.order() < 2:
+    if GG.order() < 2:
         return 0
-    deg = (d for n, d in G.degree())
-    dmax = max(deg)
-    num = sum([(dmax - d) for d in deg])
-    denom = float((len(G) - 1) * (len(G) - 2))
+    deg = (d for n, d in GG.degree())
+    degrees=[]
+    for d in deg:
+        degrees.append(d)
+    dmax = max(degrees)
+    num = sum([(dmax - d) for d in degrees])
+    denom = float((len(GG) - 1) * (len(GG) - 2))
     return (num / denom) if denom else 0
 

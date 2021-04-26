@@ -254,6 +254,9 @@ def fancy_scatter(metrics, xmetric='density', ymetric='centralization',
 
 def plot_bivariate(metrics, G, egodir):
     ego = next(n for n, d in G.nodes(data='True', default=False) if G.nodes[n]['is_ego'])
+    print("this is the ->", ego)
+    print("centralization ", centralization_degree(G))
+    print("density ", nx.density(G))
     #ego = next(n for n, d in G.nodes(data='True') if d['is_ego'])
     plots = [
         dict(title='Network Density vs. Network Centralization',
@@ -321,7 +324,7 @@ def fix_name(name):
 def plot_egonet(G, layout='spring', fname='test_eognet', with_labels=True):
     # fig = plt.figure(figsize=(10,8))
     # ax = fig.add_subplot(1,1,1)
-    ego = next(n for n, d in G.nodes(data='True', default=False) if G.nodes[n]['is_ego'])
+    ego = next(n for n, d in G.nodes(data=True) if G.nodes[n]['is_ego'])
     pos = compute_layout(G, ego, layout)
     fig = plt.figure(figsize=(6, 4))
     ax = fig.add_subplot(111)
