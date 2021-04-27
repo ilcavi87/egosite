@@ -28,20 +28,17 @@ class Command(BaseCommand):
 
         groupuuid = options['groupuuid']
         
-        print ("questo e largs")
-        print (groupuuid)
+        print ("THE ARGS -> ", groupuuid)
 
         try:
             group = Group.objects.get(groupuuid=groupuuid)
         except Group.DoesNotExist:
             raise CommandError('Group "%s" does not exist' % groupuuid)
-
         #if options['lang'] != 'en':
         #    translation.activate(options['lang'])
         #translation.activate('es-es')
         from django.conf import settings
         translation.activate(settings.LANGUAGE_CODE)
-
         group.build_reports()
 
         translation.deactivate()

@@ -254,9 +254,6 @@ def fancy_scatter(metrics, xmetric='density', ymetric='centralization',
 
 def plot_bivariate(metrics, G, egodir):
     ego = next(n for n, d in G.nodes(data='True', default=False) if G.nodes[n]['is_ego'])
-    print("this is the ->", ego)
-    print("centralization ", centralization_degree(G))
-    print("density ", nx.density(G))
     #ego = next(n for n, d in G.nodes(data='True') if d['is_ego'])
     plots = [
         dict(title='Network Density vs. Network Centralization',
@@ -292,12 +289,13 @@ def compute_layout(G, ego, layout='neato'):
     rmap = dict((v, k) for k, v in mapping.items())
     H = nx.relabel_nodes(G, mapping, copy=True)
     if layout == 'neato':
-        pos = nx.spectral_layout(H)
-        #pos = nx.nx_pydot.graphviz_layout(H, prog='neato', args="-Groot=%s" % mapping[ego])
+        #pos = nx.spectral_layout(H)
+        pos = nx.nx_pydot.graphviz_layout(H, prog='neato', root=ego)
 
 
     elif layout == 'fdp':
-        pos = nx.shell_layout(H, scale=1)
+        #pos = nx.shell_layout(H, scale=1)
+        pos = nx.nx_pydot.graphviz_layout(H, prog='twopi', root=ego)
     elif layout == 'spring':
         pos = nx.spring_layout(H, iterations=100)
     elif layout == 'circular':
@@ -328,7 +326,7 @@ def plot_egonet(G, layout='spring', fname='test_eognet', with_labels=True):
     pos = compute_layout(G, ego, layout)
     fig = plt.figure(figsize=(6, 4))
     ax = fig.add_subplot(111)
-    # Reduce the margins 
+    # Reduce the margins
     # http://stackoverflow.com/questions/11298909/saving-a-matplotlib-networkx-figure-without-margins
     # cut = 1.1
     # xmax= cut*max(xx for xx,yy in pos.values())
@@ -407,6 +405,11 @@ def plot_egonet(G, layout='spring', fname='test_eognet', with_labels=True):
                                 # font_weight='bold',
                                 alpha=1.0)
     ax.set_axis_off()
+    #ax.set_xlim([1.3 * x for x in ax.get_xlim()])
+    #ax.set_ylim([1.3 * y for y in ax.get_ylim()])
+    plt.tight_layout
+    plt.margins(x=0.2)
+    plt.margins(y=0.2)
     plt.savefig("{0}.svg".format(fname))
     plt.savefig("{0}.eps".format(fname))
     plt.savefig("{0}.pdf".format(fname))

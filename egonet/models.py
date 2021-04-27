@@ -112,6 +112,10 @@ class Group(models.Model):
         colors = self.make_attrs_plots()
         metrics = self.compute_reference_group_metrics()
         for ego in self.ego_set.filter(completed=True):
+            ##DELETE THIS####
+            print(ego.first_name, " " , ego.last_name)
+            ego.make_plots()
+            ######
             ego.build_pdf_report(metrics=metrics, colors=colors)
 
     def export_egos_to_dir(self, path):
@@ -136,6 +140,7 @@ class Group(models.Model):
                     continue
                 print(u"Adding Ego: %s" % next(n for n, d in G.nodes(data=True) if d['is_ego']))
                 self.import_ego(G)
+
 
     def import_ego(self, G):
         """ G: a networkx Graph object """
@@ -363,7 +368,7 @@ class Ego(models.Model):
                                             if self.end_time else 'Null'
         G.nodes[self.name]['is_ego'] = True
         # Add alters and their attributes
-        print(self.name)
+        #print(self.name)
         for alter in self.alter_set.all():
             # Add edge among ego and alters with attributes
             if alter.strength is None:
@@ -418,13 +423,13 @@ class Ego(models.Model):
         egodir = self.get_egodir()
         plots.plot_pies(G, egodir)
         plots.plot_egonet(G, layout='neato',
-            fname=os.path.join(egodir, "egonet_spectral"))
+            fname=os.path.join(egodir, "egonet-neato"))
         plots.plot_egonet(G, layout='circular', 
-            fname=os.path.join(egodir, "egonet_circular"))
+            fname=os.path.join(egodir, "egonet-circular"))
         plots.plot_egonet(G, layout='spring',
-            fname=os.path.join(egodir, "egonet_spring"))
+            fname=os.path.join(egodir, "egonet-spring"))
         plots.plot_egonet(G, layout='fdp',
-            fname=os.path.join(egodir, "egonet_shell"))
+            fname=os.path.join(egodir, "egonet-fdp"))
 
     def make_group_plots(self, metrics=None, colors=None):
         G = self.build_ego_network()
@@ -447,8 +452,14 @@ class Ego(models.Model):
             return None
         return report_path
 
+    def save(self, *args, **kwargs):
+        if self.first_name:
+            self.first_name = self.first_name.lower().capitalize()
+            self.last_name = self.last_name.lower().capitalize()
+        return super(Ego, self).save(*args, **kwargs)
+
     def __str__(self):
-        return self.first_name + " " + self.last_name
+        return self.first_name.lower().capitalize() + " " + self.last_name.lower().capitalize()
 
 
 class Alter(models.Model):
@@ -557,8 +568,12 @@ class Alter(models.Model):
         editable=False,
     )
 
+    def save(self, *args, **kwargs):
+        self.name = self.name.lower().capitalize()
+        return super(Alter, self).save(*args, **kwargs)
+
     def __str__(self):
-        return self.name
+        return self.name.lower().capitalize()
 
 
 class Relationship(models.Model):

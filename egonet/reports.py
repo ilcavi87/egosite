@@ -107,7 +107,7 @@ def build_pdf_report(ego, metrics=None, colors=None, lang=lang):
         write_subsection(fh, _("Mapping your social network"))
         write_paragraphs(fh, (report_text['network'],))
         # Network plot
-        write_figure(fh, captions['egonet']['kk'], os.path.join(egodir, "egonet_kk"), scale=0.7)
+        write_figure(fh, captions['egonet']['neato'], os.path.join(egodir, "egonet_neato"), scale=0.7)
         # Bivariate plots 
         write_subsection(fh, _("Density and centralization of your social network"))
         write_paragraphs(fh, report_text['density'])

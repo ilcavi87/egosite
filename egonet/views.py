@@ -287,7 +287,7 @@ def report(request, egouuid):
     egoplot = dict(
         title = "Your social network",
         text = sections['network'],
-        path = "%s/%s" % (ego.get_ego_urldir(), 'egonet_kk.svg'),
+        path = "%s/%s" % (ego.get_ego_urldir(), 'egonet_neato.svg'),
     )
     # Node attributes
     n = len(ego.alter_set.all())
@@ -330,8 +330,8 @@ def sample_report(request):
     # Example report
     egoplot = dict(
         title = _("Your social network"),
-        text = captions['egonet']['kk'],
-        path = "%s/%s/%s" % ('egonet', 'example', 'egonet_kk.svg'),
+        text = captions['egonet']['neato'],
+        path = "%s/%s/%s" % ('egonet', 'example', 'egonet_neato.svg'),
     )
     # Node attributes
     n = 8
