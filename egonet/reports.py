@@ -87,7 +87,7 @@ def build_pdf_report(ego, metrics=None, colors=None, lang=lang):
                 os.path.join(egodir, "".join(['gr_', figure])),
                 caption_group=_("Average of your group results"),
                 caption_ego=_("Your personal results"),
-                scale=0.4,
+                scale=0.35,
             )
         # Edge attributes section
         write_section(fh, _("Your Relations"))
@@ -98,7 +98,7 @@ def build_pdf_report(ego, metrics=None, colors=None, lang=lang):
                 os.path.join(egodir, "".join(['gr_', figure])),
                 caption_group=_("Average of your group results"),
                 caption_ego=_("Your personal results"),
-                scale=0.4,
+                scale=0.35,
             )
         # Structure section
         write_section(fh, _("Structure of your social network"))
@@ -107,7 +107,7 @@ def build_pdf_report(ego, metrics=None, colors=None, lang=lang):
         write_subsection(fh, _("Mapping your social network"))
         write_paragraphs(fh, (report_text['network'],))
         # Network plot
-        write_figure(fh, captions['egonet']['neato'], os.path.join(egodir, "egonet_neato"), scale=0.8)
+        write_figure(fh, captions['egonet']['kk'], os.path.join(egodir, "egonet_kk"), scale=0.7)
         # Bivariate plots 
         write_subsection(fh, _("Density and centralization of your social network"))
         write_paragraphs(fh, report_text['density'])

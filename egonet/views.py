@@ -330,8 +330,8 @@ def sample_report(request):
     # Example report
     egoplot = dict(
         title = _("Your social network"),
-        text = captions['egonet']['neato'],
-        path = "%s/%s/%s" % ('egonet', 'example', 'egonet_neato.svg'),
+        text = captions['egonet']['kk'],
+        path = "%s/%s/%s" % ('egonet', 'example', 'egonet_kk.svg'),
     )
     # Node attributes
     n = 8

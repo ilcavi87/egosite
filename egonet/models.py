@@ -113,8 +113,8 @@ class Group(models.Model):
         metrics = self.compute_reference_group_metrics()
         for ego in self.ego_set.filter(completed=True):
             ##DELETE THIS####
-            print(ego.first_name, " " , ego.last_name)
-            ego.make_plots()
+            #print(ego.first_name, " " , ego.last_name)
+            #ego.make_plots()
             ######
             ego.build_pdf_report(metrics=metrics, colors=colors)
 

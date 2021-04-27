@@ -68,7 +68,7 @@ captions = dict(
         #order_size = "The chart above plots the networks in your reference group using their density and number of contacts.",
     ),
     egonet = dict( 
-        neato = _(u"In this plot, you and your contacts are depicted as nodes linked through relations of different strength and nature. You are the bigger violet node. The light blue node is your boss. In red you have all the contacts with whom you maintained an adversarial relation (if any). The contacts with the green borders are the ones that you trust. The dashed green edges are the relations that help you the most. Your partner is depicted as an orange node. All other contacts are plotted as smaller light green nodes. The tie width represents the strength of the connection. All adversarial relations are plotted using a dashed red link."),
+        kk = _(u"In this plot, you and your contacts are depicted as nodes linked through relations of different strength and nature. You are the bigger violet node. The light blue node is your boss. In red you have all the contacts with whom you maintained an adversarial relation (if any). The contacts with the green borders are the ones that you trust. The dashed green edges are the relations that help you the most. Your partner is depicted as an orange node. All other contacts are plotted as smaller light green nodes. The tie width represents the strength of the connection. All adversarial relations are plotted using a dashed red link."),
     )
 )
 
