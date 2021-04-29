@@ -569,11 +569,11 @@ class Alter(models.Model):
     )
 
     def save(self, *args, **kwargs):
-        self.name = self.name.lower().capitalize()
+        self.name = self.name.lower().title()
         return super(Alter, self).save(*args, **kwargs)
 
     def __str__(self):
-        return self.name.lower().capitalize()
+        return self.name.lower().title()
 
 
 class Relationship(models.Model):
