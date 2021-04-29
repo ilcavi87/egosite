@@ -114,7 +114,7 @@ class Group(models.Model):
         for ego in self.ego_set.filter(completed=True):
             ##DELETE THIS####
             #print(ego.first_name, " " , ego.last_name)
-            #ego.make_plots()
+            ego.make_plots()
             ######
             ego.build_pdf_report(metrics=metrics, colors=colors)
 

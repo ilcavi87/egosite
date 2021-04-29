@@ -278,7 +278,9 @@ def finished(request):
     ego.completed = True
     ego.end_time = timezone.now()
     ego.save()
-    ego.make_plots()
+    #TEST
+    #to solve the neato not found in path we create the reports after
+    #ego.make_plots()
     return  http.HttpResponseRedirect('/report/%s/' % ego.egouuid)
 
 def report(request, egouuid):
