@@ -18,7 +18,7 @@ from egonet.analysis import (nattrs, eattrs, mean, std, accumulate_attributes,
 from egonet.choices import (GENDER_CHOICES, F_AREA_CHOICES, 
     EDUCATION_CHOICES, CURRENT_JOB_CHOICES, WORK_CHOICES, 
     RANK_CHOICES, FREQUENCY_CHOICES, STRENGTH_CHOICES,
-    HELP_CHOICES, CONTEXT_CHOICES, SALARY_CHOICES)
+    HELP_CHOICES, CONTEXT_CHOICES)#, SALARY_CHOICES)
 
 GROUP_PLOT_DIR = "average"
 
@@ -165,7 +165,7 @@ class Group(models.Model):
             education = G.nodes[ego_node].get('education'),
             company = G.nodes[ego_node].get('company'),
             functional_area = G.nodes[ego_node].get('functional_area'),
-            salary = G.nodes[ego_node].get('salary'),
+            #salary = G.nodes[ego_node].get('salary'),
             current_job = G.nodes[ego_node].get('current_job'),
             tenure = G.nodes[ego_node].get('tenure'),
             people_in_company = G.nodes[ego_node].get('people_in_company'),
@@ -269,11 +269,11 @@ class Ego(models.Model):
         null = True,
         help_text=_("The highest level of formal education you have attained"),
     )
-    salary = models.IntegerField(_("Annual Salary"), 
-        choices=SALARY_CHOICES,
-        null=True,
-        help_text=_("Your annual salary in euros."),
-    )
+    #salary = models.IntegerField(_("Annual Salary"),
+    #    choices=SALARY_CHOICES,
+    #    null=True,
+    #    help_text=_("Your annual salary in euros."),
+    #)
 
     company = models.CharField(_("Company"),
         max_length=255,
@@ -357,7 +357,7 @@ class Ego(models.Model):
         G.nodes[self.name]['education'] = self.education
         G.nodes[self.name]['company'] = self.company or 'None'
         G.nodes[self.name]['functional_area'] = self.functional_area
-        G.nodes[self.name]['salary'] = self.salary
+        #G.nodes[self.name]['salary'] = self.salary
         G.nodes[self.name]['current_job'] = self.current_job
         G.nodes[self.name]['tenure'] = self.tenure or 0
         G.nodes[self.name]['people_in_company'] = self.people_in_company or 0

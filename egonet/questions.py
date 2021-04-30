@@ -3,7 +3,7 @@ from django.utils.translation import ugettext as _
 default_questions = [
     dict(
         title = _('About this survey'),
-        description = _("<p>This survey should take no more than 20 minutes. We will then aggregate the information that you provide in the questions to analyze it, and summarize them in a personalized report which will be emailed to you after all participants of your group have completed the survey. A shorter web report will be available on the website as soon as you complete the survey.</p>"),
+        description = _("<p>This survey should take no more than 20 minutes. We will then aggregate the information that you provide in the questions to analyze it, and summarize them in a personalized report which will be emailed to you after all participants of your group have completed the survey.</p>"),
         nexturl = '/add_ego/',
     ),
     dict(
@@ -14,7 +14,7 @@ default_questions = [
     dict(
         title = _('Add Contacts'),
         description = _("""<p>The following questions identify the people in your contact network. To ensure confidentiality, you are asked to provide only <b>first names</b> and optionally last name initials for each person. Please use names you will be able to recognize in later questions. <b>If two of your contacts have the same first name and initial, make sure you distinguish between the two by using a different first name or initial for one of them.</b> </p>
-<p>Each of the following question refers to a particular type of relationship between you and your contacts.  To reduce the length of the questionnaire, we limit the number of people you can name in each question, but don't feel compelled to fill in all the names if you have fewer contacts for a given type of relationship. Because people often have various kinds of relationships with the same person, you can name the same person in more than one question.</p>"""), 
+<p>Each of the following questions refer to a particular type of relationship between you and your contacts.  To reduce the length of the questionnaire, we limit the number of people you can name in each question, but don't feel compelled to fill in all the names if you have fewer contacts for a given type of relationship. As people often have various kinds of relationships with the same person, you can name the same person in more than one question.</p>"""),
         nexturl = '/add_alters/',
     ),
     dict(
@@ -115,7 +115,7 @@ default_questions = [
     dict(
         attr = 'work',
         title = _('Where do your contacts work?'),
-        description = _("<p>Worklace of each of your contacts.</p>"),
+        description = _("<p>Workplace of each of your contacts.</p>"),
         field = 'work',
         nexturl = '/compare_alters/',
     ),
