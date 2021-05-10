@@ -3,7 +3,7 @@ from django.utils.translation import ugettext as _
 default_questions = [
     dict(
         title = _('About this survey'),
-        description = _("<p>This survey should take no more than 20 minutes. We will then aggregate the information that you provide in the questions to analyze it, and summarize them in a personalized report which will be emailed to you after all participants of your group have completed the survey.</p>"),
+        description = _("<p>This survey should take no more than 20 minutes. We will then aggregate the information you provided to analyze it, and summarize them in a personalized report which will be emailed to you after all participants of your group have completed the survey.</p>"),
         nexturl = '/add_ego/',
     ),
     dict(
@@ -128,7 +128,7 @@ default_questions = [
     ),
     dict(
         title = _('Identify the relations among your contacts'),
-        description = _("<p>In the following questions you will be asked to provide information about the relations among the people in your contact network. For each one of the contacts that you identified in the previous questions, you have to select the other contacts that he or she is related to.</p>"),
+        description = _("<p>In the following questions you will be asked to provide information about the relationships among the people in your contact network. For each one of the contacts that you identified in the previous questions, you have to select the other contacts that he or she is related to.</p>"),
         nexturl = '/alters_neighbors/',
     ),
     dict(

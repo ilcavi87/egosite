@@ -223,7 +223,7 @@ def add_alter_neighbors(request, alter_id):
 
     else:
         form = AlterNeighborsForm(ego=ego)
-    context = dict(title=_('Relations of: %s') % alter, form=form)
+    context = dict(title=_('Identify the other contacts this person is connected to: %s') % alter, form=form)
     return render(request, 'form.html', context)
 
 def relationships_attrs(request):
