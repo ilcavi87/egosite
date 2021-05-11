@@ -101,7 +101,7 @@ default_questions = [
     dict(
         attr = 'rank',
         title = _('Formal rank of your contacts'),
-        description = _("<p>Contact's rank in the hierarchy of the organization he/she works for compared to yours</p>"),
+        description = _("<p>Please consider the rank of your contacts in the hierarchy of the organization they work for, and indicate whether their rank is higher/lower/similar to yours.</p>"),
         field = 'rank',
         nexturl = '/compare_alters/',
     ),
