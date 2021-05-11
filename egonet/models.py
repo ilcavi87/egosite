@@ -459,7 +459,7 @@ class Ego(models.Model):
         return super(Ego, self).save(*args, **kwargs)
 
     def __str__(self):
-        return self.first_name.lower().capitalize() + " " + self.last_name.lower().capitalize()
+        return self.first_name + " " + self.last_name
 
 
 class Alter(models.Model):
