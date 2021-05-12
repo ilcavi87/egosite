@@ -9,7 +9,7 @@ from django.db import models
 from django.utils.translation import ugettext_lazy as _
 
 from django_countries.fields import CountryField
-
+from datetime import datetime
 from egonet import plots
 from egonet import reports
 from egonet.paths import REPORTS
@@ -459,8 +459,12 @@ class Ego(models.Model):
         return super(Ego, self).save(*args, **kwargs)
 
     def __str__(self):
-        return self.first_name + " " + self.last_name
-        #return "Report"
+        #return self.first_name + " " + self.last_name
+        try:
+            return " ".join([self.first_name, self.last_name])
+        except:
+            return "Unfinished Report"
+        #return "Report" + datetime.now().strftime("%d/%m/%Y %H:%M:%S")
 
 class Alter(models.Model):
 
