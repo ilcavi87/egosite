@@ -257,6 +257,8 @@ def add_relationship_attrs(request, rel_id):
             # Our relations are symetric and we have to maintain symetry by hand
             # for having relationship attributes: see models.ManyToMany("self", trought='')
             rev_rel = Relationship.objects.filter(source=attrs.target, target=attrs.source)
+            rev_rel = rev_rel[0]
+            print(rev_rel)
             rev_rel.strength = attrs.strength
             rev_rel.attrs_added = True
             rev_rel.save()
