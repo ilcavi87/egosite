@@ -93,7 +93,7 @@ def plot_pies(G, egodir, nattrs=nattrs, eattrs=eattrs, colors=None):
                        fname=fname,
                        title=title,
                        colors=None if colors is None else colors[attr],
-                       )
+                                              )
     for attr in eattrs:
         title = titles[attr] % (len(G) - 1)
         fname = "{0}/{1}".format(egodir, attr if colors is None else "".join(['gr_', attr]))
@@ -114,19 +114,32 @@ def pie_chart_plot(fracs, labels, fname='pie_test', title='test title', colors=N
     ax_pie = plt.axes([0.15, 0.1, 0.6, 0.8])
     # ax_legend = plt.axes(rect_legend)
     # Pie chart
-    patches, texts, autotexts = ax_pie.pie(fracs,
+    sort_legend = False
+    patches, texts, dummy = ax_pie.pie(fracs,
                                            colors=dark2_colors[0:len(fracs)] if colors is None else [colors[l] for l in
                                                                                                      labels],
-                                           # explode=tuple([0.05] + [0 for x in labels[1:]]),
-                                           labels=labels,
+                                           #explode=tuple([0.05] + [0 for x in labels[1:]]),
+                                           labels=None,
+                                           #autopct=None,
                                            autopct='%i%%' if sum(int(i) for i in fracs) == 100 else '%1.1f%%',
                                            # shadow=True,
+                                           pctdistance= 0.7,
                                            )
-    plt.savefig("{0}.svg".format(fname))
+
+    plt.legend(patches, labels, loc='upper right', bbox_to_anchor=(-0.1, 1.), fontsize=12)
+    plt.savefig("{0}.svg".format(fname), bbox_inches= 'tight')
     plt.title(title)
-    plt.savefig("{0}.eps".format(fname))
-    plt.savefig("{0}.pdf".format(fname))
-    # plt.show()
+
+    plt.savefig("{0}.eps".format(fname), bbox_inches= 'tight')
+    plt.savefig("{0}.pdf".format(fname), bbox_inches= 'tight')
+
+
+    #plt.savefig("{0}.svg".format(fname))
+    #plt.title(title)
+    #plt.savefig("{0}.eps".format(fname))
+    #plt.savefig("{0}.pdf".format(fname))
+
+
     plt.close()
 
 
@@ -139,6 +152,7 @@ def plot_average_pies(attrs, groupdir):
         fname = os.path.join(groupdir, attr)
         if attr in choices:
             result = dict((choices[attr][k], v) for k, v in result.items())
+        #print(result.items())
         labels, fracs = zip(*sorted(result.items(),
                                     key=itemgetter(1), reverse=True))
         colors[attr] = dict((label, color) for label, color in zip(labels, dark2_colors))
@@ -188,6 +202,7 @@ def plot_scatter(metrics, xmetric='density', ymetric='centralization',
     plt.xlabel(xlabel)
     plt.ylabel(ylabel)
     remove_border()
+
     plt.savefig("{0}.svg".format(fname))
     plt.savefig("{0}.eps".format(fname))
     plt.savefig("{0}.pdf".format(fname))
@@ -253,7 +268,7 @@ def fancy_scatter(metrics, xmetric='density', ymetric='centralization',
 
 
 def plot_bivariate(metrics, G, egodir):
-    ego = next(n for n, d in G.nodes(data='True', default=False) if G.nodes[n]['is_ego'])
+    ego = list(n for n, d in G.nodes(data='True', default=False) if G.nodes[n]['is_ego'])
     #ego = next(n for n, d in G.nodes(data='True') if d['is_ego'])
     plots = [
         dict(title='Network Density vs. Network Centralization',
@@ -297,7 +312,7 @@ def compute_layout(G, ego, layout='neato'):
         #pos = nx.shell_layout(H, scale=1)
         pos = nx.nx_pydot.graphviz_layout(H, prog='twopi', root=ego)
     elif layout == 'spring':
-        pos = nx.spring_layout(H, iterations=100)
+        pos = nx.spring_layout(H,scale=2.5, fixed=None, iterations=100)
     elif layout == 'circular':
         pos = nx.circular_layout(H)
         #pos = nx.nx_pydot.graphviz_layout(H, prog='twopi', args="-Groot=%s" % mapping[ego])
@@ -324,7 +339,7 @@ def plot_egonet(G, layout='spring', fname='test_eognet', with_labels=True):
     # ax = fig.add_subplot(1,1,1)
     ego = next(n for n, d in G.nodes(data=True) if G.nodes[n]['is_ego'])
     pos = compute_layout(G, ego, layout)
-    fig = plt.figure(figsize=(6, 4))
+    fig = plt.figure(figsize=(8, 6))
     ax = fig.add_subplot(111)
     # Reduce the margins
     # http://stackoverflow.com/questions/11298909/saving-a-matplotlib-networkx-figure-without-margins
@@ -371,27 +386,27 @@ def plot_egonet(G, layout='spring', fname='test_eognet', with_labels=True):
     others = set(G) - boss - hinder - spouse - set([ego])
     # Draw nodes node shapes: 'so^>v<dph8'
     # Ego
-    nx.draw_networkx_nodes(G, pos, nodelist=[ego], node_size=2800,
+    nx.draw_networkx_nodes(G, pos, nodelist=[ego], node_size=2400,
                            node_color='#cab2d6', node_shape='o', alpha=1,  # nice violet
                            linewidths=None)
     if trust:
-        nx.draw_networkx_nodes(G, pos, nodelist=trust, node_size=2300,
+        nx.draw_networkx_nodes(G, pos, nodelist=trust, node_size=1900,
                                node_color='#33a02c', node_shape='o', alpha=0.6,  # nice green
                                linewidths=None)
     if hinder:
-        nx.draw_networkx_nodes(G, pos, nodelist=hinder, node_size=2300,
+        nx.draw_networkx_nodes(G, pos, nodelist=hinder, node_size=1900,
                                node_color='#CD5C5C', node_shape='o', alpha=1,  # indian red
                                linewidths=None)
     if boss:
-        nx.draw_networkx_nodes(G, pos, nodelist=boss, node_size=1700,
+        nx.draw_networkx_nodes(G, pos, nodelist=boss, node_size=1300,
                                node_color='#a6cee3', node_shape='o', alpha=1,  # nice light blue
                                linewidths=None)
     if spouse:
-        nx.draw_networkx_nodes(G, pos, nodelist=spouse, node_size=1900,
+        nx.draw_networkx_nodes(G, pos, nodelist=spouse, node_size=1500,
                                node_color='#ff7f00', node_shape='o', alpha=1,  # Nice orange
                                linewidths=None)
     if others:
-        nx.draw_networkx_nodes(G, pos, nodelist=others, node_size=1500,
+        nx.draw_networkx_nodes(G, pos, nodelist=others, node_size=1100,
                                node_color='#b2df8a', node_shape='o', alpha=1,  # light green
                                linewidths=None, label=None)
     # Draw labels

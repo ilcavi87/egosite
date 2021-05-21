@@ -47,7 +47,17 @@ def get_node_percentages(G, attr):
     return dict((k, (v/total)*100) for k, v in result.items())
 
 def get_edge_percentages(G, attr):
-    ego = next(n for n, d in G.nodes(data='True', default=False) if G.nodes[n]['is_ego'])
+    #try:
+    ego = list(n for n, d in G.nodes(data='True', default=False) if G.nodes[n]['is_ego'])
+    #except:
+   #     for n,d in G.nodes(data='True', default=False):
+   #         if "Mayid Shawi" in n:
+    #            G.nodes[n]['is_ego']=True
+    #            print("entrato")
+    #        if G.nodes[n]['is_ego']:
+    #            ego = n
+    #            print("eccolo qua " ,ego)
+
     result = defaultdict(int)
     edges = [d for u, v, d in G.edges(ego, data=True)]
     total = float(len(edges))
@@ -57,9 +67,25 @@ def get_edge_percentages(G, attr):
     return dict((k, (v/total)*100) for k, v in result.items())
 
 def get_age_ranges(G):
-    ego = next(n for n, d in G.nodes(data='True', default=False) if G.nodes[n]['is_ego'])
+    #try:
+    ego = list(n for n, d in G.nodes(data='True', default=False) if G.nodes[n]['is_ego'])
+     #   print(ego)
+    #except:
+    #    for n,d in G.nodes(data='True', default=False):
+    #        if n =="Joan Navarra":
+    #            print("special")
+    #            G.nodes[n]['is_ego']=True
+    #        if n == "Mayid Shawi":
+    #            print("special")
+    #            G.nodes[n]['is_ego'] = True
+    #        if G.nodes[n]['is_ego']:
+    #            ego = n
+    #            print(ego)
     age = nx.get_node_attributes(G,'age')
-    del(age[ego])
+    try:
+        del(age[ego[0]])
+    except:
+        pass
     total = float(len(age))
     result = {"20-30":0,
               "31-40":0,
@@ -108,9 +134,23 @@ def accumulate_attributes(G, attr, result, nodes_or_edges='nodes'):
 ##
 def centralization_degree(H, exclude_ego=True):
     if exclude_ego:
+        #print(H.nodes(data='True'))
         GG = H.copy()
-        to_delete=next(n for n, d in GG.nodes(data='True', default=False) if GG.nodes[n]['is_ego'])
-        GG.remove_node(to_delete)
+        #to_delete=next(n for n, d in GG.nodes(data='True', default=False) if GG.nodes[n]['is_ego'])
+
+        #try:
+        to_delete = list(n for n, d in GG.nodes(data='True', default=False) if GG.nodes[n]['is_ego'])
+        #print(to_delete)
+        #except:
+        #    for n, d in GG.nodes(data='True', default=False):
+        #        if n == "Joan Navarra" or n== "Mayid Shawi":
+        #            GG.nodes[n]['is_ego'] = True
+        #        if GG.nodes[n]['is_ego']:
+        #            to_delete = n
+        try:
+            GG.remove_node(to_delete[0])
+        except:
+            print("ego disappeared")
     else:
         GG = H
     # Isolated ego corner case

@@ -109,14 +109,19 @@ class Group(models.Model):
         return dict(metrics)
 
     def build_reports(self):
+        print("BUILDING GROUP REPORTS")
         colors = self.make_attrs_plots()
+        print("PLOT1")
         metrics = self.compute_reference_group_metrics()
+        print("PLOT2")
         for ego in self.ego_set.filter(completed=True):
             ##DELETE THIS####
-            #print(ego.first_name, " " , ego.last_name)
-            ego.make_plots()
-            ######
-            ego.build_pdf_report(metrics=metrics, colors=colors)
+            #if str(ego) == "Joao Paoliello":
+                print("working on the report of ")
+                print(ego.first_name, " " , ego.last_name)
+                ego.make_plots()
+                ######
+                ego.build_pdf_report(metrics=metrics, colors=colors)
 
     def export_egos_to_dir(self, path):
         for ego in self.ego_set.filter(completed=True):
@@ -307,7 +312,6 @@ class Ego(models.Model):
     )
     
     completed = models.BooleanField(default=False)
-
     egouuid = models.CharField(max_length=50,
         default=uuid.uuid4,
         editable=False

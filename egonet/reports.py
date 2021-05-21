@@ -59,12 +59,12 @@ def build_pdf_report(ego, metrics=None, colors=None, lang=lang):
         write_latex_header(fh, lang=lang)
         # title page
         write_latex_titlepage(fh,
-            title=_("%s's Social Network") % ego.name,
+            title=_("%s's Social Network") % ego.name.title(),
             #image = os.path.join(egodir, "egonet_kk"),
             # Do not put the respondent's network in the title page
             image = sample_network,
             scale=0.9,
-            institution="Getting Things Done - New York 2017",
+            institution="Social Network Survey",
             logo = os.path.join(logo_dir, "iese_logo"),
         )
         # Table of contents
@@ -90,6 +90,7 @@ def build_pdf_report(ego, metrics=None, colors=None, lang=lang):
                 scale=0.35,
             )
         # Edge attributes section
+        write_new_page(fh)
         write_section(fh, _("Your Relations"))
         write_paragraphs(fh, report_text['edge_attrs'])
         for figure, caption in captions["eattrs"].items():

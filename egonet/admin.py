@@ -1,5 +1,5 @@
 from django.contrib import admin
-from egonet.models import Group, Ego
+from egonet.models import Group, Ego, Alter
 
 class GroupAdmin(admin.ModelAdmin):
 
@@ -9,6 +9,9 @@ class GroupAdmin(admin.ModelAdmin):
 class EgoAdmin(admin.ModelAdmin):
     pass
 
+class AlterAdmin(admin.ModelAdmin):
+    pass
+
 admin.site.register(Group, GroupAdmin)
 admin.site.register(Ego, EgoAdmin)
-#admin.site.register(Alter, AlterAdmin)
+admin.site.register(Alter, AlterAdmin)
