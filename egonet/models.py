@@ -117,11 +117,10 @@ class Group(models.Model):
         for ego in self.ego_set.filter(completed=True):
             ##DELETE THIS####
             #if str(ego) == "Joao Paoliello":
-                print("working on the report of ")
-                print(ego.first_name, " " , ego.last_name)
-                ego.make_plots()
-                ######
-                ego.build_pdf_report(metrics=metrics, colors=colors)
+            print("working on the report of ")
+            print(ego.first_name, " " , ego.last_name)
+            ego.make_plots()
+            ego.build_pdf_report(metrics=metrics, colors=colors)
 
     def export_egos_to_dir(self, path):
         for ego in self.ego_set.filter(completed=True):
