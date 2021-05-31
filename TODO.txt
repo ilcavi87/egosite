@@ -2,3 +2,4 @@ PROBLEMS TO SOLVE
 1. If an EGO adds HIMSELF/HERSELF as ALTER the reports will show an error
 2. There could be a problem with overlapping percentages in case there are categories of 0.x %
 3. Solve the problem with the same names when inserting alters
+4. get rid of the first n in the averages and clarify the second (number of contacts instead of n)
